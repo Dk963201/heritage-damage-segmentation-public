@@ -1,0 +1,3 @@
+c5f1688bce81235bfb6b8dcec74fdeb8c40912e9723daf2848380f5d9181b3a8  heritage-binary-model-20261018.zip
+0fe593da86f675f5fd2b3d10a6a7dca2ba17adf879eb3303bca42c1574b78d19  reviewed-labels-evidence-20261018.zip
+1e629cff230041e81bbe79c22cce2f10af45800b4617fe4ad2e970a79f8d9e5a  asset-catalog.json

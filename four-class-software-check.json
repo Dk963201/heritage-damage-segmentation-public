@@ -1,0 +1,21 @@
+{
+  "scope": "SYNTHETIC SOFTWARE TEST ONLY; NOT HERITAGE TRAINING",
+  "architectures": [
+    "unet",
+    "deeplabv3plus",
+    "fpn"
+  ],
+  "passed": [
+    "manifest validation",
+    "paired patch loading",
+    "CLAHE",
+    "focal plus Dice backward",
+    "Adam warmup",
+    "checkpoint save/reload",
+    "full-source evaluation",
+    "comparison export",
+    "pixel balance/color/edge EDA",
+    "all three saved checkpoint inference paths"
+  ],
+  "research_metrics": null
+}

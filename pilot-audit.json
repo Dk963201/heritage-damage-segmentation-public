@@ -1,0 +1,719 @@
+{
+  "source": "https://zenodo.org/records/18458458",
+  "license": "CC-BY-4.0",
+  "scope": "UK binary crack pilot; not the required Kurdish four-class dataset",
+  "checks": "Archive checksums, decoding, pairing, dimensions, labels and exact image duplicates; no visual annotation quality assessment",
+  "pair_count": 100,
+  "archives": {
+    "masonry_crack_images.zip": {
+      "md5": "434dd20461bc9ea5332beca8750e538e",
+      "sha256": "579cbd63ae16b8e345ea94ac7702fbca444706d9129975c90e95685df82a857e"
+    },
+    "masonry_crack_masks.zip": {
+      "md5": "55e28405cd2d716f79da0b5bf1dcea7c",
+      "sha256": "1a8fc31a1049384e3cfffa1155898e8b9d47d43235183fcc051a2abcc5520ccc"
+    }
+  },
+  "pairs": [
+    {
+      "image": "masonry_crack_001.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "8374f5a3bf78447390eb0b29ca6ad8929666f43155b5dd0c399d8f4820e5d2d9",
+      "crack_fraction": 0.0014940833333333334
+    },
+    {
+      "image": "masonry_crack_002.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "3289e8bef67c67b9e57fc0104e34259cd758556959966151aa7c29e7579652ed",
+      "crack_fraction": 0.0016711666666666667
+    },
+    {
+      "image": "masonry_crack_003.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "989082c05dc94d3a842558b5086ebb3dd13539a048e51912dea7c3da776bd327",
+      "crack_fraction": 0.003868083333333333
+    },
+    {
+      "image": "masonry_crack_004.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "a776a74765cc0c0b83465d63cec2ba7afa2d9c80b5581dcb0c9227bc2916218f",
+      "crack_fraction": 6.291666666666666e-05
+    },
+    {
+      "image": "masonry_crack_005.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "4f25679f8f7cf410af3f2a9c176587e07def7e34a2221ab26caa4f78f02a2417",
+      "crack_fraction": 0.004524916666666667
+    },
+    {
+      "image": "masonry_crack_006.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "0e42f978da9732398c8a95e65331b3a32253e5f02eaaf20a3b8257c4810320af",
+      "crack_fraction": 0.013547833333333334
+    },
+    {
+      "image": "masonry_crack_007.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "ebc38149748b86652d21b4bbcde3b7ebeb69d789a34019aba7112773434d175b",
+      "crack_fraction": 0.01120475
+    },
+    {
+      "image": "masonry_crack_008.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "1c388169a2ed39d8d2cb93d6498d45f52102d5db26e2d2051231d0c8c0da6f33",
+      "crack_fraction": 0.022846833333333334
+    },
+    {
+      "image": "masonry_crack_009.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "3896832021f7601b15b1bd708b988404b98a2ee2c0b1cf0b37a49d824f6d2df2",
+      "crack_fraction": 0.008706333333333333
+    },
+    {
+      "image": "masonry_crack_010.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "55e81a2f97926f77e6e827f08baa31337a7f5d4a9427d6790b82540d9ec406b6",
+      "crack_fraction": 0.005863916666666667
+    },
+    {
+      "image": "masonry_crack_011.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "043d624a0857b4949cc80b94ba789ebcf862ac5f41400d9ae84e0a38d8413f20",
+      "crack_fraction": 0.005987
+    },
+    {
+      "image": "masonry_crack_012.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "cd88236b8ef06611eea1d56d53f22ce463cf25c8ccb96a439460b829ee4bbd4a",
+      "crack_fraction": 0.009374916666666667
+    },
+    {
+      "image": "masonry_crack_013.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "e9953c7fc5d957e4b9c00b8de05a94e9298cdc123536cc6b021529f78ad4a106",
+      "crack_fraction": 0.009702666666666667
+    },
+    {
+      "image": "masonry_crack_014.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "74bf3ffb7c2bcc1b4d8d437fad025edb38a28797ce4450895d9bd58d3e971a93",
+      "crack_fraction": 0.00311525
+    },
+    {
+      "image": "masonry_crack_015.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "04ddf9e7e8dcf287c2d9234e130d46aa4e0e36bf872b6a35a02439bcce7581c4",
+      "crack_fraction": 0.002740666666666667
+    },
+    {
+      "image": "masonry_crack_016.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "dc5fc97fa72d9f2440927d2ba66218e6052d6df59fc30b50cae09c869d1b754e",
+      "crack_fraction": 0.015154083333333334
+    },
+    {
+      "image": "masonry_crack_017.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "f6b163558e755b251f61a22da077f2b2fa60db810082209a2d4cb47e08dd38a0",
+      "crack_fraction": 0.007867666666666667
+    },
+    {
+      "image": "masonry_crack_018.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "cea7c46c4931d11ea2aba5289d4a8365c37473a56fe2f0a4e2b8166d8d9fa3de",
+      "crack_fraction": 0.00789125
+    },
+    {
+      "image": "masonry_crack_019.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "f7ba60d7076e8243d3703eb91aa74583d740b5d0d83b2f474097c34406186069",
+      "crack_fraction": 0.00082225
+    },
+    {
+      "image": "masonry_crack_020.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "1069e8accfc758a98daa139c6bb8a3c757f1b5f9c0e36b064bf5d962b6f4b350",
+      "crack_fraction": 0.005136083333333334
+    },
+    {
+      "image": "masonry_crack_021.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "34d2621aae015e08fdd15afd998a7c88693fe6d680f581b8cb623e7b5478f487",
+      "crack_fraction": 0.0059945
+    },
+    {
+      "image": "masonry_crack_022.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "91916c44c9f6d6a65a1e0de79f77209e21da54c915a1da6e5b2974282830eeac",
+      "crack_fraction": 0.019094583333333335
+    },
+    {
+      "image": "masonry_crack_023.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "7a451387fe7a522d1a90457db853a3232af7262518477ed8524fd9994b4ce928",
+      "crack_fraction": 0.015696833333333333
+    },
+    {
+      "image": "masonry_crack_024.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "65ac1f7159dcb7c8e578a42c85fcc2dcb45cfe496bc56bf12ab09595aea79bb3",
+      "crack_fraction": 0.006110916666666666
+    },
+    {
+      "image": "masonry_crack_025.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "01b8d5a660fc1be18a2ab1763f2888e4f88d08fba9ab435f56e8c5b6ae52404f",
+      "crack_fraction": 0.006229833333333334
+    },
+    {
+      "image": "masonry_crack_026.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "9a17e8a4a1791fd52cf30aa1f03b072b1605c54e79fc9e3f58c84d30468cac74",
+      "crack_fraction": 0.00461075
+    },
+    {
+      "image": "masonry_crack_027.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "b81a014807d5e5c799e4c69eb9b40a9e40c5ff27803104aeadfe3ace3533eb0c",
+      "crack_fraction": 0.00347875
+    },
+    {
+      "image": "masonry_crack_028.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "f8a825f96f9f5177994841fe246befe53aa538bb33ef9ed6170faf7cc3bc291b",
+      "crack_fraction": 0.007003083333333333
+    },
+    {
+      "image": "masonry_crack_029.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "bdbdfff68430bdeffa2a11b9e087a05af112355c682669c388d96b5c7a8bceef",
+      "crack_fraction": 0.004033166666666667
+    },
+    {
+      "image": "masonry_crack_030.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "2853996df3064aebb09c691f94bf1d80728d577469dce7c2ed5926e526bc011f",
+      "crack_fraction": 0.01466575
+    },
+    {
+      "image": "masonry_crack_031.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "24b2d3a679eaa045431e756b61b8a749181b4c2110a50765cc37d6189768bfd3",
+      "crack_fraction": 0.016719416666666667
+    },
+    {
+      "image": "masonry_crack_032.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "f77a2a9bbead6edc29e5abd34cf9c50df79b8091f53dfb27f5beabfc1080578e",
+      "crack_fraction": 0.01614775
+    },
+    {
+      "image": "masonry_crack_033.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "c37a75106db104a8fb6f29e9be2e149eb3133141b8752b041c619841dc444f0c",
+      "crack_fraction": 0.011854833333333334
+    },
+    {
+      "image": "masonry_crack_034.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "038d1a6c9fa857cf3a05c77e2e976a9f0114ce8d49d869fafcb88bf21bb6e5b6",
+      "crack_fraction": 0.018389833333333334
+    },
+    {
+      "image": "masonry_crack_035.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "64fd0fd53ff580eeb8b0435258d74eee59d9104a79433db1334283a875f85221",
+      "crack_fraction": 0.005327
+    },
+    {
+      "image": "masonry_crack_036.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "544472c738c32fe7ed3b2d3f29bcec015d1be697d067611d60e210a576152355",
+      "crack_fraction": 0.016225416666666666
+    },
+    {
+      "image": "masonry_crack_037.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "6e1f3589c27d36a5f42d8822e9d41d8279d2d85a61105e49e4b52bfbf9d189ea",
+      "crack_fraction": 0.009492
+    },
+    {
+      "image": "masonry_crack_038.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "14f83eb1526d6dd9029ff0e97bf627276dccbafa2d686c7265f62eaca59bcc4c",
+      "crack_fraction": 0.014593916666666666
+    },
+    {
+      "image": "masonry_crack_039.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "1331b9f90a5bfa9d151e3c9645db8630dc329e57621e451e10810a62c9444c15",
+      "crack_fraction": 0.0141865
+    },
+    {
+      "image": "masonry_crack_040.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "df5a481eef29bf51d1a3edd749671574ea3efbc062ef00f9275a32df3efa58e5",
+      "crack_fraction": 0.014015583333333333
+    },
+    {
+      "image": "masonry_crack_041.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "697fcad7c22981b430c62e1007e2ae67d61d44b5073d12bbe6681bc05d6721b3",
+      "crack_fraction": 0.0083915
+    },
+    {
+      "image": "masonry_crack_042.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "bd6d6f201745b65657985ded27e16090980e23b3cadb50a8b39be6858f2713ca",
+      "crack_fraction": 0.008498833333333334
+    },
+    {
+      "image": "masonry_crack_043.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "33b1f2783db5515e049cd30d211660cb6a2d5d8b8b664aea26d7216d59462053",
+      "crack_fraction": 0.0084345
+    },
+    {
+      "image": "masonry_crack_044.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "c51e4eebcd30744e817d02573decd61487697d7c9b8d166eac7ebd09872f3105",
+      "crack_fraction": 0.00019075
+    },
+    {
+      "image": "masonry_crack_045.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "55f4cb755b5f60e6524ebfc0cc2fefcedc5f2dccb5a1a98dfe6d93e9fc75ddee",
+      "crack_fraction": 0.00021925
+    },
+    {
+      "image": "masonry_crack_046.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "8dde0925c0d09e3a2265a4b68d45f57fa911ff7d831acecd91519d9c74fc1eb5",
+      "crack_fraction": 0.0012799166666666666
+    },
+    {
+      "image": "masonry_crack_047.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "f274d7f5c2e4f2c30f0771c53c1e934516c01cbeba90687c0dc46e5665145ca4",
+      "crack_fraction": 0.0011369166666666667
+    },
+    {
+      "image": "masonry_crack_048.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "ae72348d8269ec8e9e28be722c59ec114756b44bfdecd1ee67be2ec5d903b63d",
+      "crack_fraction": 0.014161166666666667
+    },
+    {
+      "image": "masonry_crack_049.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "408fba2d619a6e509d50836c874291313beca0b3ea0b9f38511f387b1dd4e48e",
+      "crack_fraction": 0.01531125
+    },
+    {
+      "image": "masonry_crack_050.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "6ebe5c7dc592750415f24fdbba689efd2152cb3b422034b735c89bd684d451fb",
+      "crack_fraction": 0.056245166666666666
+    },
+    {
+      "image": "masonry_crack_051.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "b70ade4b31d267094e3fabe1a96d722a924b4856d01d677018807e0022f1a67f",
+      "crack_fraction": 0.0023008333333333335
+    },
+    {
+      "image": "masonry_crack_052.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "36a1221cf510c07e6c34fee263a0abe9b25c835055f728bb1f584cc29bff93d6",
+      "crack_fraction": 0.002109666666666667
+    },
+    {
+      "image": "masonry_crack_053.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "828c7ee0bd78ceade2cd610ce683029be779e457127673baa876ed72c9fda378",
+      "crack_fraction": 0.0013825
+    },
+    {
+      "image": "masonry_crack_054.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "ccf7051730458e9222e0b80fbd308fa8131f9e61561463f89e1983e6ff3104dd",
+      "crack_fraction": 0.004837166666666667
+    },
+    {
+      "image": "masonry_crack_055.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "e2c4674667ab2c66470a093f03d352f3c83c9f0aa95ddfe021d2a4c239e906fb",
+      "crack_fraction": 0.010643333333333333
+    },
+    {
+      "image": "masonry_crack_056.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "d1e0478317cd9e8e7c39e0148c460fad2819168b159a59bfe4091ef2710fafe1",
+      "crack_fraction": 0.018199083333333334
+    },
+    {
+      "image": "masonry_crack_057.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "be7e862b3382e9df678261dab8119dc7c50a2d7f829bda6599d844041292c76d",
+      "crack_fraction": 0.0036431666666666665
+    },
+    {
+      "image": "masonry_crack_058.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "264dc21b48f899cec5d1c4503f4932a6e924781d557ce8dae571d4f2f7496a7e",
+      "crack_fraction": 0.00093675
+    },
+    {
+      "image": "masonry_crack_059.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "1fa77985417f00dd33a989e8a31139ef2a93dfc67f4432500b5171e719938d34",
+      "crack_fraction": 0.000892
+    },
+    {
+      "image": "masonry_crack_060.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "c04a29f5924d875f2aa3523d22bec1abd58e91a99ab2d915ff850abe7c06c536",
+      "crack_fraction": 0.0091275
+    },
+    {
+      "image": "masonry_crack_061.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "eac9af9bb2c265ce45e0930bf6d4b8b31241ca9dcdf5af3b43b8fb189af03d81",
+      "crack_fraction": 0.0104605
+    },
+    {
+      "image": "masonry_crack_062.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "09d6b55936bf4d264a7d569fe12fdbf747e228ac570ec9729c134ba0df90c3e4",
+      "crack_fraction": 0.009836
+    },
+    {
+      "image": "masonry_crack_063.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "66c4dae9e787c5bac55fdad8998da0542b8a4b06481082f8b5e9ea71a08251fe",
+      "crack_fraction": 0.01301875
+    },
+    {
+      "image": "masonry_crack_064.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "b9b736680cc53242552594d0bb28471332feb6d57c3ecace91590888aa158352",
+      "crack_fraction": 0.0117595
+    },
+    {
+      "image": "masonry_crack_065.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "9fd3ab33793fa880faf36c4dccbcda92aafdba1dc098106245267c379cd410f2",
+      "crack_fraction": 0.013530916666666667
+    },
+    {
+      "image": "masonry_crack_066.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "3696c23d8a9a45d857e5c34dc61615aa2fbe31b64250cbdcb4556dff967d2057",
+      "crack_fraction": 0.014745166666666667
+    },
+    {
+      "image": "masonry_crack_067.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "7cc72d31e9116dcec82176e8a89db4b4e26565763278b36f6e76e061163bb924",
+      "crack_fraction": 0.013396333333333333
+    },
+    {
+      "image": "masonry_crack_068.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "a728ff59bc936e7ca7e732ab9a046643badf8356f8dd80d960d14a6ec958bd97",
+      "crack_fraction": 0.007810416666666667
+    },
+    {
+      "image": "masonry_crack_069.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "940747221658a828caf569c854bdaf623ccc85ed24e94c02d8dc84fb4fed3a0b",
+      "crack_fraction": 0.007708833333333333
+    },
+    {
+      "image": "masonry_crack_070.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "23bacd067390ed54d1670abc52ab925d66458959718932f1c4c59f55b98f32f9",
+      "crack_fraction": 0.007706083333333333
+    },
+    {
+      "image": "masonry_crack_071.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "4c43df6585e16c3d7feb02ea53e26d18a523dab78ae947bd3ecfb3aa0c4e966e",
+      "crack_fraction": 0.011356416666666667
+    },
+    {
+      "image": "masonry_crack_072.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "b1cd505e286678c5cedcb4cdbcaad82d2680df585625c3351b81348c7343ce17",
+      "crack_fraction": 0.011674916666666667
+    },
+    {
+      "image": "masonry_crack_073.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "3bbfe5b51f439df7088bca3542850b51548cb7704dc2c43998c7bd28c2341679",
+      "crack_fraction": 0.009533166666666667
+    },
+    {
+      "image": "masonry_crack_074.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "cfa80ca581beae2985d8fe007fe1f40fbcfdfa5eb3c9af9cb0d47ba2a56b6b8e",
+      "crack_fraction": 0.005697583333333333
+    },
+    {
+      "image": "masonry_crack_075.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "ce4622224338f11d41b24c593395b3d9df21527a00087050dfa651570e99a060",
+      "crack_fraction": 0.00247275
+    },
+    {
+      "image": "masonry_crack_076.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "683b5dde6f0183e2245655887ad7f8319c8508cc00ea2489801c2271fe02d92b",
+      "crack_fraction": 0.005339666666666667
+    },
+    {
+      "image": "masonry_crack_077.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "b3682237393adefe703ddb76a7311c35795faaa79984cb25f66e0b0a306303d0",
+      "crack_fraction": 0.005231166666666667
+    },
+    {
+      "image": "masonry_crack_078.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "7534f942103d26b5ecb1fd1064102f40f2e204962206edbb46a99340aa0059aa",
+      "crack_fraction": 0.0026109166666666668
+    },
+    {
+      "image": "masonry_crack_079.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "ca308b1e974ad5efb51ad9693b011ad26225ac0c50ad62eaa4d7b3197679cc16",
+      "crack_fraction": 0.0031345833333333334
+    },
+    {
+      "image": "masonry_crack_080.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "d7fed5b9da595b9c289f09428de235c0c971ce1654717b1bef7441175fe29420",
+      "crack_fraction": 0.0026111666666666666
+    },
+    {
+      "image": "masonry_crack_081.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "b5aa72a6da9576cb1252c21f5ae8b5e1ed236385bea090ddd6134a9e0278e6ff",
+      "crack_fraction": 0.003114
+    },
+    {
+      "image": "masonry_crack_082.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "27372adc100e6158f667bedbee7b4594291193baf484cc0bcbbdbf2a59000809",
+      "crack_fraction": 0.001298
+    },
+    {
+      "image": "masonry_crack_083.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "406d12b34df5e1acf2d4b9e1c770a3051231ac4eba475d132eb3ce553df8c87f",
+      "crack_fraction": 0.0014389166666666667
+    },
+    {
+      "image": "masonry_crack_084.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "ba50ee19073c8321ea7014e0410fa1275c1c1e5a9d5106133d1c5b883bc2c61b",
+      "crack_fraction": 0.0010920833333333334
+    },
+    {
+      "image": "masonry_crack_085.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "c47fe688dd9924b07b2774049b01f7d372add444b08b422732b1b2a5aa16ee82",
+      "crack_fraction": 0.016386833333333333
+    },
+    {
+      "image": "masonry_crack_086.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "076f93df3f20ee96f4680ddaa7196ec1848efe74bc8737bf3c7895eecf1972e0",
+      "crack_fraction": 0.00907025
+    },
+    {
+      "image": "masonry_crack_087.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "4ee1adf3c82e88ff8c6894d646d7c5ed861dacd43c5c16280d9b5a75c46b4d52",
+      "crack_fraction": 0.009074
+    },
+    {
+      "image": "masonry_crack_088.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "e686641183a2d1e7439e3072444139891016d4a123d2f85d3bd57d1b965f9811",
+      "crack_fraction": 0.04130291666666667
+    },
+    {
+      "image": "masonry_crack_089.jpg",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "0f82443ee912d7e8994d070c3c8a668866a1e0021f08089b6cd32e6bcad4860c",
+      "crack_fraction": 0.05207241666666667
+    },
+    {
+      "image": "masonry_crack_090.jpg",
+      "width": 4896,
+      "height": 3672,
+      "sha256": "8955a758aadf93c55d792dfff06d94e8933f1ed5aba814856444edacaf040d9b",
+      "crack_fraction": 0.0022994071902544605
+    },
+    {
+      "image": "masonry_crack_091.jpg",
+      "width": 4896,
+      "height": 3672,
+      "sha256": "abb14a51880f73a672e8ae682a6fd33ed1424d16a6a0660ccceced08bcb8da3a",
+      "crack_fraction": 0.006560922526236348
+    },
+    {
+      "image": "masonry_crack_092.jpg",
+      "width": 4896,
+      "height": 3672,
+      "sha256": "fc40da748a51c4f5b79118c8a4d2094307a19a59165e40eef1e246210534f1c9",
+      "crack_fraction": 0.0032495625792074274
+    },
+    {
+      "image": "masonry_crack_093.jpg",
+      "width": 4608,
+      "height": 3456,
+      "sha256": "fab33e058f9c61d4d3335fea97979db2baded9940c2316d39e90199a5c5bdb26",
+      "crack_fraction": 0.000585987734696502
+    },
+    {
+      "image": "masonry_crack_094.jpg",
+      "width": 4080,
+      "height": 3060,
+      "sha256": "6f4ae8d954137a745d5cc5aa1dddd1af1b7f5b60ee67127586f153ce1dbd58df",
+      "crack_fraction": 0.0016061931308471102
+    },
+    {
+      "image": "masonry_crack_095.jpg",
+      "width": 4080,
+      "height": 3060,
+      "sha256": "9361cd61bf5660ce38d47246bc386a0b51fe9fcaff6b656314a7cb21dd4ec519",
+      "crack_fraction": 0.0014008234012559272
+    },
+    {
+      "image": "masonry_crack_096.jpg",
+      "width": 4080,
+      "height": 3060,
+      "sha256": "2e580b5e490f53659ab37fb1bdcf14fe14c5054b3f75b8703071d5e46deae588",
+      "crack_fraction": 0.0017032711777521467
+    },
+    {
+      "image": "masonry_crack_097.jpg",
+      "width": 4080,
+      "height": 3060,
+      "sha256": "7ea8e2af54cb9446d2d9f7ac40b7f25fabd48e634d9ea98b749c0f95482d8791",
+      "crack_fraction": 0.0015222510572856594
+    },
+    {
+      "image": "masonry_crack_098.jpg",
+      "width": 4080,
+      "height": 3060,
+      "sha256": "a0ba3e9417ad6334206f8e3f88c2cf83c797a3c3b1e42a770e77c73eca4567ab",
+      "crack_fraction": 0.0018944636678200693
+    },
+    {
+      "image": "masonry_crack_099.jpg",
+      "width": 4080,
+      "height": 3060,
+      "sha256": "37842e9cddfbfe3224aeebb9f41de33f0ee86b06726b4489210ff9da8ec45ddb",
+      "crack_fraction": 0.001220764449570678
+    },
+    {
+      "image": "masonry_crack_100.jpg",
+      "width": 3060,
+      "height": 4080,
+      "sha256": "b6a8e635e3464cdd445d74c38d826d2c3208a416baff21fe260ed86bb1944d8e",
+      "crack_fraction": 0.0014279764193259002
+    }
+  ]
+}

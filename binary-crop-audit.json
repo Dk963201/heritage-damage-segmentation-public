@@ -1,0 +1,14 @@
+{
+  "train": {
+    "source_images": 80,
+    "crops_with_crack_pixels": 22,
+    "crack_pixels": 88019,
+    "pixels": 5242880
+  },
+  "validation": {
+    "source_images": 20,
+    "crops_with_crack_pixels": 9,
+    "crack_pixels": 36528,
+    "pixels": 1310720
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "target_metric": "pooled foreground crack Dice at threshold0.5",
+  "target": 0.8,
+  "planned_additional_epochs": 20,
+  "checkpoint_reporting": "last epoch; all epoch history published",
+  "files_sha256": {
+    "train_improved_pilot.py": "20dd6a89699e93a7c8b91aa5a7f1ac8a631c5d02e1690cfd7d22f4bcc3a956ed",
+    "local-results/binary-balanced/unet-diagnostic.pt": "cd6d8f8a8622d4c8a4cbfcb7c738c08b93becffeb1c94c9d944fce294bf1de45",
+    "local-results/binary-balanced/split.json": "f51cf280877ced0aa1942dd8498dbfb5d674eb55b9d93432557bee46c2887681"
+  }
+}

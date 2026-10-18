@@ -1,0 +1,48 @@
+{
+  "validated_masks": 800,
+  "human_reviewed": 0,
+  "test": "ONE OPTIMIZER STEP PER MODEL ON TWO REAL IMAGES WITH UNREVIEWED DRAFT MASKS",
+  "image_ids": [
+    "0001",
+    "0002"
+  ],
+  "models": [
+    {
+      "model": "unet",
+      "output_shape": [
+        2,
+        4,
+        256,
+        256
+      ],
+      "finite_loss": true,
+      "optimizer_step_passed": true
+    },
+    {
+      "model": "deeplabv3plus",
+      "output_shape": [
+        2,
+        4,
+        256,
+        256
+      ],
+      "finite_loss": true,
+      "optimizer_step_passed": true
+    },
+    {
+      "model": "fpn",
+      "output_shape": [
+        2,
+        4,
+        256,
+        256
+      ],
+      "finite_loss": true,
+      "optimizer_step_passed": true
+    }
+  ],
+  "accuracy": null,
+  "mean_iou": null,
+  "weights_saved": false,
+  "research_evaluation": false
+}

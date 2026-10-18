@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-18T07:38:47.144747+00:00",
+  "input_images": 800,
+  "passed": 800,
+  "failures": [],
+  "sites": {
+    "Amedi": 191,
+    "Erbil": 609
+  },
+  "unique_sha256": 800,
+  "total_indexable_256px_patches": 141122,
+  "similarity_pairs_for_manual_review": 6,
+  "elapsed_seconds": 155.64,
+  "annotated_images": 0,
+  "training_run": false,
+  "accuracy": null,
+  "mean_iou": null,
+  "status": "PREPROCESSING COMPLETE; ANNOTATION REQUIRED"
+}

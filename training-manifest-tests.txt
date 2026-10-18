@@ -1,0 +1,10 @@
+test_ignored (test_training_manifest.ManifestTests.test_ignored) ... ok
+test_invalid_label (test_training_manifest.ManifestTests.test_invalid_label) ... ok
+test_leakage (test_training_manifest.ManifestTests.test_leakage) ... ok
+test_unapproved (test_training_manifest.ManifestTests.test_unapproved) ... ok
+test_valid (test_training_manifest.ManifestTests.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK

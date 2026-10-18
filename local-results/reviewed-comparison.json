@@ -1,0 +1,2551 @@
+{
+  "scope": "Adaptive development on sparse labels from three Erbil Citadel photos",
+  "target": "pooled crack Dice >= 0.80",
+  "development_target_reached": false,
+  "independent_target_accuracy_demonstrated": false,
+  "best_development_candidate": {
+    "candidate": "CNN with public replay, 12 epochs, 512px",
+    "metrics": {
+      "dice": 0.6923358618885692,
+      "iou": 0.5294447111537846,
+      "precision": 0.9594026388284761,
+      "recall": 0.5415779996726142,
+      "pixel_accuracy": 0.9668662989526348,
+      "confusion_tn_fp_fn_tp": [
+        164995,
+        280,
+        5601,
+        6617
+      ],
+      "reviewed_pixels": 177493
+    },
+    "source": "reviewed-replay-long-v1",
+    "folds": [
+      {
+        "held_out": "0650",
+        "train_images": [
+          "0450",
+          "0750"
+        ],
+        "checkpoint": "0650-fold.pt",
+        "checkpoint_sha256": "66932cbb1ced142a9483b213011b877d6fd09afe7c06e666ed0659f2e7fc0f78",
+        "public_train_sources_seen": [
+          "masonry_crack_001.jpg",
+          "masonry_crack_002.jpg",
+          "masonry_crack_003.jpg",
+          "masonry_crack_004.jpg",
+          "masonry_crack_005.jpg",
+          "masonry_crack_006.jpg",
+          "masonry_crack_008.jpg",
+          "masonry_crack_010.jpg",
+          "masonry_crack_011.jpg",
+          "masonry_crack_016.jpg",
+          "masonry_crack_017.jpg",
+          "masonry_crack_018.jpg",
+          "masonry_crack_019.jpg",
+          "masonry_crack_021.jpg",
+          "masonry_crack_022.jpg",
+          "masonry_crack_024.jpg",
+          "masonry_crack_025.jpg",
+          "masonry_crack_026.jpg",
+          "masonry_crack_027.jpg",
+          "masonry_crack_028.jpg",
+          "masonry_crack_029.jpg",
+          "masonry_crack_030.jpg",
+          "masonry_crack_031.jpg",
+          "masonry_crack_032.jpg",
+          "masonry_crack_033.jpg",
+          "masonry_crack_034.jpg",
+          "masonry_crack_035.jpg",
+          "masonry_crack_038.jpg",
+          "masonry_crack_039.jpg",
+          "masonry_crack_040.jpg",
+          "masonry_crack_041.jpg",
+          "masonry_crack_043.jpg",
+          "masonry_crack_044.jpg",
+          "masonry_crack_045.jpg",
+          "masonry_crack_046.jpg",
+          "masonry_crack_047.jpg",
+          "masonry_crack_049.jpg",
+          "masonry_crack_051.jpg",
+          "masonry_crack_052.jpg",
+          "masonry_crack_053.jpg",
+          "masonry_crack_055.jpg",
+          "masonry_crack_056.jpg",
+          "masonry_crack_057.jpg",
+          "masonry_crack_058.jpg",
+          "masonry_crack_059.jpg",
+          "masonry_crack_060.jpg",
+          "masonry_crack_061.jpg",
+          "masonry_crack_062.jpg",
+          "masonry_crack_063.jpg",
+          "masonry_crack_064.jpg",
+          "masonry_crack_068.jpg",
+          "masonry_crack_069.jpg",
+          "masonry_crack_070.jpg",
+          "masonry_crack_071.jpg",
+          "masonry_crack_072.jpg",
+          "masonry_crack_073.jpg",
+          "masonry_crack_074.jpg",
+          "masonry_crack_075.jpg",
+          "masonry_crack_076.jpg",
+          "masonry_crack_077.jpg",
+          "masonry_crack_079.jpg",
+          "masonry_crack_080.jpg",
+          "masonry_crack_081.jpg",
+          "masonry_crack_082.jpg",
+          "masonry_crack_083.jpg",
+          "masonry_crack_084.jpg",
+          "masonry_crack_085.jpg",
+          "masonry_crack_087.jpg",
+          "masonry_crack_088.jpg",
+          "masonry_crack_089.jpg",
+          "masonry_crack_090.jpg",
+          "masonry_crack_092.jpg",
+          "masonry_crack_093.jpg",
+          "masonry_crack_094.jpg",
+          "masonry_crack_095.jpg",
+          "masonry_crack_096.jpg",
+          "masonry_crack_097.jpg",
+          "masonry_crack_098.jpg",
+          "masonry_crack_099.jpg",
+          "masonry_crack_100.jpg"
+        ],
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 1.8576758280396461
+          },
+          {
+            "epoch": 2,
+            "loss": 1.5369859905913472
+          },
+          {
+            "epoch": 3,
+            "loss": 1.5914420271292329
+          },
+          {
+            "epoch": 4,
+            "loss": 1.258243566378951
+          },
+          {
+            "epoch": 5,
+            "loss": 1.3404278475791216
+          },
+          {
+            "epoch": 6,
+            "loss": 1.455759223550558
+          },
+          {
+            "epoch": 7,
+            "loss": 1.347967996262014
+          },
+          {
+            "epoch": 8,
+            "loss": 1.2652431186288595
+          },
+          {
+            "epoch": 9,
+            "loss": 1.3399668224155903
+          },
+          {
+            "epoch": 10,
+            "loss": 1.323661332949996
+          },
+          {
+            "epoch": 11,
+            "loss": 1.3371298070997
+          },
+          {
+            "epoch": 12,
+            "loss": 1.111884143203497
+          }
+        ],
+        "before": {
+          "dice": 0.4983621899859616,
+          "iou": 0.33187909005920846,
+          "precision": 1.0,
+          "recall": 0.33187909005920846,
+          "pixel_accuracy": 0.8991130037879679,
+          "confusion_tn_fp_fn_tp": [
+            36085,
+            0,
+            4288,
+            2130
+          ],
+          "reviewed_pixels": 42503
+        },
+        "after": {
+          "dice": 0.8584830515974865,
+          "iou": 0.7520545821057528,
+          "precision": 0.9936488424503176,
+          "recall": 0.755687129947024,
+          "pixel_accuracy": 0.9623791261793285,
+          "confusion_tn_fp_fn_tp": [
+            36054,
+            31,
+            1568,
+            4850
+          ],
+          "reviewed_pixels": 42503
+        },
+        "seconds": 28.470837500004563
+      },
+      {
+        "held_out": "0450",
+        "train_images": [
+          "0650",
+          "0750"
+        ],
+        "checkpoint": "0450-fold.pt",
+        "checkpoint_sha256": "ea0b1f55926a240998fa4b7e290a5706d9bf83230f8a89225811a96aa1389f9d",
+        "public_train_sources_seen": [
+          "masonry_crack_001.jpg",
+          "masonry_crack_002.jpg",
+          "masonry_crack_003.jpg",
+          "masonry_crack_004.jpg",
+          "masonry_crack_005.jpg",
+          "masonry_crack_006.jpg",
+          "masonry_crack_008.jpg",
+          "masonry_crack_010.jpg",
+          "masonry_crack_011.jpg",
+          "masonry_crack_016.jpg",
+          "masonry_crack_017.jpg",
+          "masonry_crack_018.jpg",
+          "masonry_crack_019.jpg",
+          "masonry_crack_021.jpg",
+          "masonry_crack_022.jpg",
+          "masonry_crack_024.jpg",
+          "masonry_crack_025.jpg",
+          "masonry_crack_026.jpg",
+          "masonry_crack_027.jpg",
+          "masonry_crack_028.jpg",
+          "masonry_crack_029.jpg",
+          "masonry_crack_030.jpg",
+          "masonry_crack_031.jpg",
+          "masonry_crack_032.jpg",
+          "masonry_crack_033.jpg",
+          "masonry_crack_034.jpg",
+          "masonry_crack_035.jpg",
+          "masonry_crack_038.jpg",
+          "masonry_crack_039.jpg",
+          "masonry_crack_040.jpg",
+          "masonry_crack_041.jpg",
+          "masonry_crack_043.jpg",
+          "masonry_crack_044.jpg",
+          "masonry_crack_045.jpg",
+          "masonry_crack_046.jpg",
+          "masonry_crack_047.jpg",
+          "masonry_crack_049.jpg",
+          "masonry_crack_051.jpg",
+          "masonry_crack_052.jpg",
+          "masonry_crack_053.jpg",
+          "masonry_crack_055.jpg",
+          "masonry_crack_056.jpg",
+          "masonry_crack_057.jpg",
+          "masonry_crack_058.jpg",
+          "masonry_crack_059.jpg",
+          "masonry_crack_060.jpg",
+          "masonry_crack_061.jpg",
+          "masonry_crack_062.jpg",
+          "masonry_crack_063.jpg",
+          "masonry_crack_064.jpg",
+          "masonry_crack_068.jpg",
+          "masonry_crack_069.jpg",
+          "masonry_crack_070.jpg",
+          "masonry_crack_071.jpg",
+          "masonry_crack_072.jpg",
+          "masonry_crack_073.jpg",
+          "masonry_crack_074.jpg",
+          "masonry_crack_075.jpg",
+          "masonry_crack_076.jpg",
+          "masonry_crack_077.jpg",
+          "masonry_crack_079.jpg",
+          "masonry_crack_080.jpg",
+          "masonry_crack_081.jpg",
+          "masonry_crack_082.jpg",
+          "masonry_crack_083.jpg",
+          "masonry_crack_084.jpg",
+          "masonry_crack_085.jpg",
+          "masonry_crack_087.jpg",
+          "masonry_crack_088.jpg",
+          "masonry_crack_089.jpg",
+          "masonry_crack_090.jpg",
+          "masonry_crack_092.jpg",
+          "masonry_crack_093.jpg",
+          "masonry_crack_094.jpg",
+          "masonry_crack_095.jpg",
+          "masonry_crack_096.jpg",
+          "masonry_crack_097.jpg",
+          "masonry_crack_098.jpg",
+          "masonry_crack_099.jpg",
+          "masonry_crack_100.jpg"
+        ],
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.323728658258915
+          },
+          {
+            "epoch": 2,
+            "loss": 1.4417424630373716
+          },
+          {
+            "epoch": 3,
+            "loss": 1.501964207738638
+          },
+          {
+            "epoch": 4,
+            "loss": 1.2355000227689743
+          },
+          {
+            "epoch": 5,
+            "loss": 1.336604186333716
+          },
+          {
+            "epoch": 6,
+            "loss": 1.305925159715116
+          },
+          {
+            "epoch": 7,
+            "loss": 1.2799881733953953
+          },
+          {
+            "epoch": 8,
+            "loss": 1.218932831659913
+          },
+          {
+            "epoch": 9,
+            "loss": 1.3085768762975931
+          },
+          {
+            "epoch": 10,
+            "loss": 1.2723320638760924
+          },
+          {
+            "epoch": 11,
+            "loss": 1.269330684095621
+          },
+          {
+            "epoch": 12,
+            "loss": 1.0867314878851175
+          }
+        ],
+        "before": {
+          "dice": null,
+          "iou": null,
+          "precision": null,
+          "recall": null,
+          "pixel_accuracy": 1.0,
+          "confusion_tn_fp_fn_tp": [
+            60732,
+            0,
+            0,
+            0
+          ],
+          "reviewed_pixels": 60732
+        },
+        "after": {
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "pixel_accuracy": 0.9959000197589409,
+          "confusion_tn_fp_fn_tp": [
+            60483,
+            249,
+            0,
+            0
+          ],
+          "reviewed_pixels": 60732
+        },
+        "seconds": 29.275225416000467
+      },
+      {
+        "held_out": "0750",
+        "train_images": [
+          "0650",
+          "0450"
+        ],
+        "checkpoint": "0750-fold.pt",
+        "checkpoint_sha256": "1dfc8e4e80dfd0d49ba3126fda0a92fd3a9d17c1bfb07831c6a6d0ed8b56064f",
+        "public_train_sources_seen": [
+          "masonry_crack_001.jpg",
+          "masonry_crack_002.jpg",
+          "masonry_crack_003.jpg",
+          "masonry_crack_004.jpg",
+          "masonry_crack_005.jpg",
+          "masonry_crack_006.jpg",
+          "masonry_crack_008.jpg",
+          "masonry_crack_010.jpg",
+          "masonry_crack_011.jpg",
+          "masonry_crack_016.jpg",
+          "masonry_crack_017.jpg",
+          "masonry_crack_018.jpg",
+          "masonry_crack_019.jpg",
+          "masonry_crack_021.jpg",
+          "masonry_crack_022.jpg",
+          "masonry_crack_024.jpg",
+          "masonry_crack_025.jpg",
+          "masonry_crack_026.jpg",
+          "masonry_crack_027.jpg",
+          "masonry_crack_028.jpg",
+          "masonry_crack_029.jpg",
+          "masonry_crack_030.jpg",
+          "masonry_crack_031.jpg",
+          "masonry_crack_032.jpg",
+          "masonry_crack_033.jpg",
+          "masonry_crack_034.jpg",
+          "masonry_crack_035.jpg",
+          "masonry_crack_038.jpg",
+          "masonry_crack_039.jpg",
+          "masonry_crack_040.jpg",
+          "masonry_crack_041.jpg",
+          "masonry_crack_043.jpg",
+          "masonry_crack_044.jpg",
+          "masonry_crack_045.jpg",
+          "masonry_crack_046.jpg",
+          "masonry_crack_047.jpg",
+          "masonry_crack_049.jpg",
+          "masonry_crack_051.jpg",
+          "masonry_crack_052.jpg",
+          "masonry_crack_053.jpg",
+          "masonry_crack_055.jpg",
+          "masonry_crack_056.jpg",
+          "masonry_crack_057.jpg",
+          "masonry_crack_058.jpg",
+          "masonry_crack_059.jpg",
+          "masonry_crack_060.jpg",
+          "masonry_crack_061.jpg",
+          "masonry_crack_062.jpg",
+          "masonry_crack_063.jpg",
+          "masonry_crack_064.jpg",
+          "masonry_crack_068.jpg",
+          "masonry_crack_069.jpg",
+          "masonry_crack_070.jpg",
+          "masonry_crack_071.jpg",
+          "masonry_crack_072.jpg",
+          "masonry_crack_073.jpg",
+          "masonry_crack_074.jpg",
+          "masonry_crack_075.jpg",
+          "masonry_crack_076.jpg",
+          "masonry_crack_077.jpg",
+          "masonry_crack_079.jpg",
+          "masonry_crack_080.jpg",
+          "masonry_crack_081.jpg",
+          "masonry_crack_082.jpg",
+          "masonry_crack_083.jpg",
+          "masonry_crack_084.jpg",
+          "masonry_crack_085.jpg",
+          "masonry_crack_087.jpg",
+          "masonry_crack_088.jpg",
+          "masonry_crack_089.jpg",
+          "masonry_crack_090.jpg",
+          "masonry_crack_092.jpg",
+          "masonry_crack_093.jpg",
+          "masonry_crack_094.jpg",
+          "masonry_crack_095.jpg",
+          "masonry_crack_096.jpg",
+          "masonry_crack_097.jpg",
+          "masonry_crack_098.jpg",
+          "masonry_crack_099.jpg",
+          "masonry_crack_100.jpg"
+        ],
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 1.9282619878649712
+          },
+          {
+            "epoch": 2,
+            "loss": 1.2050555683672428
+          },
+          {
+            "epoch": 3,
+            "loss": 1.3321937443688512
+          },
+          {
+            "epoch": 4,
+            "loss": 1.1343786753714085
+          },
+          {
+            "epoch": 5,
+            "loss": 1.2467830618843436
+          },
+          {
+            "epoch": 6,
+            "loss": 1.2292721280828118
+          },
+          {
+            "epoch": 7,
+            "loss": 1.170777639374137
+          },
+          {
+            "epoch": 8,
+            "loss": 1.0292694801464677
+          },
+          {
+            "epoch": 9,
+            "loss": 1.1058414541184902
+          },
+          {
+            "epoch": 10,
+            "loss": 1.0822252035140991
+          },
+          {
+            "epoch": 11,
+            "loss": 1.1960941590368748
+          },
+          {
+            "epoch": 12,
+            "loss": 0.9956666941288859
+          }
+        ],
+        "before": {
+          "dice": 0.31297265852239675,
+          "iou": 0.18551724137931033,
+          "precision": 1.0,
+          "recall": 0.18551724137931033,
+          "pixel_accuracy": 0.9363839586307199,
+          "confusion_tn_fp_fn_tp": [
+            68458,
+            0,
+            4724,
+            1076
+          ],
+          "reviewed_pixels": 74258
+        },
+        "after": {
+          "dice": 0.4670278842341747,
+          "iou": 0.3046551724137931,
+          "precision": 1.0,
+          "recall": 0.3046551724137931,
+          "pixel_accuracy": 0.9456893533356675,
+          "confusion_tn_fp_fn_tp": [
+            68458,
+            0,
+            4033,
+            1767
+          ],
+          "reviewed_pixels": 74258
+        },
+        "seconds": 29.904602124996018
+      }
+    ]
+  },
+  "all_candidates": [
+    {
+      "candidate": "Original public CNN, 128px",
+      "metrics": {
+        "dice": 0.2995128740431454,
+        "iou": 0.1761335734162711,
+        "precision": 1.0,
+        "recall": 0.1761335734162711,
+        "pixel_accuracy": 0.9432879043117194,
+        "confusion_tn_fp_fn_tp": [
+          165275,
+          0,
+          10066,
+          2152
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-through-333",
+      "folds": null
+    },
+    {
+      "candidate": "First target adaptation, 128px",
+      "metrics": {
+        "dice": 0.4568884008905969,
+        "iou": 0.29608253943155316,
+        "precision": 0.3641402109971316,
+        "recall": 0.6130299558029138,
+        "pixel_accuracy": 0.8996749167572806,
+        "confusion_tn_fp_fn_tp": [
+          152196,
+          13079,
+          4728,
+          7490
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-through-333",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "before": {
+            "dice": 0.3681667937960844,
+            "iou": 0.22561545652851356,
+            "precision": 1.0,
+            "recall": 0.22561545652851356,
+            "pixel_accuracy": 0.8830670776180505,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              4970,
+              1448
+            ],
+            "reviewed_pixels": 42503
+          },
+          "after": {
+            "dice": 0.8513907284768212,
+            "iou": 0.7412361623616236,
+            "precision": 0.9824740167108212,
+            "recall": 0.7511685883452789,
+            "pixel_accuracy": 0.9604027950968167,
+            "confusion_tn_fp_fn_tp": [
+              35999,
+              86,
+              1597,
+              4821
+            ],
+            "reviewed_pixels": 42503
+          },
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 0.9458924476057291
+            },
+            {
+              "epoch": 2,
+              "loss": 0.4260876465123147
+            }
+          ]
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "before": {
+            "dice": null,
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "pixel_accuracy": 1.0,
+            "confusion_tn_fp_fn_tp": [
+              60732,
+              0,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "after": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.7949186590265428,
+            "confusion_tn_fp_fn_tp": [
+              48277,
+              12455,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 0.8522836961783469
+            },
+            {
+              "epoch": 2,
+              "loss": 0.19049562979489565
+            }
+          ]
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "before": {
+            "dice": 0.21648216482164823,
+            "iou": 0.12137931034482759,
+            "precision": 1.0,
+            "recall": 0.12137931034482759,
+            "pixel_accuracy": 0.931374397371327,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              5096,
+              704
+            ],
+            "reviewed_pixels": 74258
+          },
+          "after": {
+            "dice": 0.5926501609858998,
+            "iou": 0.42111076049226887,
+            "precision": 0.8322419706891175,
+            "recall": 0.4601724137931035,
+            "pixel_accuracy": 0.9505911820948585,
+            "confusion_tn_fp_fn_tp": [
+              67920,
+              538,
+              3131,
+              2669
+            ],
+            "reviewed_pixels": 74258
+          },
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 0.6958261601394042
+            },
+            {
+              "epoch": 2,
+              "loss": 0.26711641962174326
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "CNN with public replay, 4 epochs, 128px",
+      "metrics": {
+        "dice": 0.5638435334194761,
+        "iou": 0.39260592180598725,
+        "precision": 0.9983361064891847,
+        "recall": 0.3928629890325749,
+        "pixel_accuracy": 0.9581617303217592,
+        "confusion_tn_fp_fn_tp": [
+          165267,
+          8,
+          7418,
+          4800
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-replay-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "checkpoint": "0650-fold.pt",
+          "checkpoint_sha256": "1df6c72c95793f8e8374727094c4ced76c33877683497498c91919c1b93c535b",
+          "public_train_sources_seen": [
+            "masonry_crack_001.jpg",
+            "masonry_crack_002.jpg",
+            "masonry_crack_003.jpg",
+            "masonry_crack_004.jpg",
+            "masonry_crack_005.jpg",
+            "masonry_crack_006.jpg",
+            "masonry_crack_008.jpg",
+            "masonry_crack_010.jpg",
+            "masonry_crack_011.jpg",
+            "masonry_crack_016.jpg",
+            "masonry_crack_017.jpg",
+            "masonry_crack_018.jpg",
+            "masonry_crack_021.jpg",
+            "masonry_crack_022.jpg",
+            "masonry_crack_025.jpg",
+            "masonry_crack_026.jpg",
+            "masonry_crack_027.jpg",
+            "masonry_crack_028.jpg",
+            "masonry_crack_029.jpg",
+            "masonry_crack_030.jpg",
+            "masonry_crack_031.jpg",
+            "masonry_crack_032.jpg",
+            "masonry_crack_033.jpg",
+            "masonry_crack_034.jpg",
+            "masonry_crack_035.jpg",
+            "masonry_crack_038.jpg",
+            "masonry_crack_039.jpg",
+            "masonry_crack_040.jpg",
+            "masonry_crack_041.jpg",
+            "masonry_crack_043.jpg",
+            "masonry_crack_044.jpg",
+            "masonry_crack_045.jpg",
+            "masonry_crack_046.jpg",
+            "masonry_crack_047.jpg",
+            "masonry_crack_049.jpg",
+            "masonry_crack_051.jpg",
+            "masonry_crack_052.jpg",
+            "masonry_crack_053.jpg",
+            "masonry_crack_055.jpg",
+            "masonry_crack_056.jpg",
+            "masonry_crack_057.jpg",
+            "masonry_crack_058.jpg",
+            "masonry_crack_059.jpg",
+            "masonry_crack_060.jpg",
+            "masonry_crack_061.jpg",
+            "masonry_crack_062.jpg",
+            "masonry_crack_063.jpg",
+            "masonry_crack_064.jpg",
+            "masonry_crack_068.jpg",
+            "masonry_crack_069.jpg",
+            "masonry_crack_071.jpg",
+            "masonry_crack_073.jpg",
+            "masonry_crack_074.jpg",
+            "masonry_crack_075.jpg",
+            "masonry_crack_076.jpg",
+            "masonry_crack_077.jpg",
+            "masonry_crack_079.jpg",
+            "masonry_crack_080.jpg",
+            "masonry_crack_081.jpg",
+            "masonry_crack_082.jpg",
+            "masonry_crack_083.jpg",
+            "masonry_crack_084.jpg",
+            "masonry_crack_085.jpg",
+            "masonry_crack_087.jpg",
+            "masonry_crack_089.jpg",
+            "masonry_crack_090.jpg",
+            "masonry_crack_092.jpg",
+            "masonry_crack_093.jpg",
+            "masonry_crack_094.jpg",
+            "masonry_crack_095.jpg",
+            "masonry_crack_096.jpg",
+            "masonry_crack_097.jpg",
+            "masonry_crack_098.jpg",
+            "masonry_crack_099.jpg"
+          ],
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 1.8576758280396461
+            },
+            {
+              "epoch": 2,
+              "loss": 1.5369859905913472
+            },
+            {
+              "epoch": 3,
+              "loss": 1.5914420271292329
+            },
+            {
+              "epoch": 4,
+              "loss": 1.258243566378951
+            }
+          ],
+          "before": {
+            "dice": 0.3681667937960844,
+            "iou": 0.22561545652851356,
+            "precision": 1.0,
+            "recall": 0.22561545652851356,
+            "pixel_accuracy": 0.8830670776180505,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              4970,
+              1448
+            ],
+            "reviewed_pixels": 42503
+          },
+          "after": {
+            "dice": 0.6716340680947945,
+            "iou": 0.5056092240573388,
+            "precision": 1.0,
+            "recall": 0.5056092240573388,
+            "pixel_accuracy": 0.9253464461332142,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              3173,
+              3245
+            ],
+            "reviewed_pixels": 42503
+          },
+          "seconds": 11.137316209031269
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "checkpoint": "0450-fold.pt",
+          "checkpoint_sha256": "e5af7f876681dca410c3b4990be52a0e92f190f7cf8f7d07d506bdb5e91038b7",
+          "public_train_sources_seen": [
+            "masonry_crack_001.jpg",
+            "masonry_crack_002.jpg",
+            "masonry_crack_003.jpg",
+            "masonry_crack_004.jpg",
+            "masonry_crack_005.jpg",
+            "masonry_crack_006.jpg",
+            "masonry_crack_008.jpg",
+            "masonry_crack_010.jpg",
+            "masonry_crack_011.jpg",
+            "masonry_crack_016.jpg",
+            "masonry_crack_017.jpg",
+            "masonry_crack_018.jpg",
+            "masonry_crack_021.jpg",
+            "masonry_crack_022.jpg",
+            "masonry_crack_025.jpg",
+            "masonry_crack_026.jpg",
+            "masonry_crack_027.jpg",
+            "masonry_crack_028.jpg",
+            "masonry_crack_029.jpg",
+            "masonry_crack_030.jpg",
+            "masonry_crack_031.jpg",
+            "masonry_crack_032.jpg",
+            "masonry_crack_033.jpg",
+            "masonry_crack_034.jpg",
+            "masonry_crack_035.jpg",
+            "masonry_crack_038.jpg",
+            "masonry_crack_039.jpg",
+            "masonry_crack_040.jpg",
+            "masonry_crack_041.jpg",
+            "masonry_crack_043.jpg",
+            "masonry_crack_044.jpg",
+            "masonry_crack_045.jpg",
+            "masonry_crack_046.jpg",
+            "masonry_crack_047.jpg",
+            "masonry_crack_049.jpg",
+            "masonry_crack_051.jpg",
+            "masonry_crack_052.jpg",
+            "masonry_crack_053.jpg",
+            "masonry_crack_055.jpg",
+            "masonry_crack_056.jpg",
+            "masonry_crack_057.jpg",
+            "masonry_crack_058.jpg",
+            "masonry_crack_059.jpg",
+            "masonry_crack_060.jpg",
+            "masonry_crack_061.jpg",
+            "masonry_crack_062.jpg",
+            "masonry_crack_063.jpg",
+            "masonry_crack_064.jpg",
+            "masonry_crack_068.jpg",
+            "masonry_crack_069.jpg",
+            "masonry_crack_071.jpg",
+            "masonry_crack_073.jpg",
+            "masonry_crack_074.jpg",
+            "masonry_crack_075.jpg",
+            "masonry_crack_076.jpg",
+            "masonry_crack_077.jpg",
+            "masonry_crack_079.jpg",
+            "masonry_crack_080.jpg",
+            "masonry_crack_081.jpg",
+            "masonry_crack_082.jpg",
+            "masonry_crack_083.jpg",
+            "masonry_crack_084.jpg",
+            "masonry_crack_085.jpg",
+            "masonry_crack_087.jpg",
+            "masonry_crack_089.jpg",
+            "masonry_crack_090.jpg",
+            "masonry_crack_092.jpg",
+            "masonry_crack_093.jpg",
+            "masonry_crack_094.jpg",
+            "masonry_crack_095.jpg",
+            "masonry_crack_096.jpg",
+            "masonry_crack_097.jpg",
+            "masonry_crack_098.jpg",
+            "masonry_crack_099.jpg"
+          ],
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 2.323728658258915
+            },
+            {
+              "epoch": 2,
+              "loss": 1.4417424630373716
+            },
+            {
+              "epoch": 3,
+              "loss": 1.501964207738638
+            },
+            {
+              "epoch": 4,
+              "loss": 1.2355000227689743
+            }
+          ],
+          "before": {
+            "dice": null,
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "pixel_accuracy": 1.0,
+            "confusion_tn_fp_fn_tp": [
+              60732,
+              0,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "after": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.9998682737271949,
+            "confusion_tn_fp_fn_tp": [
+              60724,
+              8,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "seconds": 12.3058272919734
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "checkpoint": "0750-fold.pt",
+          "checkpoint_sha256": "e22815cc5c32372e04d8ffb9bdfc2f22469b1e66d5827860953c324a5e2c5efd",
+          "public_train_sources_seen": [
+            "masonry_crack_001.jpg",
+            "masonry_crack_002.jpg",
+            "masonry_crack_003.jpg",
+            "masonry_crack_004.jpg",
+            "masonry_crack_005.jpg",
+            "masonry_crack_006.jpg",
+            "masonry_crack_008.jpg",
+            "masonry_crack_010.jpg",
+            "masonry_crack_011.jpg",
+            "masonry_crack_016.jpg",
+            "masonry_crack_017.jpg",
+            "masonry_crack_018.jpg",
+            "masonry_crack_021.jpg",
+            "masonry_crack_022.jpg",
+            "masonry_crack_025.jpg",
+            "masonry_crack_026.jpg",
+            "masonry_crack_027.jpg",
+            "masonry_crack_028.jpg",
+            "masonry_crack_029.jpg",
+            "masonry_crack_030.jpg",
+            "masonry_crack_031.jpg",
+            "masonry_crack_032.jpg",
+            "masonry_crack_033.jpg",
+            "masonry_crack_034.jpg",
+            "masonry_crack_035.jpg",
+            "masonry_crack_038.jpg",
+            "masonry_crack_039.jpg",
+            "masonry_crack_040.jpg",
+            "masonry_crack_041.jpg",
+            "masonry_crack_043.jpg",
+            "masonry_crack_044.jpg",
+            "masonry_crack_045.jpg",
+            "masonry_crack_046.jpg",
+            "masonry_crack_047.jpg",
+            "masonry_crack_049.jpg",
+            "masonry_crack_051.jpg",
+            "masonry_crack_052.jpg",
+            "masonry_crack_053.jpg",
+            "masonry_crack_055.jpg",
+            "masonry_crack_056.jpg",
+            "masonry_crack_057.jpg",
+            "masonry_crack_058.jpg",
+            "masonry_crack_059.jpg",
+            "masonry_crack_060.jpg",
+            "masonry_crack_061.jpg",
+            "masonry_crack_062.jpg",
+            "masonry_crack_063.jpg",
+            "masonry_crack_064.jpg",
+            "masonry_crack_068.jpg",
+            "masonry_crack_069.jpg",
+            "masonry_crack_071.jpg",
+            "masonry_crack_073.jpg",
+            "masonry_crack_074.jpg",
+            "masonry_crack_075.jpg",
+            "masonry_crack_076.jpg",
+            "masonry_crack_077.jpg",
+            "masonry_crack_079.jpg",
+            "masonry_crack_080.jpg",
+            "masonry_crack_081.jpg",
+            "masonry_crack_082.jpg",
+            "masonry_crack_083.jpg",
+            "masonry_crack_084.jpg",
+            "masonry_crack_085.jpg",
+            "masonry_crack_087.jpg",
+            "masonry_crack_089.jpg",
+            "masonry_crack_090.jpg",
+            "masonry_crack_092.jpg",
+            "masonry_crack_093.jpg",
+            "masonry_crack_094.jpg",
+            "masonry_crack_095.jpg",
+            "masonry_crack_096.jpg",
+            "masonry_crack_097.jpg",
+            "masonry_crack_098.jpg",
+            "masonry_crack_099.jpg"
+          ],
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 1.9282619878649712
+            },
+            {
+              "epoch": 2,
+              "loss": 1.2050555683672428
+            },
+            {
+              "epoch": 3,
+              "loss": 1.3321937443688512
+            },
+            {
+              "epoch": 4,
+              "loss": 1.1343786753714085
+            }
+          ],
+          "before": {
+            "dice": 0.21648216482164823,
+            "iou": 0.12137931034482759,
+            "precision": 1.0,
+            "recall": 0.12137931034482759,
+            "pixel_accuracy": 0.931374397371327,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              5096,
+              704
+            ],
+            "reviewed_pixels": 74258
+          },
+          "after": {
+            "dice": 0.4228416043507818,
+            "iou": 0.2681034482758621,
+            "precision": 1.0,
+            "recall": 0.2681034482758621,
+            "pixel_accuracy": 0.9428344420803145,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4245,
+              1555
+            ],
+            "reviewed_pixels": 74258
+          },
+          "seconds": 13.327134249964729
+        }
+      ]
+    },
+    {
+      "candidate": "Texture random_forest",
+      "metrics": {
+        "dice": 0.5365672827410899,
+        "iou": 0.36664977925743647,
+        "precision": 0.39658681697197434,
+        "recall": 0.8292682926829268,
+        "pixel_accuracy": 0.9013932943834405,
+        "confusion_tn_fp_fn_tp": [
+          149859,
+          15416,
+          2086,
+          10132
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-texture-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.9110928020373006,
+            "iou": 0.8367038107029853,
+            "precision": 0.8772537141208712,
+            "recall": 0.9476472421315052,
+            "pixel_accuracy": 0.9720725595840294,
+            "confusion_tn_fp_fn_tp": [
+              35234,
+              851,
+              336,
+              6082
+            ],
+            "reviewed_pixels": 42503
+          }
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.7758183494698018,
+            "confusion_tn_fp_fn_tp": [
+              47117,
+              13615,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          }
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "metrics": {
+            "dice": 0.75,
+            "iou": 0.6,
+            "precision": 0.81,
+            "recall": 0.6982758620689655,
+            "pixel_accuracy": 0.9636402811818255,
+            "confusion_tn_fp_fn_tp": [
+              67508,
+              950,
+              1750,
+              4050
+            ],
+            "reviewed_pixels": 74258
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "Texture hist_gradient_boosting",
+      "metrics": {
+        "dice": 0.5170464114717417,
+        "iou": 0.34865987409955224,
+        "precision": 0.36616118589197477,
+        "recall": 0.8794401702406286,
+        "pixel_accuracy": 0.886908216098663,
+        "confusion_tn_fp_fn_tp": [
+          146675,
+          18600,
+          1473,
+          10745
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-texture-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.9018579234972678,
+            "iou": 0.8212579617834395,
+            "precision": 0.8469960312029561,
+            "recall": 0.9643191025241509,
+            "pixel_accuracy": 0.968308119426864,
+            "confusion_tn_fp_fn_tp": [
+              34967,
+              1118,
+              229,
+              6189
+            ],
+            "reviewed_pixels": 42503
+          }
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.7296318250675097,
+            "confusion_tn_fp_fn_tp": [
+              44312,
+              16420,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          }
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "metrics": {
+            "dice": 0.7980381853214223,
+            "iou": 0.6639463713203148,
+            "precision": 0.8109647561409754,
+            "recall": 0.7855172413793103,
+            "pixel_accuracy": 0.968946106816774,
+            "confusion_tn_fp_fn_tp": [
+              67396,
+              1062,
+              1244,
+              4556
+            ],
+            "reviewed_pixels": 74258
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "Equal average: replay + random_forest",
+      "metrics": {
+        "dice": 0.5061121811249558,
+        "iou": 0.33878861232436985,
+        "precision": 0.4868789230885578,
+        "recall": 0.526927484039941,
+        "pixel_accuracy": 0.9292084758272158,
+        "confusion_tn_fp_fn_tp": [
+          158490,
+          6785,
+          5780,
+          6438
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-ensemble-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.8026119402985075,
+            "iou": 0.6703022748519788,
+            "precision": 1.0,
+            "recall": 0.6703022748519788,
+            "pixel_accuracy": 0.9502152789214879,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              2116,
+              4302
+            ],
+            "reviewed_pixels": 42503
+          }
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.8883290522294671,
+            "confusion_tn_fp_fn_tp": [
+              53950,
+              6782,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          }
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "metrics": {
+            "dice": 0.538103035646807,
+            "iou": 0.36808547303119077,
+            "precision": 0.9985974754558204,
+            "recall": 0.3682758620689655,
+            "pixel_accuracy": 0.950618115219909,
+            "confusion_tn_fp_fn_tp": [
+              68455,
+              3,
+              3664,
+              2136
+            ],
+            "reviewed_pixels": 74258
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "Equal average: replay + hist_gradient_boosting",
+      "metrics": {
+        "dice": 0.46303788157410813,
+        "iou": 0.3012682459918641,
+        "precision": 0.4204515094843708,
+        "recall": 0.5152234408250123,
+        "pixel_accuracy": 0.9177432349444767,
+        "confusion_tn_fp_fn_tp": [
+          156598,
+          8677,
+          5923,
+          6295
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-ensemble-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.7890426433210957,
+            "iou": 0.6515858208955224,
+            "precision": 0.9966706302021403,
+            "recall": 0.653007167341851,
+            "pixel_accuracy": 0.9472743100487024,
+            "confusion_tn_fp_fn_tp": [
+              36071,
+              14,
+              2227,
+              4191
+            ],
+            "reviewed_pixels": 42503
+          }
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.8574063096884673,
+            "confusion_tn_fp_fn_tp": [
+              52072,
+              8660,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          }
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "metrics": {
+            "dice": 0.5321866700392057,
+            "iou": 0.36257108392210924,
+            "precision": 0.9985761746559089,
+            "recall": 0.3627586206896552,
+            "pixel_accuracy": 0.950187185219101,
+            "confusion_tn_fp_fn_tp": [
+              68455,
+              3,
+              3696,
+              2104
+            ],
+            "reviewed_pixels": 74258
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "Context public, 256px",
+      "metrics": {
+        "dice": 0.39469189331231114,
+        "iou": 0.24586675396955313,
+        "precision": 1.0,
+        "recall": 0.24586675396955313,
+        "pixel_accuracy": 0.9480880936149595,
+        "confusion_tn_fp_fn_tp": [
+          165275,
+          0,
+          9214,
+          3004
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-context-v1",
+      "folds": [
+        {
+          "image_id": "0650",
+          "checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+          "metrics": {
+            "dice": 0.49271958666040394,
+            "iou": 0.3268931131193518,
+            "precision": 1.0,
+            "recall": 0.3268931131193518,
+            "pixel_accuracy": 0.8983601157565348,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              4320,
+              2098
+            ],
+            "reviewed_pixels": 42503
+          },
+          "evaluated_tiles": 13,
+          "probability_file": "public-256-0650-probability.npz",
+          "probability_sha256": "13121efb01cb81ee6a1fefa2a47415cba45df97b016223e12d50704859275b1f",
+          "seconds": 1.796932208002545
+        },
+        {
+          "image_id": "0450",
+          "checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+          "metrics": {
+            "dice": null,
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "pixel_accuracy": 1.0,
+            "confusion_tn_fp_fn_tp": [
+              60732,
+              0,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "evaluated_tiles": 62,
+          "probability_file": "public-256-0450-probability.npz",
+          "probability_sha256": "5179d9ea28bfd5e138ce31ba0516336c9aa4e5a639a2d798eb64f21bc7bfe2c3",
+          "seconds": 2.3106361249811016
+        },
+        {
+          "image_id": "0750",
+          "checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+          "metrics": {
+            "dice": 0.2702057858634059,
+            "iou": 0.15620689655172415,
+            "precision": 1.0,
+            "recall": 0.15620689655172415,
+            "pixel_accuracy": 0.9340946430014274,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4894,
+              906
+            ],
+            "reviewed_pixels": 74258
+          },
+          "evaluated_tiles": 52,
+          "probability_file": "public-256-0750-probability.npz",
+          "probability_sha256": "2602e5aff40caaf5e6dd90d2135d3ba99c9222a6b0b04682e71b23f2bc6c3eb2",
+          "seconds": 1.9409650420420803
+        }
+      ]
+    },
+    {
+      "candidate": "Context public, 512px",
+      "metrics": {
+        "dice": 0.4157157676348548,
+        "iou": 0.26239973809134065,
+        "precision": 1.0,
+        "recall": 0.26239973809134065,
+        "pixel_accuracy": 0.9492261666657277,
+        "confusion_tn_fp_fn_tp": [
+          165275,
+          0,
+          9012,
+          3206
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-context-v1",
+      "folds": [
+        {
+          "image_id": "0650",
+          "checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+          "metrics": {
+            "dice": 0.4983621899859616,
+            "iou": 0.33187909005920846,
+            "precision": 1.0,
+            "recall": 0.33187909005920846,
+            "pixel_accuracy": 0.8991130037879679,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              4288,
+              2130
+            ],
+            "reviewed_pixels": 42503
+          },
+          "evaluated_tiles": 7,
+          "probability_file": "public-512-0650-probability.npz",
+          "probability_sha256": "683c0d100445e4aa12176f4afd17d986a43e5ab3fce4d10c24a052d2b5ea7fc7",
+          "seconds": 1.5287160830339417
+        },
+        {
+          "image_id": "0450",
+          "checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+          "metrics": {
+            "dice": null,
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "pixel_accuracy": 1.0,
+            "confusion_tn_fp_fn_tp": [
+              60732,
+              0,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "evaluated_tiles": 26,
+          "probability_file": "public-512-0450-probability.npz",
+          "probability_sha256": "af9e1212a0eae73d7314b2b6e9274e608e19b96b5a8645dfd24e6ceb10b043b5",
+          "seconds": 3.0399859590106644
+        },
+        {
+          "image_id": "0750",
+          "checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+          "metrics": {
+            "dice": 0.31297265852239675,
+            "iou": 0.18551724137931033,
+            "precision": 1.0,
+            "recall": 0.18551724137931033,
+            "pixel_accuracy": 0.9363839586307199,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4724,
+              1076
+            ],
+            "reviewed_pixels": 74258
+          },
+          "evaluated_tiles": 20,
+          "probability_file": "public-512-0750-probability.npz",
+          "probability_sha256": "1903fa0fbc9dcf3a2762478fbcdeecc9530461f4305173ef420708175bded9f8",
+          "seconds": 2.3394884999725036
+        }
+      ]
+    },
+    {
+      "candidate": "Context replay_image_holdout, 256px",
+      "metrics": {
+        "dice": 0.6460005535566011,
+        "iou": 0.4771054783319706,
+        "precision": 0.9979476654694716,
+        "recall": 0.47757407104272387,
+        "pixel_accuracy": 0.9639704101006801,
+        "confusion_tn_fp_fn_tp": [
+          165263,
+          12,
+          6383,
+          5835
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-context-v1",
+      "folds": [
+        {
+          "image_id": "0650",
+          "checkpoint": "local-results/reviewed-replay-v1/0650-fold.pt",
+          "metrics": {
+            "dice": 0.8017176997759522,
+            "iou": 0.6690557806170147,
+            "precision": 1.0,
+            "recall": 0.6690557806170147,
+            "pixel_accuracy": 0.9500270569136297,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              2124,
+              4294
+            ],
+            "reviewed_pixels": 42503
+          },
+          "evaluated_tiles": 13,
+          "probability_file": "replay_image_holdout-256-0650-probability.npz",
+          "probability_sha256": "9c58f3b33dec28ad9dbc25bfe75b02ff8ef3d2a15cc65e4ea4fe330f9d17339d",
+          "seconds": 0.8979272919823416
+        },
+        {
+          "image_id": "0450",
+          "checkpoint": "local-results/reviewed-replay-v1/0450-fold.pt",
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.9998024105907923,
+            "confusion_tn_fp_fn_tp": [
+              60720,
+              12,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "evaluated_tiles": 62,
+          "probability_file": "replay_image_holdout-256-0450-probability.npz",
+          "probability_sha256": "1f2a86ee1aae10886f87e46326afcb98baeaaf9fadda25265c96c91d7fb3b0eb",
+          "seconds": 2.345513459003996
+        },
+        {
+          "image_id": "0750",
+          "checkpoint": "local-results/reviewed-replay-v1/0750-fold.pt",
+          "metrics": {
+            "dice": 0.4198338101076148,
+            "iou": 0.2656896551724138,
+            "precision": 1.0,
+            "recall": 0.2656896551724138,
+            "pixel_accuracy": 0.9426459102049611,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4259,
+              1541
+            ],
+            "reviewed_pixels": 74258
+          },
+          "evaluated_tiles": 52,
+          "probability_file": "replay_image_holdout-256-0750-probability.npz",
+          "probability_sha256": "e967783e634427397df48f2a8d439bc44f60d7353a832013fddf16f1185c0dc1",
+          "seconds": 1.9306904170080088
+        }
+      ]
+    },
+    {
+      "candidate": "Context replay_image_holdout, 512px",
+      "metrics": {
+        "dice": 0.685585537256585,
+        "iou": 0.5215900742796507,
+        "precision": 0.9948622139187295,
+        "recall": 0.5229988541496153,
+        "pixel_accuracy": 0.9669789794527108,
+        "confusion_tn_fp_fn_tp": [
+          165242,
+          33,
+          5828,
+          6390
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-context-v1",
+      "folds": [
+        {
+          "image_id": "0650",
+          "checkpoint": "local-results/reviewed-replay-v1/0650-fold.pt",
+          "metrics": {
+            "dice": 0.8373227350736158,
+            "iou": 0.7201678060907396,
+            "precision": 0.9961315280464217,
+            "recall": 0.7221875973823622,
+            "pixel_accuracy": 0.9576265204809072,
+            "confusion_tn_fp_fn_tp": [
+              36067,
+              18,
+              1783,
+              4635
+            ],
+            "reviewed_pixels": 42503
+          },
+          "evaluated_tiles": 7,
+          "probability_file": "replay_image_holdout-512-0650-probability.npz",
+          "probability_sha256": "1f42c0269ccf42bf1c02fcb30e5ba9af59866f2e56e308d88eab62d6a5155de0",
+          "seconds": 1.5407057090196759
+        },
+        {
+          "image_id": "0450",
+          "checkpoint": "local-results/reviewed-replay-v1/0450-fold.pt",
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.9997530132384904,
+            "confusion_tn_fp_fn_tp": [
+              60717,
+              15,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "evaluated_tiles": 26,
+          "probability_file": "replay_image_holdout-512-0450-probability.npz",
+          "probability_sha256": "3a77d2ceae7ad136c26c30f3a42d547a4933bec3166724f052d4d1b3354bef7e",
+          "seconds": 2.9604979580035433
+        },
+        {
+          "image_id": "0750",
+          "checkpoint": "local-results/reviewed-replay-v1/0750-fold.pt",
+          "metrics": {
+            "dice": 0.46459298477829253,
+            "iou": 0.30258620689655175,
+            "precision": 1.0,
+            "recall": 0.30258620689655175,
+            "pixel_accuracy": 0.9455277545853645,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4045,
+              1755
+            ],
+            "reviewed_pixels": 74258
+          },
+          "evaluated_tiles": 20,
+          "probability_file": "replay_image_holdout-512-0750-probability.npz",
+          "probability_sha256": "80f3499fcc190185d0afcd9a18a3cb0bd354eaaaeef357cde676bb75f7c57cbb",
+          "seconds": 2.472792708023917
+        }
+      ]
+    },
+    {
+      "candidate": "Texture + public CNN features: random_forest",
+      "metrics": {
+        "dice": 0.49594028660152134,
+        "iou": 0.3297344395196424,
+        "precision": 0.38036970676921733,
+        "recall": 0.7123915534457358,
+        "pixel_accuracy": 0.9003171956077141,
+        "confusion_tn_fp_fn_tp": [
+          151096,
+          14179,
+          3514,
+          8704
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-hybrid-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "training_pixels": 45800,
+          "metrics": {
+            "dice": 0.9158460161145927,
+            "iou": 0.8447563996696945,
+            "precision": 0.8786143716003435,
+            "recall": 0.9563727017762543,
+            "pixel_accuracy": 0.9734606968919841,
+            "confusion_tn_fp_fn_tp": [
+              35237,
+              848,
+              280,
+              6138
+            ],
+            "reviewed_pixels": 42503
+          },
+          "model_file": "random_forest-0650.joblib",
+          "model_sha256": "7e7718848a022c149249f4d4c7c1f219ce7f89a67cacdf1a57f4b7716c99f944",
+          "predictions_file": "random_forest-0650-predictions.npz",
+          "predictions_sha256": "560f88ae2d3d75a4b8fd6d3caf6c96fee533681150b42b7f34f42c088ea7fe4d",
+          "seconds": 23.045603000035044
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "training_pixels": 52218,
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.7818448264506356,
+            "confusion_tn_fp_fn_tp": [
+              47483,
+              13249,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "model_file": "random_forest-0450.joblib",
+          "model_sha256": "c26e34db0fbb9f24aa42af0d2a68e9bcb246a68cb517d1adf26c9b509f883034",
+          "predictions_file": "random_forest-0450-predictions.npz",
+          "predictions_sha256": "c3ab337282cc363af5503bbcdc54bbb13c867906159c3ae5f6691c56ed197d23",
+          "seconds": 34.21888104197569
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "training_pixels": 46418,
+          "metrics": {
+            "dice": 0.6074810606060606,
+            "iou": 0.4362461747704862,
+            "precision": 0.9690332326283988,
+            "recall": 0.44241379310344825,
+            "pixel_accuracy": 0.9553448786662716,
+            "confusion_tn_fp_fn_tp": [
+              68376,
+              82,
+              3234,
+              2566
+            ],
+            "reviewed_pixels": 74258
+          },
+          "model_file": "random_forest-0750.joblib",
+          "model_sha256": "961f7e5679565c3dd30804797b9dd76060692e094a13bf8daae0bab9ce2923d4",
+          "predictions_file": "random_forest-0750-predictions.npz",
+          "predictions_sha256": "03c89c1942903851cf0ae76a669980aa12476e523ea8e7bdf93451d341732cfb",
+          "seconds": 24.793575249961577
+        }
+      ]
+    },
+    {
+      "candidate": "Texture + public CNN features: hist_gradient_boosting",
+      "metrics": {
+        "dice": 0.4897800976769426,
+        "iou": 0.32431045103004585,
+        "precision": 0.35787923416789397,
+        "recall": 0.77565886397119,
+        "pixel_accuracy": 0.8887561762999104,
+        "confusion_tn_fp_fn_tp": [
+          148271,
+          17004,
+          2741,
+          9477
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-hybrid-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "training_pixels": 45800,
+          "metrics": {
+            "dice": 0.9194025436261462,
+            "iou": 0.8508279731764062,
+            "precision": 0.8748944553898115,
+            "recall": 0.9686818323465254,
+            "pixel_accuracy": 0.9743547514293108,
+            "confusion_tn_fp_fn_tp": [
+              35196,
+              889,
+              201,
+              6217
+            ],
+            "reviewed_pixels": 42503
+          },
+          "model_file": "hist_gradient_boosting-0650.joblib",
+          "model_sha256": "c88c88addcea81eb9d8f7c61dde869820566a9db49a4d9751468d8f047534847",
+          "predictions_file": "hist_gradient_boosting-0650-predictions.npz",
+          "predictions_sha256": "91cb8f74d2dd0ee1450424b33c902a66db4380aa6d99312e55f1f67bcb34c019",
+          "seconds": 4.195054042036645
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "training_pixels": 52218,
+          "metrics": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.7364651254692749,
+            "confusion_tn_fp_fn_tp": [
+              44727,
+              16005,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "model_file": "hist_gradient_boosting-0450.joblib",
+          "model_sha256": "e12c7e3ba1b1d865158929eab3b4823ba2addb81fa9dbb76aaeaf579de092c30",
+          "predictions_file": "hist_gradient_boosting-0450-predictions.npz",
+          "predictions_sha256": "0de73206b3cb051ec8984e0729d068ccb2c9d78d8693da49addf3d02fe80b953",
+          "seconds": 4.410664749972057
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "training_pixels": 46418,
+          "metrics": {
+            "dice": 0.7110141766630316,
+            "iou": 0.5516074450084603,
+            "precision": 0.9673590504451038,
+            "recall": 0.5620689655172414,
+            "pixel_accuracy": 0.9643136093080881,
+            "confusion_tn_fp_fn_tp": [
+              68348,
+              110,
+              2540,
+              3260
+            ],
+            "reviewed_pixels": 74258
+          },
+          "model_file": "hist_gradient_boosting-0750.joblib",
+          "model_sha256": "9657891bb246c32b1b5bddc08e24196bc0651247986a8a0f1fd6c71125213eda",
+          "predictions_file": "hist_gradient_boosting-0750-predictions.npz",
+          "predictions_sha256": "e82d07230e37ce2f35127f35b95a5ab9818766db5c0d03d704a899e498bcc206",
+          "seconds": 4.32632570900023
+        }
+      ]
+    },
+    {
+      "candidate": "CNN with public replay, 12 epochs, 512px",
+      "metrics": {
+        "dice": 0.6923358618885692,
+        "iou": 0.5294447111537846,
+        "precision": 0.9594026388284761,
+        "recall": 0.5415779996726142,
+        "pixel_accuracy": 0.9668662989526348,
+        "confusion_tn_fp_fn_tp": [
+          164995,
+          280,
+          5601,
+          6617
+        ],
+        "reviewed_pixels": 177493
+      },
+      "source": "reviewed-replay-long-v1",
+      "folds": [
+        {
+          "held_out": "0650",
+          "train_images": [
+            "0450",
+            "0750"
+          ],
+          "checkpoint": "0650-fold.pt",
+          "checkpoint_sha256": "66932cbb1ced142a9483b213011b877d6fd09afe7c06e666ed0659f2e7fc0f78",
+          "public_train_sources_seen": [
+            "masonry_crack_001.jpg",
+            "masonry_crack_002.jpg",
+            "masonry_crack_003.jpg",
+            "masonry_crack_004.jpg",
+            "masonry_crack_005.jpg",
+            "masonry_crack_006.jpg",
+            "masonry_crack_008.jpg",
+            "masonry_crack_010.jpg",
+            "masonry_crack_011.jpg",
+            "masonry_crack_016.jpg",
+            "masonry_crack_017.jpg",
+            "masonry_crack_018.jpg",
+            "masonry_crack_019.jpg",
+            "masonry_crack_021.jpg",
+            "masonry_crack_022.jpg",
+            "masonry_crack_024.jpg",
+            "masonry_crack_025.jpg",
+            "masonry_crack_026.jpg",
+            "masonry_crack_027.jpg",
+            "masonry_crack_028.jpg",
+            "masonry_crack_029.jpg",
+            "masonry_crack_030.jpg",
+            "masonry_crack_031.jpg",
+            "masonry_crack_032.jpg",
+            "masonry_crack_033.jpg",
+            "masonry_crack_034.jpg",
+            "masonry_crack_035.jpg",
+            "masonry_crack_038.jpg",
+            "masonry_crack_039.jpg",
+            "masonry_crack_040.jpg",
+            "masonry_crack_041.jpg",
+            "masonry_crack_043.jpg",
+            "masonry_crack_044.jpg",
+            "masonry_crack_045.jpg",
+            "masonry_crack_046.jpg",
+            "masonry_crack_047.jpg",
+            "masonry_crack_049.jpg",
+            "masonry_crack_051.jpg",
+            "masonry_crack_052.jpg",
+            "masonry_crack_053.jpg",
+            "masonry_crack_055.jpg",
+            "masonry_crack_056.jpg",
+            "masonry_crack_057.jpg",
+            "masonry_crack_058.jpg",
+            "masonry_crack_059.jpg",
+            "masonry_crack_060.jpg",
+            "masonry_crack_061.jpg",
+            "masonry_crack_062.jpg",
+            "masonry_crack_063.jpg",
+            "masonry_crack_064.jpg",
+            "masonry_crack_068.jpg",
+            "masonry_crack_069.jpg",
+            "masonry_crack_070.jpg",
+            "masonry_crack_071.jpg",
+            "masonry_crack_072.jpg",
+            "masonry_crack_073.jpg",
+            "masonry_crack_074.jpg",
+            "masonry_crack_075.jpg",
+            "masonry_crack_076.jpg",
+            "masonry_crack_077.jpg",
+            "masonry_crack_079.jpg",
+            "masonry_crack_080.jpg",
+            "masonry_crack_081.jpg",
+            "masonry_crack_082.jpg",
+            "masonry_crack_083.jpg",
+            "masonry_crack_084.jpg",
+            "masonry_crack_085.jpg",
+            "masonry_crack_087.jpg",
+            "masonry_crack_088.jpg",
+            "masonry_crack_089.jpg",
+            "masonry_crack_090.jpg",
+            "masonry_crack_092.jpg",
+            "masonry_crack_093.jpg",
+            "masonry_crack_094.jpg",
+            "masonry_crack_095.jpg",
+            "masonry_crack_096.jpg",
+            "masonry_crack_097.jpg",
+            "masonry_crack_098.jpg",
+            "masonry_crack_099.jpg",
+            "masonry_crack_100.jpg"
+          ],
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 1.8576758280396461
+            },
+            {
+              "epoch": 2,
+              "loss": 1.5369859905913472
+            },
+            {
+              "epoch": 3,
+              "loss": 1.5914420271292329
+            },
+            {
+              "epoch": 4,
+              "loss": 1.258243566378951
+            },
+            {
+              "epoch": 5,
+              "loss": 1.3404278475791216
+            },
+            {
+              "epoch": 6,
+              "loss": 1.455759223550558
+            },
+            {
+              "epoch": 7,
+              "loss": 1.347967996262014
+            },
+            {
+              "epoch": 8,
+              "loss": 1.2652431186288595
+            },
+            {
+              "epoch": 9,
+              "loss": 1.3399668224155903
+            },
+            {
+              "epoch": 10,
+              "loss": 1.323661332949996
+            },
+            {
+              "epoch": 11,
+              "loss": 1.3371298070997
+            },
+            {
+              "epoch": 12,
+              "loss": 1.111884143203497
+            }
+          ],
+          "before": {
+            "dice": 0.4983621899859616,
+            "iou": 0.33187909005920846,
+            "precision": 1.0,
+            "recall": 0.33187909005920846,
+            "pixel_accuracy": 0.8991130037879679,
+            "confusion_tn_fp_fn_tp": [
+              36085,
+              0,
+              4288,
+              2130
+            ],
+            "reviewed_pixels": 42503
+          },
+          "after": {
+            "dice": 0.8584830515974865,
+            "iou": 0.7520545821057528,
+            "precision": 0.9936488424503176,
+            "recall": 0.755687129947024,
+            "pixel_accuracy": 0.9623791261793285,
+            "confusion_tn_fp_fn_tp": [
+              36054,
+              31,
+              1568,
+              4850
+            ],
+            "reviewed_pixels": 42503
+          },
+          "seconds": 28.470837500004563
+        },
+        {
+          "held_out": "0450",
+          "train_images": [
+            "0650",
+            "0750"
+          ],
+          "checkpoint": "0450-fold.pt",
+          "checkpoint_sha256": "ea0b1f55926a240998fa4b7e290a5706d9bf83230f8a89225811a96aa1389f9d",
+          "public_train_sources_seen": [
+            "masonry_crack_001.jpg",
+            "masonry_crack_002.jpg",
+            "masonry_crack_003.jpg",
+            "masonry_crack_004.jpg",
+            "masonry_crack_005.jpg",
+            "masonry_crack_006.jpg",
+            "masonry_crack_008.jpg",
+            "masonry_crack_010.jpg",
+            "masonry_crack_011.jpg",
+            "masonry_crack_016.jpg",
+            "masonry_crack_017.jpg",
+            "masonry_crack_018.jpg",
+            "masonry_crack_019.jpg",
+            "masonry_crack_021.jpg",
+            "masonry_crack_022.jpg",
+            "masonry_crack_024.jpg",
+            "masonry_crack_025.jpg",
+            "masonry_crack_026.jpg",
+            "masonry_crack_027.jpg",
+            "masonry_crack_028.jpg",
+            "masonry_crack_029.jpg",
+            "masonry_crack_030.jpg",
+            "masonry_crack_031.jpg",
+            "masonry_crack_032.jpg",
+            "masonry_crack_033.jpg",
+            "masonry_crack_034.jpg",
+            "masonry_crack_035.jpg",
+            "masonry_crack_038.jpg",
+            "masonry_crack_039.jpg",
+            "masonry_crack_040.jpg",
+            "masonry_crack_041.jpg",
+            "masonry_crack_043.jpg",
+            "masonry_crack_044.jpg",
+            "masonry_crack_045.jpg",
+            "masonry_crack_046.jpg",
+            "masonry_crack_047.jpg",
+            "masonry_crack_049.jpg",
+            "masonry_crack_051.jpg",
+            "masonry_crack_052.jpg",
+            "masonry_crack_053.jpg",
+            "masonry_crack_055.jpg",
+            "masonry_crack_056.jpg",
+            "masonry_crack_057.jpg",
+            "masonry_crack_058.jpg",
+            "masonry_crack_059.jpg",
+            "masonry_crack_060.jpg",
+            "masonry_crack_061.jpg",
+            "masonry_crack_062.jpg",
+            "masonry_crack_063.jpg",
+            "masonry_crack_064.jpg",
+            "masonry_crack_068.jpg",
+            "masonry_crack_069.jpg",
+            "masonry_crack_070.jpg",
+            "masonry_crack_071.jpg",
+            "masonry_crack_072.jpg",
+            "masonry_crack_073.jpg",
+            "masonry_crack_074.jpg",
+            "masonry_crack_075.jpg",
+            "masonry_crack_076.jpg",
+            "masonry_crack_077.jpg",
+            "masonry_crack_079.jpg",
+            "masonry_crack_080.jpg",
+            "masonry_crack_081.jpg",
+            "masonry_crack_082.jpg",
+            "masonry_crack_083.jpg",
+            "masonry_crack_084.jpg",
+            "masonry_crack_085.jpg",
+            "masonry_crack_087.jpg",
+            "masonry_crack_088.jpg",
+            "masonry_crack_089.jpg",
+            "masonry_crack_090.jpg",
+            "masonry_crack_092.jpg",
+            "masonry_crack_093.jpg",
+            "masonry_crack_094.jpg",
+            "masonry_crack_095.jpg",
+            "masonry_crack_096.jpg",
+            "masonry_crack_097.jpg",
+            "masonry_crack_098.jpg",
+            "masonry_crack_099.jpg",
+            "masonry_crack_100.jpg"
+          ],
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 2.323728658258915
+            },
+            {
+              "epoch": 2,
+              "loss": 1.4417424630373716
+            },
+            {
+              "epoch": 3,
+              "loss": 1.501964207738638
+            },
+            {
+              "epoch": 4,
+              "loss": 1.2355000227689743
+            },
+            {
+              "epoch": 5,
+              "loss": 1.336604186333716
+            },
+            {
+              "epoch": 6,
+              "loss": 1.305925159715116
+            },
+            {
+              "epoch": 7,
+              "loss": 1.2799881733953953
+            },
+            {
+              "epoch": 8,
+              "loss": 1.218932831659913
+            },
+            {
+              "epoch": 9,
+              "loss": 1.3085768762975931
+            },
+            {
+              "epoch": 10,
+              "loss": 1.2723320638760924
+            },
+            {
+              "epoch": 11,
+              "loss": 1.269330684095621
+            },
+            {
+              "epoch": 12,
+              "loss": 1.0867314878851175
+            }
+          ],
+          "before": {
+            "dice": null,
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "pixel_accuracy": 1.0,
+            "confusion_tn_fp_fn_tp": [
+              60732,
+              0,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "after": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": null,
+            "pixel_accuracy": 0.9959000197589409,
+            "confusion_tn_fp_fn_tp": [
+              60483,
+              249,
+              0,
+              0
+            ],
+            "reviewed_pixels": 60732
+          },
+          "seconds": 29.275225416000467
+        },
+        {
+          "held_out": "0750",
+          "train_images": [
+            "0650",
+            "0450"
+          ],
+          "checkpoint": "0750-fold.pt",
+          "checkpoint_sha256": "1dfc8e4e80dfd0d49ba3126fda0a92fd3a9d17c1bfb07831c6a6d0ed8b56064f",
+          "public_train_sources_seen": [
+            "masonry_crack_001.jpg",
+            "masonry_crack_002.jpg",
+            "masonry_crack_003.jpg",
+            "masonry_crack_004.jpg",
+            "masonry_crack_005.jpg",
+            "masonry_crack_006.jpg",
+            "masonry_crack_008.jpg",
+            "masonry_crack_010.jpg",
+            "masonry_crack_011.jpg",
+            "masonry_crack_016.jpg",
+            "masonry_crack_017.jpg",
+            "masonry_crack_018.jpg",
+            "masonry_crack_019.jpg",
+            "masonry_crack_021.jpg",
+            "masonry_crack_022.jpg",
+            "masonry_crack_024.jpg",
+            "masonry_crack_025.jpg",
+            "masonry_crack_026.jpg",
+            "masonry_crack_027.jpg",
+            "masonry_crack_028.jpg",
+            "masonry_crack_029.jpg",
+            "masonry_crack_030.jpg",
+            "masonry_crack_031.jpg",
+            "masonry_crack_032.jpg",
+            "masonry_crack_033.jpg",
+            "masonry_crack_034.jpg",
+            "masonry_crack_035.jpg",
+            "masonry_crack_038.jpg",
+            "masonry_crack_039.jpg",
+            "masonry_crack_040.jpg",
+            "masonry_crack_041.jpg",
+            "masonry_crack_043.jpg",
+            "masonry_crack_044.jpg",
+            "masonry_crack_045.jpg",
+            "masonry_crack_046.jpg",
+            "masonry_crack_047.jpg",
+            "masonry_crack_049.jpg",
+            "masonry_crack_051.jpg",
+            "masonry_crack_052.jpg",
+            "masonry_crack_053.jpg",
+            "masonry_crack_055.jpg",
+            "masonry_crack_056.jpg",
+            "masonry_crack_057.jpg",
+            "masonry_crack_058.jpg",
+            "masonry_crack_059.jpg",
+            "masonry_crack_060.jpg",
+            "masonry_crack_061.jpg",
+            "masonry_crack_062.jpg",
+            "masonry_crack_063.jpg",
+            "masonry_crack_064.jpg",
+            "masonry_crack_068.jpg",
+            "masonry_crack_069.jpg",
+            "masonry_crack_070.jpg",
+            "masonry_crack_071.jpg",
+            "masonry_crack_072.jpg",
+            "masonry_crack_073.jpg",
+            "masonry_crack_074.jpg",
+            "masonry_crack_075.jpg",
+            "masonry_crack_076.jpg",
+            "masonry_crack_077.jpg",
+            "masonry_crack_079.jpg",
+            "masonry_crack_080.jpg",
+            "masonry_crack_081.jpg",
+            "masonry_crack_082.jpg",
+            "masonry_crack_083.jpg",
+            "masonry_crack_084.jpg",
+            "masonry_crack_085.jpg",
+            "masonry_crack_087.jpg",
+            "masonry_crack_088.jpg",
+            "masonry_crack_089.jpg",
+            "masonry_crack_090.jpg",
+            "masonry_crack_092.jpg",
+            "masonry_crack_093.jpg",
+            "masonry_crack_094.jpg",
+            "masonry_crack_095.jpg",
+            "masonry_crack_096.jpg",
+            "masonry_crack_097.jpg",
+            "masonry_crack_098.jpg",
+            "masonry_crack_099.jpg",
+            "masonry_crack_100.jpg"
+          ],
+          "history": [
+            {
+              "epoch": 1,
+              "loss": 1.9282619878649712
+            },
+            {
+              "epoch": 2,
+              "loss": 1.2050555683672428
+            },
+            {
+              "epoch": 3,
+              "loss": 1.3321937443688512
+            },
+            {
+              "epoch": 4,
+              "loss": 1.1343786753714085
+            },
+            {
+              "epoch": 5,
+              "loss": 1.2467830618843436
+            },
+            {
+              "epoch": 6,
+              "loss": 1.2292721280828118
+            },
+            {
+              "epoch": 7,
+              "loss": 1.170777639374137
+            },
+            {
+              "epoch": 8,
+              "loss": 1.0292694801464677
+            },
+            {
+              "epoch": 9,
+              "loss": 1.1058414541184902
+            },
+            {
+              "epoch": 10,
+              "loss": 1.0822252035140991
+            },
+            {
+              "epoch": 11,
+              "loss": 1.1960941590368748
+            },
+            {
+              "epoch": 12,
+              "loss": 0.9956666941288859
+            }
+          ],
+          "before": {
+            "dice": 0.31297265852239675,
+            "iou": 0.18551724137931033,
+            "precision": 1.0,
+            "recall": 0.18551724137931033,
+            "pixel_accuracy": 0.9363839586307199,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4724,
+              1076
+            ],
+            "reviewed_pixels": 74258
+          },
+          "after": {
+            "dice": 0.4670278842341747,
+            "iou": 0.3046551724137931,
+            "precision": 1.0,
+            "recall": 0.3046551724137931,
+            "pixel_accuracy": 0.9456893533356675,
+            "confusion_tn_fp_fn_tp": [
+              68458,
+              0,
+              4033,
+              1767
+            ],
+            "reviewed_pixels": 74258
+          },
+          "seconds": 29.904602124996018
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "reviewed_pixels": 177493,
+    "intact_pixels": 165275,
+    "crack_pixels": 12218,
+    "images": [
+      "0650",
+      "0450",
+      "0750"
+    ],
+    "pending_excluded": [
+      334,
+      335,
+      336
+    ]
+  }
+}

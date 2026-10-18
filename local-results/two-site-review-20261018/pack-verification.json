@@ -1,0 +1,45 @@
+{
+  "verified_at_utc": "2026-10-18T19:24:15.903230+00:00",
+  "status": "passed",
+  "inventory_hash_checks": 800,
+  "selected_sources": [
+    "0018",
+    "0021",
+    "0022",
+    "0023",
+    "0024",
+    "0725",
+    "0736",
+    "0751",
+    "0777"
+  ],
+  "site_counts": {
+    "Amedi": 5,
+    "Erbil": 4
+  },
+  "all_annotations_blank_pending": true,
+  "all_building_groups_and_splits_unassigned": true,
+  "existing_reviewed_masks_and_pending_stop_unchanged": true,
+  "full_resolution_sources_not_duplicated": true,
+  "thumbnail_dimensions_checked": true,
+  "contact_sheet_visually_inspected": true,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv-ml/bin/python -m unittest discover -s tests -p 'test_two_site_review.py' -v",
+    "passed": 5,
+    "failed": 0
+  },
+  "artifact_sha256": {
+    "data-audit.json": "e34b6a48549fedd1d687fe6f63d6baeddab19c2f2b7a2ec518466bb857218e48",
+    "image-audit.csv": "3835cb23e411831bc25cca515b2167d512a84a987d89dba413d125861c8cc408",
+    "source-list.csv": "bf02e3dc2ddad258904b69b7c872aab65aa91c6da41f8448c59ba0bd2983f1db",
+    "pending-four-class.csv": "e957743da4370843c0882742c5715a9b2a2c7f32842bc22aa3fb9681fd46dc91",
+    "pending-severity.csv": "4efa3d9b6a1c56f896f35f043effdd4527b87ae72304ad0d902ef8320fbdab7d",
+    "review-records.json": "e03b7339fdc91c3d7eb0f65afa87adb274f4d9f6b191358cca544bb966d2994d",
+    "contact-sheet.jpg": "9245114f6f0c086e9477f533d53f98e21b30a248befeee5a9671f42980fe30be",
+    "review.html": "dfa24644fc0c65f35cac776eb6c00898e6973e3632c4bbc3c21f955a20cf3ecd"
+  },
+  "limitations": [
+    "Photo relevance, building identity and labels still require human review.",
+    "No scientific accuracy or class coverage is established by file integrity or unit tests."
+  ]
+}

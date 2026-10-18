@@ -1,0 +1,6 @@
+# Install torch + torchvision for your OS first; see docs/INSTALL.md.
+# Portable core dependency constraints, not an exact reproduction lock.
+segmentation-models-pytorch==0.5.0
+numpy>=1.26,<3
+Pillow>=10,<14
+opencv-python-headless>=4.10,<5

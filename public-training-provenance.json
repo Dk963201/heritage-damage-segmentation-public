@@ -1,0 +1,13 @@
+{
+  "planned_epochs": 3,
+  "validation_unchanged": true,
+  "baseline_dice": 0.6845342312008978,
+  "eligible_public_pairs": 240,
+  "images_used_only_in_training": true,
+  "file_sha256": {
+    "train_public_masonry.py": "cafa80e591ff39f25d95816829e45c19c4491b2960582f27abd606ec8b67cad5",
+    "public-masonry-audit.json": "ecb08c23892c5b2b9f07fc2eeed590d65be242ff25458374e621c632bb1d9b0a",
+    "public-masonry-download.json": "81df65f42873d49b0ac05ff467963c04751e7350d74fef401dcb70a491e4d6be",
+    "local-results/expanded-pilot/unet-diagnostic.pt": "6cf8ff3e17809c8bdeccfc1b3f8fb54fdc0ddf1f9ec5f1814284282851fff01b"
+  }
+}

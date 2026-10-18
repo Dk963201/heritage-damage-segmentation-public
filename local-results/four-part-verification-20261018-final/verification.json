@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-10-18T19:29:20.830642+00:00",
+  "scope": "SOFTWARE VERIFICATION ONLY; NO NEW HERITAGE ACCURACY OR SEVERITY EVIDENCE",
+  "tests_run": 47,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "code_sha256": {
+    "project.py": "e9e6589ba74a22cd7ae3ee4815858678dd6ff318ca5ef50395cbba6fb8794157",
+    "train_four_class.py": "7cc3dc570c6c5bbe1c9a2707be50748dbe13a39a59040e5982fe629554f18761",
+    "validate_training_manifest.py": "784cfcb9de1ad4fbdf5b66b13b0da03054341aea850a3f4c01c7d2a69926d0a4",
+    "predict_four_class.py": "9af4bb001110f319e59a45dc13f42b0d5ee44d9efb1a50070c8ea37d4ec1ca0c",
+    "severity_pipeline.py": "0e298fe287410d1689af3550fb498251c808fa4fca3b86e2ea61e930922665f1",
+    "prepare_two_site_review.py": "60f053d10a001f8b7176d551829c454114ad018e57f7fa322db17326d3f574a2",
+    "metrics.py": "7effe9d73338a707c6966b435afa061c82d2997e2763b442ef922150b3791881",
+    "smoke_four_class.py": "33622f36473436da4661bf99052e70d4fdd64532b88cf211ae38f8a72f8e7c26",
+    "tests/test_predict_four_class.py": "2a62cf6322356087c9f7ac26948b3be6cb11b4d0d376ae0edd0fd1ff7586584d",
+    "tests/test_predict_reviewed_cnn.py": "916898c64f77c178478eb0f6ad1d6e18c151e6ae4e5be7ba5832ce0a462a6bf1",
+    "tests/test_project_entrypoint.py": "b1b495e6476ba8c0447d950dd15affd57aff254de4ecbf13cc016fee5ef31536",
+    "tests/test_severity_pipeline.py": "13c52e98b0c28e50b244dbabf4e4892d6cc52b6adbe1e2e68af38ecff374ddf1",
+    "tests/test_two_site_review.py": "e6ebf16b3f4d32c1ff6630c4efa8f49f01d4f81260c6190ca032b34614419927",
+    "test_four_class.py": "1e7bc7965841febb88d4bddc10d20b9848a7e0ba36c2cbe03429e9822bae39a5",
+    "test_metrics.py": "9bfbaf7a6a188147b4f544ff8a1d81c1866a9a7928fc5a6626182322b7e71ce2",
+    "test_training_manifest.py": "702a331f27b23572478973154e71d77538a8ae72c9676ad3c4e7d7b02316841f"
+  },
+  "existing_reviewed_masks": [
+    {
+      "path": "data/processed/review-0650/region-3-realigned/partial-user-reviewed.png",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/review-0450/batch-08/partial-user-reviewed.png",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/review-0750/batch-27/partial-user-reviewed.png",
+      "unchanged": true
+    }
+  ],
+  "new_approved_target_labels": 0,
+  "new_target_research_models": 0,
+  "three_architecture_smoke": {
+    "scope": "SYNTHETIC SOFTWARE TEST ONLY; NOT HERITAGE TRAINING",
+    "architectures": [
+      "unet",
+      "deeplabv3plus",
+      "fpn"
+    ],
+    "passed": [
+      "manifest validation",
+      "paired patch loading",
+      "CLAHE",
+      "focal plus Dice backward",
+      "Adam warmup",
+      "checkpoint save/reload",
+      "full-source evaluation",
+      "comparison export",
+      "pixel balance/color/edge EDA",
+      "all three saved checkpoint inference paths"
+    ],
+    "research_metrics": null
+  }
+}

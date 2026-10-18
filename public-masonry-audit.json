@@ -1,0 +1,4089 @@
+{
+  "source": "dimitrisdais/crack_detection_CNN_masonry",
+  "commit": "83c371c70a27852f22ab3386269c6058a203ef38",
+  "pairs": 240,
+  "eligible": 240,
+  "duplicate_screen": "decoded RGB exact within new set; exact RGB and64-bit dHash Hamming<=4 against all UK full images and center crops; cannot rule out all cropped or same-scene matches",
+  "rows": [
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_10.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_10.png",
+      "name": "a_0_10.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03396045918367347,
+      "rgb_sha256": "51ba3eec47cb3dbf61c482c817349e4f72878192626c152ae0f197ca57856f78",
+      "dhash": "0x26a7a6a0884e6fcb",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_11.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_11.png",
+      "name": "a_0_11.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.054408482142857144,
+      "rgb_sha256": "65bf35bf21d379184104ca9a0a6b4eb85f99f4e38beda384aa8d0a07de132fd3",
+      "dhash": "0x7b7a747460a46ecc",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_15.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_15.png",
+      "name": "a_0_15.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.012216996173469387,
+      "rgb_sha256": "e477650e59289dfb700d42c9ab55f175427040e302b1513888882b638e251933",
+      "dhash": "0x4c944f6eccdbcbc8",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_16.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_16.png",
+      "name": "a_0_16.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03997927295918367,
+      "rgb_sha256": "27e2d88844f5a35981d80fc3e20ca1a54fb8ec87312ec98e7cd95afa53c04e96",
+      "dhash": "0xf56ded686666e468",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_21.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_21.png",
+      "name": "a_0_21.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06792091836734694,
+      "rgb_sha256": "4b1973ee7160b5612b6a92f8766ef5edbec1a4d7faa51c925120e4c5073061ba",
+      "dhash": "0x4ad25352d2f24c54",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_26.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_26.png",
+      "name": "a_0_26.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.046755420918367346,
+      "rgb_sha256": "f059dfa9effaae3e569598965988fe4301eaf2f54376850a14b23883bb82bfdd",
+      "dhash": "0xe65c5d58b3e141d9",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_27.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_27.png",
+      "name": "a_0_27.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.038942920918367346,
+      "rgb_sha256": "264097acf06072442ce24db1818fafa62a6e6eed84bd087b0bdb64fbc991de3e",
+      "dhash": "0xe4b0b4e6601a9292",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_31.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_31.png",
+      "name": "a_0_31.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03296396683673469,
+      "rgb_sha256": "cfdc6ced2e5327fe71d5ca5169b4c3a07aa309503708f11cfa617538075a780f",
+      "dhash": "0xa32a4ccb54f43b2f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_32.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_32.png",
+      "name": "a_0_32.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.11112882653061225,
+      "rgb_sha256": "0b4e1573a963206bee6daf0cb15501966e4625cdd7fab9e61a04b5538e96fed7",
+      "dhash": "0x328dcd935b93acaa",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_37.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_37.png",
+      "name": "a_0_37.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.11961894132653061,
+      "rgb_sha256": "b680a5c86700b87e82000b4bf89673e6e0346b8850af505292ae83f6c5ccb8b7",
+      "dhash": "0x8324e7e467493141",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_42.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_42.png",
+      "name": "a_0_42.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.051877391581632654,
+      "rgb_sha256": "fbe4c6b1f754a8b16048cae2182c25e6f90d9b48554bab66f68ebfa8631f3750",
+      "dhash": "0x36b6e61892991736",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_43.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_43.png",
+      "name": "a_0_43.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07150829081632654,
+      "rgb_sha256": "058e441c1e3c20fb73f0a3ccd570a2d13f22751e2a07ff90290d93f268f2bf8b",
+      "dhash": "0xed663534d9dbb3b6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_48.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_48.png",
+      "name": "a_0_48.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06995376275510204,
+      "rgb_sha256": "78c6de26bedcba39dfdfc22eab1889e1fb6c98e29d751b1d8805e4dfa1a481d2",
+      "dhash": "0x391803a991198b83",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_0_54.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_0_54.png",
+      "name": "a_0_54.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.16236846301020408,
+      "rgb_sha256": "65c087331e9279f8a0214c27a6a9e6ba9a9ddac9955e0d7326a141de97537bf9",
+      "dhash": "0x3589878690203c0a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_101_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_101_4.png",
+      "name": "a_101_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.09020248724489796,
+      "rgb_sha256": "d15e363fd0b89f216f9fb7856342b299e21586f84726b9c0f4415ecda59d7fc3",
+      "dhash": "0xb2b2356d494f4bcd",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_10_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_10_0.png",
+      "name": "a_10_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.009486607142857142,
+      "rgb_sha256": "e9726a83dc1b68e8ea5e49faa946a60ad6492a47e7c6ceeea6b2c38537f9d9b0",
+      "dhash": "0x34a4ac6ceb89a9fb",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_10_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_10_1.png",
+      "name": "a_10_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.009765625,
+      "rgb_sha256": "0469c3e7c4ada9aa6236c86ba83840060e3d2f811445cb6294a25e0732157b0d",
+      "dhash": "0x53508b4d75716175",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_115_241.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_115_241.png",
+      "name": "a_115_241.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03647161989795918,
+      "rgb_sha256": "eedc97b1df8183fd76bbec0a0b9e9c97f40c8f7ef8c06cbfd4a77e004f41976e",
+      "dhash": "0xf3309ab2b37a9a95",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_116_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_116_7.png",
+      "name": "a_116_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.022919323979591837,
+      "rgb_sha256": "53410f26f0004b783440da35af0805fff9a36dca84c9a598261bcda6777f6cc2",
+      "dhash": "0x1a5b58babf5b1313",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_11_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_11_7.png",
+      "name": "a_11_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.014548788265306123,
+      "rgb_sha256": "2b8ce91f4947f9abf4aa12c64a06181b36c412edc05c64c059ee0579ecd3e01c",
+      "dhash": "0x53d6a63756454562",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_11_8.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_11_8.png",
+      "name": "a_11_8.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.00958625637755102,
+      "rgb_sha256": "e88826c11a54a3ede592a949022cca6a7bf0e7ac3da37a1edce0f1f91798b460",
+      "dhash": "0x465757e6cd4d5b53",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_11_9.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_11_9.png",
+      "name": "a_11_9.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.009705835459183673,
+      "rgb_sha256": "10c7bb17f2dd4fccf1ef395b5ea92c454f77ccb33688700553488cfa58fcbae5",
+      "dhash": "0x1014d3d681d9185",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_12_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_12_6.png",
+      "name": "a_12_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.017438616071428572,
+      "rgb_sha256": "80600e29051e50437c249f54bfc6a971f04bc5645bd2abd75aaa0814c7c49700",
+      "dhash": "0xc7c7cf4b6d65e3e2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_12_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_12_7.png",
+      "name": "a_12_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.028380102040816327,
+      "rgb_sha256": "feccf43aafc540d6dba9119df175da51a55683f6579411bc7bb26d79d4bc074f",
+      "dhash": "0xa2a16766c4c6c5d7",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_12_8.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_12_8.png",
+      "name": "a_12_8.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030791613520408163,
+      "rgb_sha256": "53ffcbcbfbf3c24af4c6b006ea75b47efb99bc336579d1dcbeef282675c3316a",
+      "dhash": "0xc3c3c3c78f8da22a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_130_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_130_7.png",
+      "name": "a_130_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08462213010204081,
+      "rgb_sha256": "f0d267e3c49bf9d6865abf3f99e447e4a1eea2090d77ebeb77299da33f0f75a3",
+      "dhash": "0xd1d39c1973e79903",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_13_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_13_0.png",
+      "name": "a_13_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.027861926020408163,
+      "rgb_sha256": "a4f0067089b16c4997e579134cfe4069155a6fe0f5994ab9321a43aa7a05d0b5",
+      "dhash": "0x737377110909296d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_13_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_13_1.png",
+      "name": "a_13_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01975047831632653,
+      "rgb_sha256": "da8d3032e86173a0e6790995e2dbb28712b9e947c8de057a9aa748facca10803",
+      "dhash": "0xd2dad54f4b4f6b63",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_13_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_13_3.png",
+      "name": "a_13_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.007334183673469388,
+      "rgb_sha256": "77231b642f4c53b9c0dec871960186ecdaf8a7174108a7afa624aaccceb11189",
+      "dhash": "0x9f5d5b0f59d1d158",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_13_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_13_6.png",
+      "name": "a_13_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.019969706632653062,
+      "rgb_sha256": "87573e6792ca2b6aee06c897d616705e53599dc988898a81356d2904dba28359",
+      "dhash": "0x4ccc6e6ab2923373",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_13_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_13_7.png",
+      "name": "a_13_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02353714923469388,
+      "rgb_sha256": "8d9fb34e9c84f364a8408f12b6f315987a747610fde5e4269d8fdeefcd20ee24",
+      "dhash": "0x4e2a2a2b6474662a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_141_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_141_7.png",
+      "name": "a_141_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05277423469387755,
+      "rgb_sha256": "bc0dd62cfe9366a46bd0f654fbf6d2fa8071f71590f8deacf13e9f93313f7185",
+      "dhash": "0xb38b891e9cd4cd6d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_143_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_143_0.png",
+      "name": "a_143_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.008689413265306123,
+      "rgb_sha256": "d7d84258226edc4b90f83da2ac46d8dc6304cd1de14cef308752b224a02f1c1e",
+      "dhash": "0x99b9488873636303",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_149_37.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_149_37.png",
+      "name": "a_149_37.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.21031967474489796,
+      "rgb_sha256": "2066504464e0e80ac9fc88580b8956412eae3f8b31f52e443cd222d33235d1f3",
+      "dhash": "0x8e8b8a9694969697",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_149_38.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_149_38.png",
+      "name": "a_149_38.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.16898517219387754,
+      "rgb_sha256": "ee7caa491b06f05d94573c77f509cd1d9c99a37cca9efeb820a2a3b17bd37ab1",
+      "dhash": "0x5ce89295951f0ca6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_149_46.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_149_46.png",
+      "name": "a_149_46.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.21348852040816327,
+      "rgb_sha256": "5fa3e32f9b74f8d975f0b023a60eb2a52c2b1659f41685731abff4812eeac76d",
+      "dhash": "0x3232b299d9595859",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_14_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_14_0.png",
+      "name": "a_14_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0057597257653061226,
+      "rgb_sha256": "713b462a1e7de37278c4a2efa287093a4078b29f1e37b6d4b392dccc33fbdc91",
+      "dhash": "0x15d3f136c79c9fdb",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_14_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_14_2.png",
+      "name": "a_14_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01092155612244898,
+      "rgb_sha256": "1431164db635d90260a9423200118df22590c002772522be6f4fc93bc06a1570",
+      "dhash": "0xac3c6c64a78495bd",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_14_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_14_3.png",
+      "name": "a_14_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.011778539540816327,
+      "rgb_sha256": "d217a20ca74dbb20a9d4ce09e2aa295322eab86ee8330b529400bb5152f7f2d7",
+      "dhash": "0xc1c848b20e8ea4a4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_15_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_15_0.png",
+      "name": "a_15_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04257015306122449,
+      "rgb_sha256": "b18a109be971b97e090ee43eb3c7da515f4daa3f087359c9a5cee8489caba9d8",
+      "dhash": "0x9212989a10707471",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_15_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_15_1.png",
+      "name": "a_15_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04567920918367347,
+      "rgb_sha256": "490678e9c6c41ab5e181c7a6ae67f85d15ae8a7d016c175101ff274b23707add",
+      "dhash": "0x9210535a5a5a5ad8",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_15_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_15_2.png",
+      "name": "a_15_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05797592474489796,
+      "rgb_sha256": "3e837baaf617ebd13b6dd328913dcdbdb3333197f1407facd83c699b49a95263",
+      "dhash": "0xa1e3eab6b637f552",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_15_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_15_3.png",
+      "name": "a_15_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03282445790816327,
+      "rgb_sha256": "5acbd234c14a19c71497a2f35a1d7d2a2b9d83ea0c3db66cc0f34fd86009889e",
+      "dhash": "0x89b832a524653026",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_15_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_15_7.png",
+      "name": "a_15_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02513153698979592,
+      "rgb_sha256": "186f6ecd64627392995252831db55883ee16296aeaa0674f212eae5cd05337f2",
+      "dhash": "0x768282b327d99102",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_16_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_16_0.png",
+      "name": "a_16_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.008689413265306123,
+      "rgb_sha256": "e2821109886fd5eeb2e3b1eda53c2980b0676fd25c4717bdd136594d92ce5260",
+      "dhash": "0x72f4f43cdfdfcf65",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_16_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_16_2.png",
+      "name": "a_16_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.00817123724489796,
+      "rgb_sha256": "406b2f89361da390763748fea22b73d5bab927cef9da648afa77c924c8ea39c9",
+      "dhash": "0xa0367c7c70f0e036",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_16_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_16_3.png",
+      "name": "a_16_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.008131377551020409,
+      "rgb_sha256": "62f0133baebf7715787000f22496aa3b850679f24decaef18a99d85b7aa102a7",
+      "dhash": "0x674fc7e2c7afb0b0",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_17_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_17_0.png",
+      "name": "a_17_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.020208864795918366,
+      "rgb_sha256": "5946c7fd55eb7ed8bc568b89b4d5717109c7628f651f532bef69ed06744aced9",
+      "dhash": "0xe11e2d9263880e18",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_17_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_17_2.png",
+      "name": "a_17_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.009088010204081632,
+      "rgb_sha256": "a47ca46a1e56573b26615cce0e0abd61322ff06e84306ac471e0af447e3b5866",
+      "dhash": "0x8c5b4cfb4715344e",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_17_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_17_3.png",
+      "name": "a_17_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01482780612244898,
+      "rgb_sha256": "3d9f0e66ef2a1e370e74edfc95779f811af1d1998a42649ec0fa517b6f8f459b",
+      "dhash": "0x2524232493836192",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_18_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_18_1.png",
+      "name": "a_18_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.008510044642857142,
+      "rgb_sha256": "a1643346d1facb246cfb5f064e9fe96a2b765d2936ae390ef52892fd26a71632",
+      "dhash": "0x3161e1c1cbcbdb7b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_19_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_19_0.png",
+      "name": "a_19_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02911750637755102,
+      "rgb_sha256": "53f3c2fa7a7f04f98e25c15ed71464fba6b6c9c25d00e39a92504abb6d69808b",
+      "dhash": "0xa903000000040103",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_19_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_19_1.png",
+      "name": "a_19_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.022839604591836735,
+      "rgb_sha256": "afed06fd46e6358224f6dea05e81efce49361fb2d83843465476c955c4cc4468",
+      "dhash": "0x703010101010301",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_1_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_1_0.png",
+      "name": "a_1_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.023198341836734693,
+      "rgb_sha256": "5ec3ba5179af86ea4b88df25da57f150996235d840e14e39e65bbc72b9c596ff",
+      "dhash": "0x333131a584959191",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_1_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_1_2.png",
+      "name": "a_1_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01707987882653061,
+      "rgb_sha256": "9f46669d03f7ea2d3795e76035794fb5d872aae7b4d8c343393f26a37753ba6f",
+      "dhash": "0x7647064461406676",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_1_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_1_3.png",
+      "name": "a_1_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.011200573979591837,
+      "rgb_sha256": "d93ec2e4cedb6626d15d6e451aeb898717da1003c3434694e75e48d23e635ce3",
+      "dhash": "0x7c1604c67729382e",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_1_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_1_5.png",
+      "name": "a_1_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01793686224489796,
+      "rgb_sha256": "cfb65f5e82c0b50a36388dbaa9037638d6db814e4df0584f4cab7a9fe34b22f1",
+      "dhash": "0x84867707c3f488ec",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_20_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_20_0.png",
+      "name": "a_20_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.012814891581632654,
+      "rgb_sha256": "291f3bd3fbb0ffa8e85c7a61580fa844ca86aa0569c6d362d5d65c4ec5bdaca4",
+      "dhash": "0xd9490b0e4e434542",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_20_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_20_1.png",
+      "name": "a_20_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.005321269132653061,
+      "rgb_sha256": "eb1d51cbeea1ef10abf94ed48278ffb56bb36ab96f86750eb8cbe2868f510d0e",
+      "dhash": "0xb4341952b4d1cdc7",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_21_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_21_2.png",
+      "name": "a_21_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.007672991071428571,
+      "rgb_sha256": "8258965f303eee2ad350d52bbecf2791a3945e8c2f2f82e14763aa7199227da6",
+      "dhash": "0x690f3387a33b0b09",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_21_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_21_3.png",
+      "name": "a_21_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.009028220663265306,
+      "rgb_sha256": "2c397be5af3861861d92aa0c1c7db089b7988132714545a7acb4bb51d641877b",
+      "dhash": "0x331014745474a49",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_22_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_22_3.png",
+      "name": "a_22_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.017139668367346938,
+      "rgb_sha256": "380d31afe06b3cc3357b4c7fd8ecd09d42581a427908546b198dc372f9c45bc3",
+      "dhash": "0x35869414543446b6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_22_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_22_4.png",
+      "name": "a_22_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02588887117346939,
+      "rgb_sha256": "a4445f5bde5ac2453444e227749cb884e54ec250d62c054acc8ca06387917c7a",
+      "dhash": "0x6dd29a2899b9100a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_22_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_22_5.png",
+      "name": "a_22_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.027184311224489797,
+      "rgb_sha256": "08e18d7cc2847cd6b8c4b3f9537bae1cc511c0fc2b302b348c5db824385abaf7",
+      "dhash": "0xdac94b3a9b71636b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_22_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_22_6.png",
+      "name": "a_22_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030333227040816327,
+      "rgb_sha256": "a97f7a332a517f621e6bdccaa0df15706d82dcd4d8157e36199b004e4b2db294",
+      "dhash": "0xb06691b43ca8042c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_22_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_22_7.png",
+      "name": "a_22_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0235172193877551,
+      "rgb_sha256": "04787303ffe6975f7f8d471d27b8125f2d6931faac6a77c086b40c61947c986b",
+      "dhash": "0x1c870e91df2e39bb",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_23_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_23_4.png",
+      "name": "a_23_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03260522959183673,
+      "rgb_sha256": "13dbca31cfc822dec94aab545c35d42a5d109e8bb046e049c19970675d7f29ee",
+      "dhash": "0x431727b35232397b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_23_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_23_5.png",
+      "name": "a_23_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.022441007653061226,
+      "rgb_sha256": "639d135af70ec37de23382468cae0b7f3ae59f3c532db27dcff87dee041e4c57",
+      "dhash": "0xca6256d7c4c21295",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_23_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_23_6.png",
+      "name": "a_23_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.017637914540816327,
+      "rgb_sha256": "15d0465dd6782f1e7cea02c18a5726241795205f11c9c85ffee199b34baac5aa",
+      "dhash": "0x2c2d19a0c6081818",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_23_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_23_7.png",
+      "name": "a_23_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01845503826530612,
+      "rgb_sha256": "7c595a4552acd86732a19fc6da5fa788dca94b5436aa1713a56db31ea7c77b73",
+      "dhash": "0x849b0c484c283101",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_24_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_24_0.png",
+      "name": "a_24_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01385124362244898,
+      "rgb_sha256": "ff929d255ab11deb2af812b258314688213074a1dc12b8827c03a0d31aab0320",
+      "dhash": "0x995a5798284a6373",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_25_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_25_0.png",
+      "name": "a_25_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.010403380102040817,
+      "rgb_sha256": "ddca01361551095927beb0d898ef78c02987874b4f2393df740c48ba9fb42758",
+      "dhash": "0x3aba2ecc13856435",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_25_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_25_1.png",
+      "name": "a_25_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.012177136479591837,
+      "rgb_sha256": "91fd5d40c915f9f33ddf9cbdd69f6f37abc4982fccec47454a54fa76612b22d9",
+      "dhash": "0x437394d2210269ad",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_26_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_26_0.png",
+      "name": "a_26_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03981983418367347,
+      "rgb_sha256": "cc4040a0110613c55fbedf504cecda8272f3b449eff899416b6eec8b4854e89c",
+      "dhash": "0xcf474b5d4f6b6b6f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_26_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_26_1.png",
+      "name": "a_26_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.014269770408163265,
+      "rgb_sha256": "a084bfc96da78c751573da0cddb72aaa10b5eada18d0c20324d46cc6191c42cf",
+      "dhash": "0xb31332b2310310d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_27_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_27_0.png",
+      "name": "a_27_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0641342474489796,
+      "rgb_sha256": "72778583e32129fbb7376688f8b49f47bf323bba1e1ca974a15bd86857a9853a",
+      "dhash": "0xe5b6b6a4edef6172",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_27_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_27_1.png",
+      "name": "a_27_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.037806919642857144,
+      "rgb_sha256": "20ee81e5a4a3a65b49e3971dd0fb8855afe8e4cfab91dc3cbba65800debc4f85",
+      "dhash": "0x48c9c9e9e69794c5",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_27_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_27_3.png",
+      "name": "a_27_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03009406887755102,
+      "rgb_sha256": "ca1414394c1b8c2efd107007f6781a68ff098074d1e899fbb61c7f5d30acb2eb",
+      "dhash": "0x4beb8bdbd85d49cb",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_28_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_28_0.png",
+      "name": "a_28_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.038384885204081634,
+      "rgb_sha256": "fdc2c073b531c6863acacc5ab091c0d280f84d5f1c090b2666521b5420294195",
+      "dhash": "0x70726271d49393c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_28_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_28_1.png",
+      "name": "a_28_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.010084502551020409,
+      "rgb_sha256": "1a7face926398640c68528e58e28d1a9dabc55036725d82231ba7dee2027a59e",
+      "dhash": "0x912718071e061e4a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_29_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_29_0.png",
+      "name": "a_29_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03517617984693878,
+      "rgb_sha256": "0940d0c91f61472e2e7ea45a5cccd2b574394d3ca8275b854f2d85d6e929dd0e",
+      "dhash": "0x298f4bb28dccaa31",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_29_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_29_2.png",
+      "name": "a_29_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.021504304846938774,
+      "rgb_sha256": "ce4a61cbda32a832255c64edd3adc7847c2abd0e074630366fcadab87d1ae1bd",
+      "dhash": "0x6d4d96aa4df5b59a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_29_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_29_3.png",
+      "name": "a_29_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03946109693877551,
+      "rgb_sha256": "d8294d6cc126a893e4b825c3941e395fa31702fadb68c842a8d8bc4c39d834b6",
+      "dhash": "0xf322aacd645a6ee9",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_2_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_2_2.png",
+      "name": "a_2_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03362165178571429,
+      "rgb_sha256": "eca2b678d241bb00543dde3aa658197e07c79329cee47f4199c91323d5405904",
+      "dhash": "0x5ad25a4a4829685a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_2_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_2_3.png",
+      "name": "a_2_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.053790656887755105,
+      "rgb_sha256": "cc745da77f0e08ad3ef80c6e76cb304935dbd08c169f3446cfbbc163564628ff",
+      "dhash": "0x4a5a5968b2d2d212",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_1.png",
+      "name": "a_30_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0214046556122449,
+      "rgb_sha256": "7ee3576b8be1107cf0fdbd205682e2ba86ccd5e41f043237056680ee6a7b8d85",
+      "dhash": "0x4a5a4a4a3a464e6c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_11.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_11.png",
+      "name": "a_30_11.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01522640306122449,
+      "rgb_sha256": "72ef2aa55bf6b00c5c180efdf55035aef23d45b171c8f67c515984b1f16cd396",
+      "dhash": "0x8e271657130fa787",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_2.png",
+      "name": "a_30_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04633689413265306,
+      "rgb_sha256": "e2a0724f1d7e054dcf98b77a119dd01db2f9edd227928a95d923a745a3d2a359",
+      "dhash": "0x1a3239b5951252c2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_3.png",
+      "name": "a_30_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03511639030612245,
+      "rgb_sha256": "5facfb758328fbd7bd90dff2ea8b987f3624380b3b5dccda8d1e576bcb7f12a1",
+      "dhash": "0x2b446a505b1b2ace",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_4.png",
+      "name": "a_30_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08535953443877552,
+      "rgb_sha256": "e5ab55381e0859d0644deb6b2ae654cfa01d268faa295787613a86e0f9005e8d",
+      "dhash": "0xe3259535e4a474f4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_5.png",
+      "name": "a_30_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04701450892857143,
+      "rgb_sha256": "2cb94781e811a05beb06dade04fe4a2d9502176e1d5167e6a4e6e77ec84e4bdf",
+      "dhash": "0x24252527222acbaf",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_30_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_30_6.png",
+      "name": "a_30_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04647640306122449,
+      "rgb_sha256": "bc4be1209a69adb2bb98582347c54dd84ed084b28c4993b02847a9b9fe233a68",
+      "dhash": "0x5f39393d3c34747c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_16.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_16.png",
+      "name": "a_31_16.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.010363520408163265,
+      "rgb_sha256": "d3f7b0e8d3032cfdca03957e15fdf805676028793d2d0b0670c7ad74ca3ecd04",
+      "dhash": "0x4fcc64d28d7d3d0d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_17.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_17.png",
+      "name": "a_31_17.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.029675542091836735,
+      "rgb_sha256": "139ed9c93325e7d0ceee877b64eb4ec825859bf188af4ec51e04435a152ffc20",
+      "dhash": "0x62838d52a6e0038c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_26.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_26.png",
+      "name": "a_31_26.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.009167729591836735,
+      "rgb_sha256": "320f8df2f24fcf99cbca87887975681a4732b341c729903f0cf42c3ee94be6ba",
+      "dhash": "0x839b619318facc8b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_40.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_40.png",
+      "name": "a_31_40.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05000398596938776,
+      "rgb_sha256": "6fd78fc12bb8aaeef66a74c4565990bf18f48ea0db3cd3ebe9d061f959b6f517",
+      "dhash": "0xe65c39cffd20629",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_41.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_41.png",
+      "name": "a_31_41.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07079081632653061,
+      "rgb_sha256": "f2e0209adca6bd2e44a4ac7240ad1cd72148176055f8025b0ed70130a60296ca",
+      "dhash": "0x733ab47414c62696",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_42.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_42.png",
+      "name": "a_31_42.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.034458705357142856,
+      "rgb_sha256": "d47b4f8e5af597e9e4f5aee5d343a2ad01fa8830656433cf2b2e69f462892ef5",
+      "dhash": "0xa68146d6ec5830a3",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_44.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_44.png",
+      "name": "a_31_44.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.037009725765306124,
+      "rgb_sha256": "97d1c4123ddc88e790a851f70d36f79f8934f3de880b7d1ec8316a3611278c75",
+      "dhash": "0xb334f737e6d8b9e9",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_49.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_49.png",
+      "name": "a_31_49.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07222576530612244,
+      "rgb_sha256": "80579d18c6e7fc9e2ce1f56e0a9de60c0674ea27f4a4de779182a58139948096",
+      "dhash": "0x3fdcb4237cff1020",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_56.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_56.png",
+      "name": "a_31_56.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01526626275510204,
+      "rgb_sha256": "83a5fa758132f5a493e0c838586064cde9803528aa65327094992fbaf0400b66",
+      "dhash": "0x486239cdb67e635e",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_57.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_57.png",
+      "name": "a_31_57.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07214604591836735,
+      "rgb_sha256": "249085af62b412a9d5eae6a51adee0acf1d2092c046f1abd5cada6a2d73a5542",
+      "dhash": "0x680033271a286156",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_58.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_58.png",
+      "name": "a_31_58.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08037707270408163,
+      "rgb_sha256": "f50f7222119932f6a01e663e9df706e214d53f3e111812b25648411c6b5821fd",
+      "dhash": "0xa6a6f08f06327b93",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_65.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_65.png",
+      "name": "a_31_65.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.09161750637755102,
+      "rgb_sha256": "4b9f2d7ddd39f2100cd9f8446931e8d35aafb11f7da848bfe36e3710e3395710",
+      "dhash": "0x61e43cb9f489f188",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_66.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_66.png",
+      "name": "a_31_66.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03220663265306122,
+      "rgb_sha256": "4d86d7601ca40d25eafc8e2f2c4a6030c372c14b4eaf7c19acd1360b7827cf67",
+      "dhash": "0x7371111909c5d179",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_67.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_67.png",
+      "name": "a_31_67.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.014190051020408163,
+      "rgb_sha256": "d2e95060c8d42810ff13cba490864fe58a19b2766bb0e71a0b051a251b16b410",
+      "dhash": "0x300708308d7101a3",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_73.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_73.png",
+      "name": "a_31_73.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.018893494897959183,
+      "rgb_sha256": "cd1a1c0332db3a001e15f6f681cb8d1b102df1e015aae87385634c62e009d796",
+      "dhash": "0x823cc2a53b9e6939",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_74.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_74.png",
+      "name": "a_31_74.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030572385204081634,
+      "rgb_sha256": "1e5f4d04c9da68a8d0fdfa63e8f9f22bf6fe23af4ceece05918a951084bb0413",
+      "dhash": "0x49e8f935c9ee1ce7",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_8.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_8.png",
+      "name": "a_31_8.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01721938775510204,
+      "rgb_sha256": "79bb875c53240309d40c6efef07a135d6091342d022ba9c960af3550bae4dc91",
+      "dhash": "0xd7162450b21fa460",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_82.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_82.png",
+      "name": "a_31_82.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02907764668367347,
+      "rgb_sha256": "d0980f7f4e2b4cc182802a78aa76ac57d5e65b45226729f4cd99d481b5d03bf1",
+      "dhash": "0x52cc2ae1831850a6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_83.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_83.png",
+      "name": "a_31_83.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.027543048469387755,
+      "rgb_sha256": "00289ae63c1b3442b8f011841befd88682cc55267b3361bd303997191aad08d5",
+      "dhash": "0x7a328cc034244c72",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_90.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_90.png",
+      "name": "a_31_90.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03942123724489796,
+      "rgb_sha256": "7a6801de2cfbd49bbf8c0111449916bdcefac9af1266e5ecfe652f9694975f44",
+      "dhash": "0x363414140d2c5a0c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_91.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_91.png",
+      "name": "a_31_91.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02614795918367347,
+      "rgb_sha256": "901fd6f3f43d444e42c992259b33a73cfd84410c2c2b535329439cd3d941f53c",
+      "dhash": "0xe4e49e02988a436",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_31_92.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_31_92.png",
+      "name": "a_31_92.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.006596779336734694,
+      "rgb_sha256": "b6d6bf9251c5206a0a4affe6d246894dc17233ee7e9ad2a801b1eacb10d6e5bc",
+      "dhash": "0x4c44d36889f2330f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_32_10.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_32_10.png",
+      "name": "a_32_10.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02503188775510204,
+      "rgb_sha256": "31dbc02bf0241ef6ad326b9a2ab623c08afedae3134d0b03d2d9e17da6fae85c",
+      "dhash": "0xee0318586a1b1b6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_32_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_32_2.png",
+      "name": "a_32_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03886320153061224,
+      "rgb_sha256": "e9862f39e848ebd2742599c72e0584f746e5f057d4e9f54dc80eea002d1520a8",
+      "dhash": "0xffffff1b7262706c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_32_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_32_4.png",
+      "name": "a_32_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.019152582908163265,
+      "rgb_sha256": "c424279438c642136300e35763e7d9b4b2f39dd6ff92232fc45f6efcc5e48e44",
+      "dhash": "0x4be1991958cc1919",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_32_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_32_5.png",
+      "name": "a_32_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08129384566326531,
+      "rgb_sha256": "94ada7535e29a6018005f8b741a6b0373a3d539743257fa6fa60ee39d14ba488",
+      "dhash": "0x54709460d2d694a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_32_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_32_7.png",
+      "name": "a_32_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.10915577168367346,
+      "rgb_sha256": "488f65b157fbae88404ffa147425821cb40365642e8c489e83c78a6c2b5ea26c",
+      "dhash": "0x6139cab2a3c9c236",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_32_9.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_32_9.png",
+      "name": "a_32_9.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.029815051020408163,
+      "rgb_sha256": "553a7f72617bf4e8d6e77dba2d44efff81fccb4ef4824d284d205b8c8e2dc114",
+      "dhash": "0xb5b998d9d8dad852",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_33_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_33_6.png",
+      "name": "a_33_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.020487882653061226,
+      "rgb_sha256": "a739b0c2658857214b9a1a94beffd8d5ef9b15f30d78f19c5790463372dc77a1",
+      "dhash": "0x8383212147cb0319",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_33_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_33_7.png",
+      "name": "a_33_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030572385204081634,
+      "rgb_sha256": "3b1b65f7cb9797cf66deb499e8dca016a319607d07933895f29624ea33c8de1d",
+      "dhash": "0xda5a288a084858e6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_34_10.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_34_10.png",
+      "name": "a_34_10.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08613679846938775,
+      "rgb_sha256": "51c48798aed32359554dc87936e1de1ee5873d0d6eb6f396c3fa156a8727f063",
+      "dhash": "0x92d0949492ab2a2c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_34_11.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_34_11.png",
+      "name": "a_34_11.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0836654974489796,
+      "rgb_sha256": "f587c4b86656c0045e7676e8361cd30a6b1a38b3a3fde45619e2220c36884991",
+      "dhash": "0xa41494007bb5b0b8",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_34_12.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_34_12.png",
+      "name": "a_34_12.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05404974489795918,
+      "rgb_sha256": "6f952cefc4a62d7225c3d3400f488dfd7a13952fd73aa929fa3d210d66492d74",
+      "dhash": "0x39280fbde565603e",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_34_13.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_34_13.png",
+      "name": "a_34_13.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030652104591836735,
+      "rgb_sha256": "77466897f228789e6024ae49bb6b3baabf46093ce12430aeebe2f90583331db7",
+      "dhash": "0xa1057fd5f4901df5",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_34_18.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_34_18.png",
+      "name": "a_34_18.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.015764508928571428,
+      "rgb_sha256": "6cf4e355e10e71d951206758a8daea345743e264503eaec24a891d02abfc5278",
+      "dhash": "0x3fb1b5303ef41880",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_34_19.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_34_19.png",
+      "name": "a_34_19.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.050123565051020405,
+      "rgb_sha256": "7752afb68807126c7c77e94d25a5160a2cb6ff8e7ce9e56382f7efa7b6aa07e2",
+      "dhash": "0x392d3c263efca883",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_35_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_35_0.png",
+      "name": "a_35_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.011379942602040817,
+      "rgb_sha256": "d0f31faaffc5d85f36e7e1ae994d074ec9bbdeb1e62ad24825506ad4e69c7326",
+      "dhash": "0x5859c9032f2f3f3f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_35_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_35_1.png",
+      "name": "a_35_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04278938137755102,
+      "rgb_sha256": "7a98089f27dcabbd8766c5829bd1ac637e2b81fd7a8a729f0c8832895e56bfd4",
+      "dhash": "0x2752999b93b41bab",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_36_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_36_5.png",
+      "name": "a_36_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03453842474489796,
+      "rgb_sha256": "ec774f92922c2a42188e54d12eb972f47dd8a8745b6c6791fb7a54eaed163de8",
+      "dhash": "0xa8a56b1212b2cd02",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_36_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_36_6.png",
+      "name": "a_36_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04396524234693878,
+      "rgb_sha256": "fef3d8da89d5021419458fe7dd277535862b754a220056e3d24285e2a8e9d9e7",
+      "dhash": "0x5434163337163ce9",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_36_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_36_7.png",
+      "name": "a_36_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03647161989795918,
+      "rgb_sha256": "df8126fc37bc362b81ccf5e16770d1135c4988235c139c541789d20c15feb628",
+      "dhash": "0x3a9a5ededac0d351",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_36_8.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_36_8.png",
+      "name": "a_36_8.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.043267697704081634,
+      "rgb_sha256": "6ced383284439043133c79d808ddbc40d811fb117aa6654948aeb337b17cfbf2",
+      "dhash": "0x9e39b8ceebcaca2a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_36_9.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_36_9.png",
+      "name": "a_36_9.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.031728316326530615,
+      "rgb_sha256": "de240e359d4be67273292d305167d0113c481735adf947929d0211c2cdf9d7e2",
+      "dhash": "0xfb72a59392a4b938",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_37_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_37_0.png",
+      "name": "a_37_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.006816007653061225,
+      "rgb_sha256": "fc4476cc2dcfd25e1ac7090f51751a63e3b96cd9f677705ae5da725926607d59",
+      "dhash": "0xd7c78feefe97931f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_37_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_37_1.png",
+      "name": "a_37_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.010981345663265306,
+      "rgb_sha256": "f57c9f7d5bb11ca6f8b40730716eb6074c9eef8f44255b5a6408bbf8b053b1f2",
+      "dhash": "0x4c563c2db21c2d23",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_38_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_38_0.png",
+      "name": "a_38_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03786670918367347,
+      "rgb_sha256": "4d56652a522d548e008c8951308213ca48733a760e720b0499f0318d89f29260",
+      "dhash": "0xcf9bdd8d2d7dfbbd",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_38_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_38_1.png",
+      "name": "a_38_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03126992984693878,
+      "rgb_sha256": "a01055afedfb36a370268bd4cd9203a310f8242f2480ab49503195571d316de3",
+      "dhash": "0x4447591873661c20",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_39_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_39_1.png",
+      "name": "a_39_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.032525510204081634,
+      "rgb_sha256": "aa32f6cb705063300a8815fe47426809dc85d2f21ca130bd07dad856525c031e",
+      "dhash": "0xd2534c5a434c69e5",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_39_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_39_2.png",
+      "name": "a_39_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.017059948979591837,
+      "rgb_sha256": "df86eb4a098aa52e0bc812d9ce93661ae670b156330247fba127f1060f953d32",
+      "dhash": "0x54b3a94bd41cf326",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_39_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_39_3.png",
+      "name": "a_39_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0392219387755102,
+      "rgb_sha256": "eebae96245850e9581bb27a169b6dac83762dea3f9c336d5a178f68fdcf6c381",
+      "dhash": "0x6961bde19daca41c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_39_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_39_4.png",
+      "name": "a_39_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03846460459183673,
+      "rgb_sha256": "025d52c6788edbdfefeb723863c537b904aa3ba335c5ce80e1e6347396770828",
+      "dhash": "0x17e7fe9adadb1838",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_39_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_39_5.png",
+      "name": "a_39_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.006796077806122449,
+      "rgb_sha256": "ff197161f7a2c9371941db5b771601b80dda936772b49bd59f9b1c6e66609c9f",
+      "dhash": "0xb55252029051ce11",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_3_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_3_1.png",
+      "name": "a_3_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04139429209183673,
+      "rgb_sha256": "2baf946819f8b12fc73017ee66cd30f9d1a5240e2951d44e2aa5219ec13c6c3d",
+      "dhash": "0xbb18d8b33b0ef23d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_3_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_3_2.png",
+      "name": "a_3_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01034359056122449,
+      "rgb_sha256": "0c8bfc90a98bab9bca0f6b2c183470441428b183f77fbb6e647a1d3270e6ecb3",
+      "dhash": "0x507b8d0f29bd0cc2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_3_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_3_3.png",
+      "name": "a_3_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03274473852040816,
+      "rgb_sha256": "9c2385de2da26aed1c4d87a94ebedc7406aa7377b812ccd6262a5c953df20c3e",
+      "dhash": "0x91c5871d26166461",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_3_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_3_4.png",
+      "name": "a_3_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.049147002551020405,
+      "rgb_sha256": "8eab46ad639e581e7b830dcd13a26e7e165dfe7ae29488ecc62953dbb086a861",
+      "dhash": "0x634758f0e24d1536",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_40_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_40_0.png",
+      "name": "a_40_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.013512436224489796,
+      "rgb_sha256": "d7f3a56bc2c7557095d69287a99f9cf6a23b26f1c941e0f89b453d17f4f244e2",
+      "dhash": "0x675f672f5bff7fff",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_40_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_40_1.png",
+      "name": "a_40_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.14504942602040816,
+      "rgb_sha256": "8df6a451ad8868b2222e9c54e12cb3778969378c362e3dd8b6efd15362dae001",
+      "dhash": "0x8ffe766c2ddb9113",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_40_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_40_2.png",
+      "name": "a_40_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0843032525510204,
+      "rgb_sha256": "bad64c0f526e1627df52308de93b3cbbe24bd6d344ff42e7a582093d9e4d83d7",
+      "dhash": "0x11d32bc35bb16749",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_4_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_4_1.png",
+      "name": "a_4_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04332748724489796,
+      "rgb_sha256": "be1d87f6ec936169481aa09c9ec14d21ca6389a739338afdef83b50531bd4fbb",
+      "dhash": "0xc1c59593f3e6c42e",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_4_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_4_2.png",
+      "name": "a_4_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.09127869897959184,
+      "rgb_sha256": "7d6de261539958bad0d900eb389a49f828c792a1f7ddf5f6a6ce43f65ad9c151",
+      "dhash": "0x57dc7ae99619349b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_4_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_4_4.png",
+      "name": "a_4_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030412946428571428,
+      "rgb_sha256": "9539f55eb3ff8780d172c85cce3db51cd92bd470a7ed3e48c41c1e4303d470bd",
+      "dhash": "0x9d669b24c964cb06",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_28.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_28.png",
+      "name": "a_5_28.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01349250637755102,
+      "rgb_sha256": "a5fe58ef4ec9e315384a7d8df0e03f81726a828871b4cffeb10141291c85c70b",
+      "dhash": "0xa12136961623633c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_38.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_38.png",
+      "name": "a_5_38.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.011977838010204082,
+      "rgb_sha256": "d5a14cc7904704bdc20728bc29b72dde665ed2ce199f54ef96fbd90be292530d",
+      "dhash": "0x4646ab43138bb3b3",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_39.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_39.png",
+      "name": "a_5_39.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.038185586734693876,
+      "rgb_sha256": "8366f34187446a877edbde4a75d54f9ed7c5a6e2967fb691ec16e6dbff0a5730",
+      "dhash": "0x5050d01002250583",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_40.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_40.png",
+      "name": "a_5_40.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06052694515306122,
+      "rgb_sha256": "f42a4c3da21d34f1c533e091b7e1b10fd7509a0cfc7885efaf395715cec5cf81",
+      "dhash": "0x35b3bf01602f31b7",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_41.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_41.png",
+      "name": "a_5_41.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0692562181122449,
+      "rgb_sha256": "5d8242f75dcef144a009a216f3ac1bf1fcdfb12dccb9d4d5e818286e3f8255f3",
+      "dhash": "0x37982a3a9832202d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_42.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_42.png",
+      "name": "a_5_42.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.049724968112244895,
+      "rgb_sha256": "ee0183ac5b18012d406630e0256fd579088ad03edce7be76314a69f717e5383b",
+      "dhash": "0x4c50cf48d8cb9a95",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_43.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_43.png",
+      "name": "a_5_43.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.054767219387755105,
+      "rgb_sha256": "e37bbf84e2fc19ec400a744d9547a5513ecbde39e2ca78eb574c84e4fc9687d3",
+      "dhash": "0xc8c86b6bcadfc45c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_44.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_44.png",
+      "name": "a_5_44.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06172273596938776,
+      "rgb_sha256": "99ac3e0a2523b09fd581c4c3fbabb765c96f56fa6b93f7ff437266eee7e1a059",
+      "dhash": "0xe4ec6d40d7c343d8",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_45.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_45.png",
+      "name": "a_5_45.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06899713010204081,
+      "rgb_sha256": "34d8bf980a7a88a1b7bf931d1b66b0680a388a2ee1a042fc950c5caefd2be53d",
+      "dhash": "0x93523213f6a4ecf4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_46.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_46.png",
+      "name": "a_5_46.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06130420918367347,
+      "rgb_sha256": "98fbe233e50f231598e3d48d44073c9c0ccb2e37c75ad1d118ae1d26809ff5fb",
+      "dhash": "0x2ab2b6a6a42c4eb6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_47.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_47.png",
+      "name": "a_5_47.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06911670918367346,
+      "rgb_sha256": "39e8680d0ce2b0cfb49a8982f4beade51549ddcf62c1fccc20ed9bae03c0fa20",
+      "dhash": "0x39b9bbf5eda1a1a4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_48.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_48.png",
+      "name": "a_5_48.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05678013392857143,
+      "rgb_sha256": "fa7cc110a804fdd9afd4a5efc638c3b55043f5c1942aedb8648edabe550e04af",
+      "dhash": "0x5ceca169694c4690",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_5_49.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_5_49.png",
+      "name": "a_5_49.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0380859375,
+      "rgb_sha256": "eae2c3b82700d0e1ec73e4b39e11a8889c5be330e468fdf077e30e79023ddbe1",
+      "dhash": "0x26221c367e162616",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_27.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_27.png",
+      "name": "a_6_27.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02459343112244898,
+      "rgb_sha256": "8305ff8e654991a65fbbca6141c9c0645671e23ff87c7b8e6f0ea5d5538067b3",
+      "dhash": "0xec2c00413806208a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_28.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_28.png",
+      "name": "a_6_28.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.09781568877551021,
+      "rgb_sha256": "452717dd7d95eea2c27ae7f2a4e12734ccfbe910088feb4672ea39a034a403c6",
+      "dhash": "0xe9696d2ded4d0dac",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_29.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_29.png",
+      "name": "a_6_29.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06331712372448979,
+      "rgb_sha256": "130cc7528c644d220adb2e2eb0b6e565451f439cabd4d7707e387770f45c59cc",
+      "dhash": "0x5b58292929a94989",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_30.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_30.png",
+      "name": "a_6_30.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.045579559948979595,
+      "rgb_sha256": "a1fb2181034e6accf2954e63518fbb9beca6dae97fb0ecb713f9a2498ad750d0",
+      "dhash": "0x2ce9533525b5521b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_31.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_31.png",
+      "name": "a_6_31.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.044264190051020405,
+      "rgb_sha256": "7d9ce1c848fc394177e9b79f1020740e033475eba67e283ba09ea472c1e0f4cf",
+      "dhash": "0xcad29da588dedad",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_32.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_32.png",
+      "name": "a_6_32.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.034857302295918366,
+      "rgb_sha256": "8daab84dda7f1233ccd819459c9233c8df6a4c9e1937a2321b18af3b253d60d2",
+      "dhash": "0x50863449a9ac1d08",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_41.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_41.png",
+      "name": "a_6_41.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01612324617346939,
+      "rgb_sha256": "5a4d56f180019412575b71a530699b4648e9085914814f890b57543b872977dc",
+      "dhash": "0x1652c9143138cce3",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_42.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_42.png",
+      "name": "a_6_42.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02311862244897959,
+      "rgb_sha256": "145a3f5e948a60e23271547047775851c9879b64330027f9810d84dbba5d190d",
+      "dhash": "0x38b8389dad3053d0",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_43.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_43.png",
+      "name": "a_6_43.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.006218112244897959,
+      "rgb_sha256": "62cdd31a6d6c0ff40862a166ec767d2a2d7bd34c65ed64167867beb1e2c6d12e",
+      "dhash": "0xa08181841327460f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_52.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_52.png",
+      "name": "a_6_52.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.011957908163265306,
+      "rgb_sha256": "26648ce25f3a9815bc2960bc8f3b0270592881fdcd761669d3932d20b6394273",
+      "dhash": "0x9a8a8a9898f6c6cb",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_6_53.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_6_53.png",
+      "name": "a_6_53.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.020846619897959183,
+      "rgb_sha256": "59231c108fa8954ec8062a9b9e00be71fd9d28e6a074fa4d9b2d16234474d3dd",
+      "dhash": "0x15080a0bcd0d899a",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_76_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_76_1.png",
+      "name": "a_76_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06762197066326531,
+      "rgb_sha256": "e5b048ce0089bd3859f93862066e74df278f49b82d391f21a2a5cefd7c6af9fc",
+      "dhash": "0xc94d6027a7ab6936",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_76_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_76_2.png",
+      "name": "a_76_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.015684789540816327,
+      "rgb_sha256": "026205b6b901138148f97dcdea41935ece9c0d64f3e3e5ac6c7addd2ef7cc932",
+      "dhash": "0x9f9fd64ad955249c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_76_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_76_4.png",
+      "name": "a_76_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.021603954081632654,
+      "rgb_sha256": "bc94e9a86d819092ac6f96bc059e10812ad61da7819df1e665693efc4de7e1bd",
+      "dhash": "0x2d2834f4514135f8",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_76_9.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_76_9.png",
+      "name": "a_76_9.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05701929209183673,
+      "rgb_sha256": "e2eb4af8b9c1e3780732c4144752327d69eb60081ad5d8ab3e37be11f04c789f",
+      "dhash": "0x74f43cf253dab8b6",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_79_31.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_79_31.png",
+      "name": "a_79_31.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.020567602040816327,
+      "rgb_sha256": "2278c67e1586e7af833b4393fe0e2b9aff5330fa2bf92336be6cf686dcf3ab1b",
+      "dhash": "0x4e4859c010698e9e",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_7_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_7_0.png",
+      "name": "a_7_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.012615593112244899,
+      "rgb_sha256": "f98a7b3067e855c8107b92852664da5339537ecdc80e246a02daa9fca5d713f4",
+      "dhash": "0x6474a67636363e25",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_7_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_7_1.png",
+      "name": "a_7_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0293765943877551,
+      "rgb_sha256": "35202bfb53225aa1c729bd0253e84a4744252b39001fb7b73d87b9648806d66d",
+      "dhash": "0x6d4d7ad2c68e252c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_7_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_7_2.png",
+      "name": "a_7_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.010801977040816327,
+      "rgb_sha256": "720849566877d5a7827aba8b02b4fe14d23c2b59f1d7f2931814ad486a77eba1",
+      "dhash": "0x4969292521250981",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_80_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_80_1.png",
+      "name": "a_80_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.012216996173469387,
+      "rgb_sha256": "43bdad5cd918ccae72db0e6f9845e1cdde71a06cbcf1e693eeb6d9026744a4d7",
+      "dhash": "0xdeebeb9b9a894058",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_83_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_83_2.png",
+      "name": "a_83_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.018614477040816327,
+      "rgb_sha256": "3a15e5b80f9ae09903348924cb5431da683128f91e82a46adc1c0a4abe47339e",
+      "dhash": "0x8f21729cea8896a7",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_88_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_88_0.png",
+      "name": "a_88_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08882732780612244,
+      "rgb_sha256": "33e94b25c4921ca5e89a773be8fae09785cc1941f11604e2dd3317bb37c93414",
+      "dhash": "0xdcad25b96d0d5d16",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_8_2.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_8_2.png",
+      "name": "a_8_2.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.005600286989795918,
+      "rgb_sha256": "1eeb5d2734773dea2d18f94752a455d352339997a1af2a1796e7a832fb78c9b5",
+      "dhash": "0xcaee40017f5e5e41",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_8_5.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_8_5.png",
+      "name": "a_8_5.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.020348373724489797,
+      "rgb_sha256": "2a3359f4ddef3d6df95d2a3dfaa2ca2548bf50603e950439e3241d1de9a535da",
+      "dhash": "0x3f9d9f9093db33b0",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_8_7.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_8_7.png",
+      "name": "a_8_7.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02236128826530612,
+      "rgb_sha256": "66cf1b73a85cffd4fc018e154ae44a3dcab3d0815e755f3b257fc8c1e2aa1343",
+      "dhash": "0x52f3b63288846614",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_8_8.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_8_8.png",
+      "name": "a_8_8.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.011041135204081632,
+      "rgb_sha256": "680adc892857cd99be51d0f2ff9a5f7da2419684fe923fe968a27c0f3188f3f0",
+      "dhash": "0x50776602c67f652",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_8_9.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_8_9.png",
+      "name": "a_8_9.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.029276945153061226,
+      "rgb_sha256": "0ba95c70fa5a780422ab1aaa61050f18edae317ca3388b2417a9c53b9fd81600",
+      "dhash": "0x2c8c829206600504",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_9_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_9_3.png",
+      "name": "a_9_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.010283801020408163,
+      "rgb_sha256": "24e122f04b4f08c4a819aaefe9982f515a7ee9483e69184ca1c7590b982619c4",
+      "dhash": "0xb0b06540c45319da",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_9_4.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_9_4.png",
+      "name": "a_9_4.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.019730548469387755,
+      "rgb_sha256": "7176c73130aaa2edd1c6744323e4e8e96f312caf4a3f27377b8d3942c239a686",
+      "dhash": "0x4242c282c2c3637",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/a_9_6.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/a_9_6.png",
+      "name": "a_9_6.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.005420918367346939,
+      "rgb_sha256": "2a09232b281550b989d9b19dd899221bed8a96732ab04777c11e8497410238b8",
+      "dhash": "0x2c6c0400000b4eec",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/b_34_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/b_34_3.png",
+      "name": "b_34_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.020667251275510203,
+      "rgb_sha256": "96973f60d0243ee00f1466676a465c8c3fbe9d860cc0a9ee2e0b9e4721ea148e",
+      "dhash": "0x9d305a45a5045ad2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/b_35_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/b_35_1.png",
+      "name": "b_35_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01518654336734694,
+      "rgb_sha256": "2d9819327a3d3e1c0b3b395d4bfb6489a2a26b36ed85eb1b9a19fad20778e49e",
+      "dhash": "0x51406c27ccc29160",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/b_38_0.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/b_38_0.png",
+      "name": "b_38_0.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03501674107142857,
+      "rgb_sha256": "aabf4ce8b9fdbbe40eeccb7814d33f5cfc44ec6d62c5533395a71cdcdc3bb071",
+      "dhash": "0x1b279e5c4a4f494f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/b_38_1.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/b_38_1.png",
+      "name": "b_38_1.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.029974489795918366,
+      "rgb_sha256": "6251d6db044f82789c84262b8254a5ec7f64bfe6797929d4f3b5f7120e1f3312",
+      "dhash": "0x9336270f0f8f9e9f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/b_38_3.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/b_38_3.png",
+      "name": "b_38_3.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.01508689413265306,
+      "rgb_sha256": "54abb57149784e7ebcab059bffbc87a16e152e90742d68ce2af4223dcb0ef901",
+      "dhash": "0x90909030828281a1",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_0_111.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_0_111.png",
+      "name": "c_0_111.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.014170121173469387,
+      "rgb_sha256": "363fab208099bb3327665c958de138169feb75fc6c7157c1bc7e1e017b34b660",
+      "dhash": "0x4a25179b9e1a9d9f",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_0_176.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_0_176.png",
+      "name": "c_0_176.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.027224170918367346,
+      "rgb_sha256": "f60342d65d4a3e8f05654028800738a003601d0a77dd70241fb1259823340a0b",
+      "dhash": "0x7f631a2ea69265c9",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_13_130.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_13_130.png",
+      "name": "c_13_130.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04067681760204082,
+      "rgb_sha256": "43be4852fc3bfae2da7fc9c8ce98e4e432bae09f86d1e7f796c5f1d6bc37fbb6",
+      "dhash": "0x52c2c94d4f4fc082",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_13_131.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_13_131.png",
+      "name": "c_13_131.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.029456313775510203,
+      "rgb_sha256": "ed06a0d12e26e4b72b3b08cc70f5b7fe7d27be1ea57acda9bd576d080d763be0",
+      "dhash": "0x189440c0d9d9d1d3",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_13_136.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_13_136.png",
+      "name": "c_13_136.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0303531568877551,
+      "rgb_sha256": "9bc8ae3be58a786c1072dd69fe3e980062a4b0a4fa6c4c8c8aff6b5c80afeb72",
+      "dhash": "0xd8d8d0d090c28386",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_13_146.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_13_146.png",
+      "name": "c_13_146.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.027861926020408163,
+      "rgb_sha256": "49bc77ac11ae5eb7daaab971bd5726528b7a8b36d2f066d2644ad7bc94ddbd46",
+      "dhash": "0x63a1222727e3a620",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_14_150.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_14_150.png",
+      "name": "c_14_150.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03489716198979592,
+      "rgb_sha256": "80d71b01d81c0227c529ba651f504e3a7b7489e94226a6313f5b273f11de98b9",
+      "dhash": "0xd21b3b3b31331353",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_14_160.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_14_160.png",
+      "name": "c_14_160.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03278459821428571,
+      "rgb_sha256": "037222abc034137c2b3c24b9cf7392397423936dd71de033bb301f8096db7461",
+      "dhash": "0x5e12060626aede46",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_24_248.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_24_248.png",
+      "name": "c_24_248.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.044822225765306124,
+      "rgb_sha256": "b7dec944c9c0cc31ebe303a3ea0a8e6bf0740ba65b24c63f825767d2d7298a9f",
+      "dhash": "0xa16266e461355338",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_24_249.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_24_249.png",
+      "name": "c_24_249.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03826530612244898,
+      "rgb_sha256": "1bf363c6a4d0b9bc0af4d6aff07afabae740a59a9d21f62176235e9520271734",
+      "dhash": "0x44e362a2a6e46031",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_24_250.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_24_250.png",
+      "name": "c_24_250.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04239078443877551,
+      "rgb_sha256": "0421ea53f02c155c6dee916a50ad52553204aa91b67955b4824da61a0b542f8f",
+      "dhash": "0xa92589dcd4d8cbc0",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_25_176.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_25_176.png",
+      "name": "c_25_176.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07425860969387756,
+      "rgb_sha256": "4879f0c85e94c2d7a86876134bc7abc3d8d04d7a61c4517cdfb6d6bdb8a92536",
+      "dhash": "0xadcdeded99a9c8f2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_30_139.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_30_139.png",
+      "name": "c_30_139.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.09767617984693877,
+      "rgb_sha256": "8e76cba67e00f38fcf047d83a0136fe1a97c8e18602468e497aa1caf54f9511d",
+      "dhash": "0x94923a2c11626961",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_31_157.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_31_157.png",
+      "name": "c_31_157.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.057298309948979595,
+      "rgb_sha256": "8846f3556bbb40e23e02cd987bd68b734ff84a9affd499517212d1efdf68ca59",
+      "dhash": "0x2c1bb2b326a5a4a2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_32_228.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_32_228.png",
+      "name": "c_32_228.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.029257015306122448,
+      "rgb_sha256": "173981c56499b72d3da9cb2f167296bc538358a55ee3e9735221bfc505eead21",
+      "dhash": "0x42d2dbccd19343a4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_32_229.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_32_229.png",
+      "name": "c_32_229.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.03627232142857143,
+      "rgb_sha256": "5dabd99757b61fc9d62b76761391a9c1e532b4aa2ddb9eb0e032fa70420f1e03",
+      "dhash": "0x69ed6dcbc44b4848",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_38_196.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_38_196.png",
+      "name": "c_38_196.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08731265943877552,
+      "rgb_sha256": "74c894ddcbea44275064064ea669e64a162ba5d0515145711a12479517914ef8",
+      "dhash": "0x9c8c19e6cc0bf4a4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_38_197.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_38_197.png",
+      "name": "c_38_197.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.12322624362244898,
+      "rgb_sha256": "6996f448ee55a65816506cb8935ec7cf87fad10a02e9b91982807593823319b9",
+      "dhash": "0x942c2c1c8c9c8c8c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_38_198.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_38_198.png",
+      "name": "c_38_198.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07593271683673469,
+      "rgb_sha256": "a1833cb2a527de042bed7796d1352ef3576fc607c3be0cd77abab2cdcb1c8b3b",
+      "dhash": "0xe0c81d8d4c2c4dc4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_38_252.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_38_252.png",
+      "name": "c_38_252.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.08828922193877552,
+      "rgb_sha256": "f071b27b73acf772bb598ff64052024a8b891c22d98c38c7371f097375fc3112",
+      "dhash": "0x96941496141c1c0c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_38_253.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_38_253.png",
+      "name": "c_38_253.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0751953125,
+      "rgb_sha256": "60f951360a7a47e48bdd5534b0eaa58d2784a7183ddaef4beb2f1f0fb3e65622",
+      "dhash": "0xc642468606060696",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_6_148.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_6_148.png",
+      "name": "c_6_148.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02268016581632653,
+      "rgb_sha256": "119e62df655a4136120ef7901213cf80d323e2b938417f83dfe01c5b7c22e7e2",
+      "dhash": "0xf4a0e46ccee3504c",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_6_157.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_6_157.png",
+      "name": "c_6_157.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.05255500637755102,
+      "rgb_sha256": "7aec6f27dddbfbdd98805c63665945480aff0d68a5005698b1bae10acf7dfa1d",
+      "dhash": "0x2a12d2deb61684c4",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_9_158.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_9_158.png",
+      "name": "c_9_158.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.22193877551020408,
+      "rgb_sha256": "99d1476984ab248880a8ab57dc2769eb762776057944d9c8f40c5f6410a96a8d",
+      "dhash": "0xff3960e1b90e83e0",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/c_9_70.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/c_9_70.png",
+      "name": "c_9_70.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.09986846301020408,
+      "rgb_sha256": "04f689bc65087556234d2b5663760db3c4bbf3799bffd8a9a1c5b0e9cd25a6a6",
+      "dhash": "0x542c934668212020",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/d_5_127.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/d_5_127.png",
+      "name": "d_5_127.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.04669563137755102,
+      "rgb_sha256": "db1379c78d9d6ad7fc3b010cdc6c14b6d2a5262e0e6b1ae805f9186ad84aadda",
+      "dhash": "0x495a12f529487871",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/d_9_170.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/d_9_170.png",
+      "name": "d_9_170.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.030512595663265307,
+      "rgb_sha256": "eb02a4be97e8d300f4178db828b38566b2dd12c9b4116c95fe539262862f7d52",
+      "dhash": "0x5a688d747c86797d",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_25_154.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_25_154.png",
+      "name": "h_25_154.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.11373963647959184,
+      "rgb_sha256": "3247e0affc8672d7a37101d7e8b8af03567854870f082c267b08b54e0b5be1b5",
+      "dhash": "0x9eec06191d4d9d1b",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_25_176.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_25_176.png",
+      "name": "h_25_176.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.10825892857142858,
+      "rgb_sha256": "04498a2fca058b208d926008e4585d2e9fc34910bfb459441df49de8fb1b21ec",
+      "dhash": "0x4b976c6d0d6d7514",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_34_155.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_34_155.png",
+      "name": "h_34_155.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.2343152104591837,
+      "rgb_sha256": "012907cb16556d6f8ef46cd67d68cacae206a81481915fc899c02c3bdbb9572f",
+      "dhash": "0x86d4c4f4d464c392",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_37_176.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_37_176.png",
+      "name": "h_37_176.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.12161192602040816,
+      "rgb_sha256": "bc1d2a2ae2e43c7c51f9a85561de55bf42c46d7a6e5668164689bb6bd7177138",
+      "dhash": "0xf15754d99f9695b3",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_3_194.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_3_194.png",
+      "name": "h_3_194.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02784199617346939,
+      "rgb_sha256": "724fd7e7600ba5b31aa3003ab251244f6b231464e6518c5a57a06ebd64f78253",
+      "dhash": "0x3e7e3634347035b5",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_40_93.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_40_93.png",
+      "name": "h_40_93.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.047173947704081634,
+      "rgb_sha256": "56c6d5f95de7eeac0b8a4147ec3ff120db31a703f45ba09ac01004800fc7a07c",
+      "dhash": "0x696862534e6a5c69",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_41_112.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_41_112.png",
+      "name": "h_41_112.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.06782126913265306,
+      "rgb_sha256": "84a3f7fd68c7dd6ebe8df07054387f675763ed014722f9f58b729145c14e3b64",
+      "dhash": "0xe5932645c7b202f2",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_41_244.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_41_244.png",
+      "name": "h_41_244.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.0556640625,
+      "rgb_sha256": "750f94b42c35c043f7ab767822665437392a8700d0cfe6333d1968d7c5cbab42",
+      "dhash": "0x70300c8818d8c0d8",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_41_259.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_41_259.png",
+      "name": "h_41_259.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.053411989795918366,
+      "rgb_sha256": "ab07915ea4878ebabf603da26859d7fcca3792b0b38382676c578a79ba9ced30",
+      "dhash": "0x7849d2d8daa16240",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_41_68.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_41_68.png",
+      "name": "h_41_68.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.07206632653061225,
+      "rgb_sha256": "2296437ad740582425405aeb027183f0a9d303b77246e9c1fce25b885c9418fc",
+      "dhash": "0x494bcf4f15d7cca7",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    },
+    {
+      "image": "data/raw/dais-public/dataset/crack_detection_224_images/h_6_165.png",
+      "mask": "data/raw/dais-public/dataset/crack_detection_224_masks/h_6_165.png",
+      "name": "h_6_165.png",
+      "width": 224,
+      "height": 224,
+      "mask_values": [
+        0,
+        255
+      ],
+      "crack_fraction": 0.02618781887755102,
+      "rgb_sha256": "8b9bbf88df3d053b2f02861a17a41adccddc9f8fb70519ad7fb31a2545118e00",
+      "dhash": "0x148a42d6b3232",
+      "status": "eligible_training",
+      "duplicate_of": null,
+      "possible_uk_overlap": []
+    }
+  ]
+}

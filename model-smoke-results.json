@@ -1,0 +1,49 @@
+{
+  "test_type": "SYNTHETIC SOFTWARE CHECK ONLY",
+  "device": "cpu",
+  "mps_available": true,
+  "torch_version": "2.14.1",
+  "smp_version": "0.5.0",
+  "models": [
+    {
+      "model": "unet",
+      "encoder": "efficientnet-b0",
+      "output_shape": [
+        2,
+        4,
+        64,
+        64
+      ],
+      "finite_loss": true,
+      "backward_and_optimizer_step": true,
+      "seconds": 0.65
+    },
+    {
+      "model": "deeplabv3plus",
+      "encoder": "efficientnet-b0",
+      "output_shape": [
+        2,
+        4,
+        64,
+        64
+      ],
+      "finite_loss": true,
+      "backward_and_optimizer_step": true,
+      "seconds": 0.47
+    },
+    {
+      "model": "fpn",
+      "encoder": "efficientnet-b0",
+      "output_shape": [
+        2,
+        4,
+        64,
+        64
+      ],
+      "finite_loss": true,
+      "backward_and_optimizer_step": true,
+      "seconds": 0.55
+    }
+  ],
+  "trained_on_heritage_images": false
+}

@@ -1,0 +1,93 @@
+{
+  "scope": "UK BINARY CENTER-CROP DEVELOPMENT DIAGNOSTIC; NOT KURDISH FOUR-CLASS RESULTS",
+  "source": "https://zenodo.org/records/18458458",
+  "license": "CC-BY-4.0",
+  "device": "cpu",
+  "seed": 42,
+  "encoder": "efficientnet-b0",
+  "encoder_weights": "imagenet",
+  "initialization": "ImageNet encoder; random decoder",
+  "balanced_training_sampler": true,
+  "normalization": "ImageNet mean/std",
+  "patch_size": 256,
+  "batch_size": 2,
+  "epochs": 3,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-05,
+  "schedule": "cosine to 1e-5",
+  "augmentation": "paired rotations/flips on training only",
+  "batchnorm": "running statistics frozen",
+  "resume": "local-results/expanded-pilot/unet-diagnostic.pt",
+  "loss": "binary cross entropy + dice",
+  "threshold": 0.5,
+  "train_images_uk": 80,
+  "public_patches_added": 240,
+  "public_source": "Dais et al.2021, pinned GPL-3.0 repository subset",
+  "public_resize": "224->256; bilinear RGB, nearest masks",
+  "public_unique_indices_seen": 198,
+  "train_patches": 400,
+  "validation_images": 20,
+  "split_warning": "Image-level split only; building/scene groups unavailable. Validation previously inspected in external zero-shot benchmark. Development diagnostic, not independent research test.",
+  "models": [
+    {
+      "model": "unet",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.4384852841598331,
+          "crack_dice": 0.7108486505263476,
+          "crack_iou": 0.5514082196916444,
+          "pixel_accuracy": 0.9853935241699219,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1268042,
+              6150
+            ],
+            [
+              12995,
+              23533
+            ]
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.3971519345566412,
+          "crack_dice": 0.7303456018448281,
+          "crack_iou": 0.5752318134021605,
+          "pixel_accuracy": 0.9864395141601563,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1268876,
+              5316
+            ],
+            [
+              12458,
+              24070
+            ]
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.3933542336932442,
+          "crack_dice": 0.7324657765759676,
+          "crack_iou": 0.5778666666666666,
+          "pixel_accuracy": 0.9867149353027344,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269470,
+              4722
+            ],
+            [
+              12691,
+              23837
+            ]
+          ]
+        }
+      ],
+      "seconds": 497.4537382919807
+    }
+  ]
+}

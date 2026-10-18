@@ -1,0 +1,36 @@
+{
+  "scope": "EXTERNAL UK BINARY CRACK PILOT ONLY; NOT KURDISH FOUR-CLASS ACCURACY",
+  "source": "https://zenodo.org/records/18458458",
+  "license": "CC-BY-4.0",
+  "model": "CIDAS/clipseg-rd64-refined",
+  "revision": "999e0328d9e10b484360c477313983f9afdd7050",
+  "images": 100,
+  "training_or_threshold_tuning_on_reference": false,
+  "threshold": 0.5,
+  "evaluation_resolution": "original mask dimensions; 352px binary predictions expanded nearest-neighbor",
+  "confusion_matrix_rows_truth": [
+    [
+      876049754,
+      338787309
+    ],
+    [
+      8305988,
+      2110133
+    ]
+  ],
+  "scores": {
+    "pixel_accuracy": 0.7167170822059256,
+    "class_iou": [
+      0.7162283702497199,
+      0.0060427041051687265
+    ],
+    "class_dice": [
+      0.8346539221298446,
+      0.012012818303858084
+    ],
+    "mean_iou": 0.3611355371774443
+  },
+  "all_background_pixel_accuracy": 0.9914988011163577,
+  "crack_prevalence": 0.008501198883642314,
+  "independence_note": "No images used for local fitting; overlap with foundation-model pretraining is unknown."
+}

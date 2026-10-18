@@ -1,0 +1,14 @@
+{
+  "target_metric": "pooled foreground crack Dice at threshold0.5",
+  "planned_epochs": 5,
+  "train_sources": 80,
+  "train_patches": 160,
+  "validation_sources": 20,
+  "validation_unchanged": true,
+  "extra_crop_source_check": "all80extra sources exactly equal train source set; no validation overlap",
+  "files_sha256": {
+    "train_expanded_pilot.py": "e1e323cd8a691e94ecac78fb05963da65c72a4425cde296cd6924daa5b3096b6",
+    "local-results/improved-pilot/unet-diagnostic.pt": "41cf0d82790d6ec0682d527357e67b13d58615e7ce5d51cce8452db36efd2431",
+    "local-results/expanded-pilot/additional-training-crops.json": "b8078f55b5f83718cc3998d556fd5e3d6d84920abd27970465c7f0bfe1751d86"
+  }
+}

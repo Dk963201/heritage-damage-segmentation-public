@@ -1,0 +1,709 @@
+{
+  "train": [
+    "masonry_crack_060.jpg",
+    "masonry_crack_022.jpg",
+    "masonry_crack_057.jpg",
+    "masonry_crack_019.jpg",
+    "masonry_crack_034.jpg",
+    "masonry_crack_043.jpg",
+    "masonry_crack_051.jpg",
+    "masonry_crack_028.jpg",
+    "masonry_crack_093.jpg",
+    "masonry_crack_072.jpg",
+    "masonry_crack_003.jpg",
+    "masonry_crack_026.jpg",
+    "masonry_crack_025.jpg",
+    "masonry_crack_053.jpg",
+    "masonry_crack_082.jpg",
+    "masonry_crack_100.jpg",
+    "masonry_crack_052.jpg",
+    "masonry_crack_062.jpg",
+    "masonry_crack_005.jpg",
+    "masonry_crack_098.jpg",
+    "masonry_crack_095.jpg",
+    "masonry_crack_038.jpg",
+    "masonry_crack_029.jpg",
+    "masonry_crack_081.jpg",
+    "masonry_crack_008.jpg",
+    "masonry_crack_058.jpg",
+    "masonry_crack_080.jpg",
+    "masonry_crack_027.jpg",
+    "masonry_crack_077.jpg",
+    "masonry_crack_079.jpg",
+    "masonry_crack_039.jpg",
+    "masonry_crack_001.jpg",
+    "masonry_crack_087.jpg",
+    "masonry_crack_047.jpg",
+    "masonry_crack_011.jpg",
+    "masonry_crack_030.jpg",
+    "masonry_crack_071.jpg",
+    "masonry_crack_046.jpg",
+    "masonry_crack_018.jpg",
+    "masonry_crack_040.jpg",
+    "masonry_crack_092.jpg",
+    "masonry_crack_041.jpg",
+    "masonry_crack_090.jpg",
+    "masonry_crack_006.jpg",
+    "masonry_crack_069.jpg",
+    "masonry_crack_002.jpg",
+    "masonry_crack_096.jpg",
+    "masonry_crack_085.jpg",
+    "masonry_crack_064.jpg",
+    "masonry_crack_004.jpg",
+    "masonry_crack_084.jpg",
+    "masonry_crack_094.jpg",
+    "masonry_crack_021.jpg",
+    "masonry_crack_088.jpg",
+    "masonry_crack_044.jpg",
+    "masonry_crack_074.jpg",
+    "masonry_crack_033.jpg",
+    "masonry_crack_076.jpg",
+    "masonry_crack_024.jpg",
+    "masonry_crack_097.jpg",
+    "masonry_crack_070.jpg",
+    "masonry_crack_016.jpg",
+    "masonry_crack_049.jpg",
+    "masonry_crack_056.jpg",
+    "masonry_crack_061.jpg",
+    "masonry_crack_010.jpg",
+    "masonry_crack_063.jpg",
+    "masonry_crack_032.jpg",
+    "masonry_crack_073.jpg",
+    "masonry_crack_017.jpg",
+    "masonry_crack_045.jpg",
+    "masonry_crack_083.jpg",
+    "masonry_crack_068.jpg",
+    "masonry_crack_035.jpg",
+    "masonry_crack_031.jpg",
+    "masonry_crack_059.jpg",
+    "masonry_crack_075.jpg",
+    "masonry_crack_089.jpg",
+    "masonry_crack_099.jpg",
+    "masonry_crack_055.jpg"
+  ],
+  "validation": [
+    "masonry_crack_050.jpg",
+    "masonry_crack_007.jpg",
+    "masonry_crack_091.jpg",
+    "masonry_crack_012.jpg",
+    "masonry_crack_086.jpg",
+    "masonry_crack_042.jpg",
+    "masonry_crack_023.jpg",
+    "masonry_crack_020.jpg",
+    "masonry_crack_036.jpg",
+    "masonry_crack_065.jpg",
+    "masonry_crack_048.jpg",
+    "masonry_crack_013.jpg",
+    "masonry_crack_054.jpg",
+    "masonry_crack_015.jpg",
+    "masonry_crack_014.jpg",
+    "masonry_crack_067.jpg",
+    "masonry_crack_037.jpg",
+    "masonry_crack_066.jpg",
+    "masonry_crack_078.jpg",
+    "masonry_crack_009.jpg"
+  ],
+  "crop_regions": {
+    "masonry_crack_001.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_002.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_003.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_004.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_005.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_006.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_007.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_008.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_009.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_010.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_011.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_012.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_013.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_014.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_015.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_016.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_017.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_018.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_019.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_020.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_021.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_022.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_023.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_024.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_025.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_026.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_027.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_028.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_029.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_030.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_031.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_032.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_033.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_034.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_035.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_036.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_037.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_038.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_039.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_040.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_041.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_042.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_043.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_044.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_045.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_046.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_047.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_048.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_049.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_050.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_051.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_052.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_053.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_054.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_055.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_056.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_057.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_058.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_059.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_060.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_061.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_062.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_063.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_064.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_065.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_066.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_067.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_068.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_069.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_070.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_071.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_072.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_073.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_074.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_075.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_076.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_077.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_078.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_079.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_080.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_081.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_082.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_083.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_084.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_085.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_086.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_087.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_088.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_089.jpg": [
+      1872,
+      1372,
+      2128,
+      1628
+    ],
+    "masonry_crack_090.jpg": [
+      2320,
+      1708,
+      2576,
+      1964
+    ],
+    "masonry_crack_091.jpg": [
+      2320,
+      1708,
+      2576,
+      1964
+    ],
+    "masonry_crack_092.jpg": [
+      2320,
+      1708,
+      2576,
+      1964
+    ],
+    "masonry_crack_093.jpg": [
+      2176,
+      1600,
+      2432,
+      1856
+    ],
+    "masonry_crack_094.jpg": [
+      1912,
+      1402,
+      2168,
+      1658
+    ],
+    "masonry_crack_095.jpg": [
+      1912,
+      1402,
+      2168,
+      1658
+    ],
+    "masonry_crack_096.jpg": [
+      1912,
+      1402,
+      2168,
+      1658
+    ],
+    "masonry_crack_097.jpg": [
+      1912,
+      1402,
+      2168,
+      1658
+    ],
+    "masonry_crack_098.jpg": [
+      1912,
+      1402,
+      2168,
+      1658
+    ],
+    "masonry_crack_099.jpg": [
+      1912,
+      1402,
+      2168,
+      1658
+    ],
+    "masonry_crack_100.jpg": [
+      1402,
+      1912,
+      1658,
+      2168
+    ]
+  },
+  "warning": "Image-level split only; building/scene groups unavailable. Validation previously inspected in external zero-shot benchmark. Development diagnostic, not independent research test."
+}

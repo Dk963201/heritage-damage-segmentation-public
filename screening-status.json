@@ -1,0 +1,12 @@
+{
+  "status": "blocked_before_first_prediction",
+  "sample_count": 10,
+  "predictions_completed": 0,
+  "model": "vikhyatk/moondream2",
+  "revision": "8ef2caddfdead307fe7f3a4ed596baca7eab8a2f",
+  "plugin_source_commit": "86b69478a5494683d7aa7cc70eac15380750f07f",
+  "hardware": "Apple M1, 8 GiB unified memory",
+  "failure": "Severe resource pressure during loading; disk free fell to 254 MiB. Stopped process; removed reproducible 3854538376-byte model weight download; disk free recovered to 5.3 GiB. No model output.",
+  "reference": "assistant visual review, not expert ground truth",
+  "all_800_screened": false
+}

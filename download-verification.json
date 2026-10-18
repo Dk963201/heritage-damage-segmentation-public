@@ -1,0 +1,73 @@
+{
+  "images": 800,
+  "sites": {
+    "Amedi": 191,
+    "Erbil": 609
+  },
+  "unique_download_sha256": 800,
+  "minimum_short_dimension": 1536,
+  "total_zip_bytes": 2023945223,
+  "annotation_status": "Unannotated; visual relevance and near-duplicate review pending",
+  "packages": [
+    {
+      "file": "heritage-versions-01.zip",
+      "images": 80,
+      "bytes": 255188263,
+      "sha256": "9743d87eb750b15ee091b19b2fd06a501c9cf9fe1fda82cfa73a402c4a3c16a5"
+    },
+    {
+      "file": "heritage-versions-02.zip",
+      "images": 80,
+      "bytes": 264822937,
+      "sha256": "5baf41b2f7b54b3b603a897ad0923c30dcf0bb89d48561ba797b95e15ec6a630"
+    },
+    {
+      "file": "heritage-versions-03.zip",
+      "images": 80,
+      "bytes": 207518969,
+      "sha256": "b2bbc3c758d8dbbd9498e4f8be92b1bc17fb42f64fbb34f31c0e4ce2f34a400b"
+    },
+    {
+      "file": "heritage-versions-04.zip",
+      "images": 80,
+      "bytes": 184093219,
+      "sha256": "dc8fb0e40c0d1cbafaa738a6cd4a42a34df05d7b147d219eb8fc13a3e42a2734"
+    },
+    {
+      "file": "heritage-versions-05.zip",
+      "images": 80,
+      "bytes": 175587010,
+      "sha256": "36e555caf3d19b5d3fe223a0fb8e0c99e586dc80e8218e60ad5206c659cdd867"
+    },
+    {
+      "file": "heritage-versions-06.zip",
+      "images": 80,
+      "bytes": 171672416,
+      "sha256": "7c0e0fdcc9ef9f77e0c744850050f71a7fa2ea883f1c49f0f9d2ffea9b70a938"
+    },
+    {
+      "file": "heritage-versions-07.zip",
+      "images": 80,
+      "bytes": 175227855,
+      "sha256": "08e2cf0e07dd04ad128025e3550f37a49d8308573b320c9ac7da56c920450834"
+    },
+    {
+      "file": "heritage-versions-08.zip",
+      "images": 80,
+      "bytes": 204138369,
+      "sha256": "eb8e426c43fbaef6ff1cfa8fffa76158f6d55c2c1a926d7f435181b1674309fc"
+    },
+    {
+      "file": "heritage-versions-09.zip",
+      "images": 80,
+      "bytes": 228294225,
+      "sha256": "bfb21de1479b43172e99a4bd42eec4e8cbaa7bedd084dbab69c43e67c7d189dc"
+    },
+    {
+      "file": "heritage-versions-10.zip",
+      "images": 80,
+      "bytes": 157401960,
+      "sha256": "136beb9cc6466568088de9e69da8e0efa5150fe02b31fc277d902d45373acef6"
+    }
+  ]
+}

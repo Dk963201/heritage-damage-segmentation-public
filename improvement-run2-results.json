@@ -1,0 +1,125 @@
+{
+  "scope": "UK BINARY CENTER-CROP DEVELOPMENT DIAGNOSTIC; NOT KURDISH FOUR-CLASS RESULTS",
+  "source": "https://zenodo.org/records/18458458",
+  "license": "CC-BY-4.0",
+  "device": "cpu",
+  "seed": 42,
+  "encoder": "efficientnet-b0",
+  "encoder_weights": "imagenet",
+  "initialization": "ImageNet encoder; random decoder",
+  "balanced_training_sampler": true,
+  "normalization": "ImageNet mean/std",
+  "patch_size": 256,
+  "batch_size": 2,
+  "epochs": 5,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "schedule": "cosine to 1e-5",
+  "augmentation": "paired rotations/flips on training only",
+  "batchnorm": "running statistics frozen",
+  "resume": "local-results/improved-pilot/unet-diagnostic.pt",
+  "loss": "binary cross entropy + dice",
+  "threshold": 0.5,
+  "train_images": 80,
+  "train_patches": 160,
+  "validation_images": 20,
+  "split_warning": "Image-level split only; building/scene groups unavailable. Validation previously inspected in external zero-shot benchmark. Development diagnostic, not independent research test.",
+  "models": [
+    {
+      "model": "unet",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.574737209835348,
+          "crack_dice": 0.6132566912160948,
+          "crack_iou": 0.4422279792746114,
+          "pixel_accuracy": 0.9819313049316406,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1268260,
+              5932
+            ],
+            [
+              17751,
+              18777
+            ]
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.5681521478683862,
+          "crack_dice": 0.6548322364266569,
+          "crack_iou": 0.4868033966909387,
+          "pixel_accuracy": 0.9812339782714844,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1262791,
+              11401
+            ],
+            [
+              13196,
+              23332
+            ]
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.4126992698991671,
+          "crack_dice": 0.6699348323841954,
+          "crack_iou": 0.5036857205914809,
+          "pixel_accuracy": 0.982843017578125,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1265410,
+              8782
+            ],
+            [
+              13706,
+              22822
+            ]
+          ]
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.46347856470165427,
+          "crack_dice": 0.6665481850091083,
+          "crack_iou": 0.4998667199786752,
+          "pixel_accuracy": 0.9828224182128906,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1265702,
+              8490
+            ],
+            [
+              14025,
+              22503
+            ]
+          ]
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.4634525176905299,
+          "crack_dice": 0.6845342312008978,
+          "crack_iou": 0.5203740359019862,
+          "pixel_accuracy": 0.9839164733886718,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1266767,
+              7425
+            ],
+            [
+              13656,
+              22872
+            ]
+          ]
+        }
+      ],
+      "seconds": 342.11859266704414
+    }
+  ]
+}

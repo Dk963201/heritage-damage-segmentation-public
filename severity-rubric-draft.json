@@ -1,0 +1,17 @@
+{
+  "rubric_id": "heritage-visible-damage",
+  "version": "0.1-draft",
+  "status": "pending",
+  "approved_by": "",
+  "approved_on": "",
+  "scope": "visible_damage_only",
+  "ordered": true,
+  "structural_safety_inference_allowed": false,
+  "labels": [
+    {"id": "none", "order": 0, "definition": "No visible damage identified in the assessable surface shown. This does not establish that hidden damage is absent."},
+    {"id": "low", "order": 1, "definition": "Limited, localized visible deterioration; surrounding surface detail remains largely continuous. Reviewer judgment is required."},
+    {"id": "moderate", "order": 2, "definition": "Clearly noticeable or repeated visible deterioration that interrupts surface continuity or detail in the shown area. Reviewer judgment is required."},
+    {"id": "high", "order": 3, "definition": "Pronounced visible deterioration or loss of visible surface material/detail in the shown area. This is a visual appearance grade, not a structural safety assessment."}
+  ],
+  "review_notes": "DRAFT ONLY: the supervisor has not supplied or approved a severity rubric. Agree definitions and examples, then independently review image-level labels. Do not infer grades from segmentation area percentages. Occluded, blurred, distant or otherwise unassessable images must be excluded or sent for review, not labeled none. No numeric area cutoffs are proposed."
+}

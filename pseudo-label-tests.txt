@@ -1,0 +1,16 @@
+W1018 10:47:36.216000 53219 .venv-ml/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+test_absent_class_not_perfect (test_metrics.MetricsTests.test_absent_class_not_perfect) ... ok
+test_bad_input (test_metrics.MetricsTests.test_bad_input) ... ok
+test_empty_observations (test_metrics.MetricsTests.test_empty_observations) ... ok
+test_known_confusion (test_metrics.MetricsTests.test_known_confusion) ... ok
+test_clahe_preserves_shape_and_type (test_preprocessing.PreprocessingTests.test_clahe_preserves_shape_and_type) ... ok
+test_edges_covered (test_preprocessing.PreprocessingTests.test_edges_covered) ... ok
+test_small_rejected (test_preprocessing.PreprocessingTests.test_small_rejected) ... ok
+test_ambiguous_ignored (test_pseudo_labels.MaskSelectionTests.test_ambiguous_ignored) ... ok
+test_low_score_ignored (test_pseudo_labels.MaskSelectionTests.test_low_score_ignored) ... ok
+test_winner_keeps_class_id (test_pseudo_labels.MaskSelectionTests.test_winner_keeps_class_id) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.100s
+
+OK

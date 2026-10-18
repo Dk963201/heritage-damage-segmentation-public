@@ -1,0 +1,21 @@
+{
+  "image_id": "0650",
+  "source_dimensions": [
+    3840,
+    2563
+  ],
+  "preview_dimensions": [
+    1024,
+    683
+  ],
+  "checkpoint_sha256": "6cf8ff3e17809c8bdeccfc1b3f8fb54fdc0ddf1f9ec5f1814284282851fff01b",
+  "threshold": 0.5,
+  "tile_size": 256,
+  "stride": 192,
+  "predicted_crack_fraction": 0.0029883098462664716,
+  "labels": {
+    "1": "unreviewed proposed crack",
+    "255": "unknown"
+  },
+  "warning": "Preview-resolution transfer demonstration only. No ground truth, no accuracy metric, no four-class mask. Do not train on this output."
+}

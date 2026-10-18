@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-10-18T19:27:29.860140+00:00",
+  "scope": "Local project evidence inventory; not a new model evaluation",
+  "software_files_present": {
+    "four_class_training": true,
+    "four_class_inference": true,
+    "severity_pipeline": true,
+    "two_site_review_preparation": true
+  },
+  "candidate_image_rows": 800,
+  "candidate_site_counts": {
+    "Amedi": 191,
+    "Erbil": 609
+  },
+  "candidate_caution": "Collection labels require site/building verification. Downloads are not reviewed training masks.",
+  "reviewed_binary_pilot": {
+    "available": true,
+    "label_summary": {
+      "reviewed_pixels": 177493,
+      "intact_pixels": 165275,
+      "crack_pixels": 12218,
+      "images": [
+        "0650",
+        "0450",
+        "0750"
+      ],
+      "pending_excluded": [
+        334,
+        335,
+        336
+      ]
+    },
+    "best_development_metrics": {
+      "dice": 0.6923358618885692,
+      "iou": 0.5294447111537846,
+      "precision": 0.9594026388284761,
+      "recall": 0.5415779996726142,
+      "pixel_accuracy": 0.9668662989526348,
+      "confusion_tn_fp_fn_tp": [
+        164995,
+        280,
+        5601,
+        6617
+      ],
+      "reviewed_pixels": 177493
+    },
+    "evidence": "Sparse labels from three Erbil photographs, repeatedly used for development; no independent test or Amedi accuracy claim."
+  },
+  "severity_rubric_status": "pending",
+  "research_completion": "INCOMPLETE",
+  "research_blockers": [
+    "Reviewed four-class masks and verified building groups from both Erbil and Amedi.",
+    "An approved visual-severity rubric and independently reviewed image-level severity labels.",
+    "Target-domain training and a frozen, independent test for segmentation and severity, reported by site.",
+    "A final research report based on those experiments and confirmation of the lecturer's dataset requirements."
+  ],
+  "interpretation": "Runnable software and synthetic tests do not complete the research. No accuracy or severity grade is invented."
+}

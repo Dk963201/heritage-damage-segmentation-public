@@ -1,0 +1,120 @@
+{
+  "scope": "UK BINARY CENTER-CROP DEVELOPMENT DIAGNOSTIC; NOT KURDISH FOUR-CLASS RESULTS",
+  "source": "https://zenodo.org/records/18458458",
+  "license": "CC-BY-4.0",
+  "device": "cpu",
+  "seed": 42,
+  "encoder": "efficientnet-b0",
+  "encoder_weights": "imagenet",
+  "initialization": "ImageNet encoder; random decoder",
+  "balanced_training_sampler": true,
+  "normalization": "ImageNet mean/std",
+  "patch_size": 256,
+  "batch_size": 2,
+  "epochs": 5,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "binary focal + dice",
+  "threshold": 0.5,
+  "train_images": 80,
+  "validation_images": 20,
+  "split_warning": "Image-level split only; building/scene groups unavailable. Validation previously inspected in external zero-shot benchmark. Development diagnostic, not independent research test.",
+  "models": [
+    {
+      "model": "unet",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.6917799471411854,
+          "crack_dice": 0.6138867328458406,
+          "crack_iou": 0.4428835271927067,
+          "pixel_accuracy": 0.9783668518066406,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1259824,
+              14368
+            ],
+            [
+              13987,
+              22541
+            ]
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.5785510024055839,
+          "crack_dice": 0.38533895556276354,
+          "crack_iou": 0.23865006026516675,
+          "pixel_accuracy": 0.9783134460449219,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1273385,
+              807
+            ],
+            [
+              27618,
+              8910
+            ]
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.4577389584854245,
+          "crack_dice": 0.32230338848305756,
+          "crack_iou": 0.19211065115738465,
+          "pixel_accuracy": 0.931060791015625,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1198873,
+              75319
+            ],
+            [
+              15041,
+              21487
+            ]
+          ]
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.4383305447176099,
+          "crack_dice": 0.17753239205497248,
+          "crack_iou": 0.09741319477011387,
+          "pixel_accuracy": 0.9632904052734375,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1257411,
+              16781
+            ],
+            [
+              31335,
+              5193
+            ]
+          ]
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.3087258512154222,
+          "crack_dice": 0.5282050521381847,
+          "crack_iou": 0.3588849471901959,
+          "pixel_accuracy": 0.9757331848144531,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1261108,
+              13084
+            ],
+            [
+              18723,
+              17805
+            ]
+          ]
+        }
+      ],
+      "seconds": 180.03053237503627
+    }
+  ]
+}

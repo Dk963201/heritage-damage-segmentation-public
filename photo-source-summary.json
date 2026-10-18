@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-18",
+  "all_count": 1218,
+  "eligible_unique_high_resolution_candidates": 1157,
+  "selected_count": 800,
+  "selected_by_site": {
+    "Erbil": 609,
+    "Amedi": 191
+  },
+  "estimated_original_bytes": 10022553613,
+  "status": "Links and license metadata inventoried; photos not downloaded or visually validated; not an annotated dataset",
+  "resolution_rule": "Both dimensions >=1500px; provisional screening rule, not instructor confirmed"
+}

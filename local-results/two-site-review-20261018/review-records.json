@@ -1,0 +1,218 @@
+[
+  {
+    "image_id": "0018",
+    "site": "Amedi",
+    "source_sha256": "c8e072a0bf6dfceac176160d6434c60456edf83af9dea5c1795f1ab9c0c34ee8",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0021",
+    "site": "Amedi",
+    "source_sha256": "663fb9ef46c7c1585613613932e8cf41fa5f9097d9f8e39a178982e082b61234",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0022",
+    "site": "Amedi",
+    "source_sha256": "684fb06bff22cc8c597f1430bacab1e2a46dc5145e7206d67114ff7cec3f32ad",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0023",
+    "site": "Amedi",
+    "source_sha256": "1720b406628b38967acf6563b7583fde21fc848186795faea42147e83d0738d3",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0024",
+    "site": "Amedi",
+    "source_sha256": "301139fff22be0637fa78b52e16da10f3b49894e5604ef34410debe55b18e557",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0725",
+    "site": "Erbil",
+    "source_sha256": "54cc3e06f375ba715db2e24c51c33be32ce4d901c74d836f862a95e4c2e97a27",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0736",
+    "site": "Erbil",
+    "source_sha256": "7d8f4c2b7f87566557d679b6c8bf845c4078748b65c0b9cafcbdec82cd735359",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0751",
+    "site": "Erbil",
+    "source_sha256": "d8e6380d9c12a9c1e7e66381f35ca5f0ada168b0486a66d64da49dea7474ecc9",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  },
+  {
+    "image_id": "0777",
+    "site": "Erbil",
+    "source_sha256": "6146637342e2351ee228602bb75b0b3be78999fa237c8d966989283e90d3094f",
+    "building_group": "UNASSIGNED",
+    "split": "UNASSIGNED",
+    "relevance_review": "pending",
+    "four_class": {
+      "approved": false,
+      "mask_path": null,
+      "classes_present": null,
+      "rubric_version": null,
+      "annotator": null,
+      "reviewer": null
+    },
+    "severity": {
+      "approved": false,
+      "rubric_version": null,
+      "label": null,
+      "evidence": null,
+      "annotator": null,
+      "reviewer": null
+    }
+  }
+]

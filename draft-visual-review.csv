@@ -1,0 +1,5 @@
+image_id,initial_suitability,observation
+0001,Needs expert review,Rock/relief close-up; erosion proposal is not a verified masonry-damage label.
+0010,Exclude from initial masonry training,Wide natural rocky hill and small buildings; natural rock receives erosion proposals.
+0020,Exclude from initial masonry training,Distant town/landscape; insufficient wall detail for pixel-level damage.
+0030,Exclude from initial masonry training,Mountain/landscape view; no usable close-up masonry evident.

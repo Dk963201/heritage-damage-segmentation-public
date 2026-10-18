@@ -1,0 +1,6 @@
+{
+  "repository": "smp-hub/efficientnet-b0.imagenet",
+  "revision": "1bbe7ecc1d5ea1d2058de1a2db063b8701aff314",
+  "sha256": "4b276ec2b6949a7bf7748885da6af1f79df812abf2442a75639d9b584d8c69be",
+  "scope": "ImageNet encoder initialization only; not masonry damage pretrained"
+}

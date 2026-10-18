@@ -1,0 +1,176 @@
+{
+  "audited_at_utc": "2026-10-18T19:22:14.591114+00:00",
+  "manifest_path": "downloaded-800-manifest.csv",
+  "manifest_sha256": "ef2ce2751807f5194bfa057e1e289ce6e5b61b1efcd42631616b11a0d221e484",
+  "candidate_count": 800,
+  "source_collection_site_counts": {
+    "Amedi": 191,
+    "Erbil": 609
+  },
+  "site_count_caveat": "These are source-collection labels, not verified counts of heritage buildings. Amedi collection includes regional landscapes, events and non-building imagery.",
+  "unique_image_ids": 800,
+  "unique_download_hashes": 800,
+  "unique_original_sha1": 800,
+  "license_counts": {
+    "CC BY-SA 4.0": 774,
+    "Public domain": 4,
+    "CC BY-SA 3.0": 21,
+    "CC BY-SA 2.0": 1
+  },
+  "missing_license_url_ids": [
+    "0007",
+    "0727",
+    "0794",
+    "0795"
+  ],
+  "archives": {
+    "heritage-versions-01.zip": {
+      "path": "data/raw/image-versions/heritage-versions-01.zip",
+      "present": true
+    },
+    "heritage-versions-02.zip": {
+      "path": "data/raw/image-versions/heritage-versions-02.zip",
+      "present": true
+    },
+    "heritage-versions-03.zip": {
+      "path": "data/raw/image-versions/heritage-versions-03.zip",
+      "present": true
+    },
+    "heritage-versions-04.zip": {
+      "path": "data/raw/image-versions/heritage-versions-04.zip",
+      "present": true
+    },
+    "heritage-versions-05.zip": {
+      "path": "data/raw/image-versions/heritage-versions-05.zip",
+      "present": true
+    },
+    "heritage-versions-06.zip": {
+      "path": "data/raw/image-versions/heritage-versions-06.zip",
+      "present": true
+    },
+    "heritage-versions-07.zip": {
+      "path": "data/raw/image-versions/heritage-versions-07.zip",
+      "present": true
+    },
+    "heritage-versions-08.zip": {
+      "path": "data/raw/image-versions/heritage-versions-08.zip",
+      "present": true
+    },
+    "heritage-versions-09.zip": {
+      "path": "data/raw/image-versions/heritage-versions-09.zip",
+      "present": true
+    },
+    "heritage-versions-10.zip": {
+      "path": "data/raw/image-versions/heritage-versions-10.zip",
+      "present": true
+    }
+  },
+  "verified_image_count": 800,
+  "failures": [],
+  "verification": "Read every archive member; compare SHA256 and byte count, open/verify image header and check dimensions. Does not establish source relevance or pixel-label truth.",
+  "existing_reviewed_data": {
+    "source_protocol_sha256": "9cd4ccedaacdce5e8366a7518e6d00e9fe2667e5ace8ac6717fcea997c5bb81a",
+    "photos": [
+      {
+        "image_id": "0650",
+        "site": "Erbil",
+        "mask_path": "data/processed/review-0650/region-3-realigned/partial-user-reviewed.png",
+        "mask_sha256": "565efe5ed51b8f2acbaa69f9ea7f2f36048c06f9207edd1fd92234cda0a91caa",
+        "counts": {
+          "0": 36085,
+          "1": 6418,
+          "255": 9799417
+        },
+        "status": "partial_user_reviewed_binary_only_not_approved_four_class"
+      },
+      {
+        "image_id": "0450",
+        "site": "Erbil",
+        "mask_path": "data/processed/review-0450/batch-08/partial-user-reviewed.png",
+        "mask_sha256": "a0dab4628f756989aa160caa76c776f39c9e5b3185a8dcb327418cd37046d6ce",
+        "counts": {
+          "0": 60732,
+          "1": 0,
+          "255": 9781188
+        },
+        "status": "partial_user_reviewed_binary_only_not_approved_four_class"
+      },
+      {
+        "image_id": "0750",
+        "site": "Erbil",
+        "mask_path": "data/processed/review-0750/batch-27/partial-user-reviewed.png",
+        "mask_sha256": "dc09428fb71f4c20d782a1171d92e002e83a90e623c2daabafd0e8571ff22bc2",
+        "counts": {
+          "0": 68458,
+          "1": 5800,
+          "255": 9729262
+        },
+        "status": "partial_user_reviewed_binary_only_not_approved_four_class"
+      }
+    ],
+    "photo_count": 3,
+    "site_counts": {
+      "Erbil": 3,
+      "Amedi": 0
+    },
+    "reviewed_binary_pixels": 177493,
+    "binary_intact_pixels": 165275,
+    "binary_crack_pixels": 12218,
+    "pending_region_ids_preserved": [
+      334,
+      335,
+      336
+    ],
+    "pending_manifest_sha256": "485d69e4a1feccc947ca0a0ce2c18ecd57163f2d7dabc794caeddc8c6464c27d",
+    "four_class_approval": false,
+    "severity_labels_in_these_records": 0
+  },
+  "label_manifest_audit": {
+    "scope": "Root CSV manifests and data/annotations CSVs; excludes synthetic fixtures, public binary datasets and prediction outputs",
+    "inspected": [
+      {
+        "path": "training-manifest-template.csv",
+        "rows": 0,
+        "approved_row_count": 0,
+        "sha256": "f6b16388a48bf18978d92242e342b1a1629d70b9dfa83b29724a94632d0765ef",
+        "fields": [
+          "image_path",
+          "mask_path",
+          "source_sha256",
+          "site",
+          "building_group",
+          "split",
+          "review_status",
+          "annotator",
+          "reviewer"
+        ]
+      }
+    ],
+    "approved_rows_found": 0,
+    "interpretation": "No approved four-class/severity labels are inferred from source titles, binary selections or predictions. A nonzero approval count requires a separate rubric/mask validation."
+  },
+  "selected_ids": [
+    "0018",
+    "0021",
+    "0022",
+    "0023",
+    "0024",
+    "0725",
+    "0736",
+    "0751",
+    "0777"
+  ],
+  "selected_site_counts": {
+    "Amedi": 5,
+    "Erbil": 4
+  },
+  "selection": "Purposeful title/content screening before any pack predictions. No predictions generated. Not random or an independent test selection.",
+  "screened_then_excluded": {
+    "0001": "Rock relief; masonry-rubric applicability unclear",
+    "0004": "Rock approach and steps; wall annotation scope less useful"
+  },
+  "unknown_building_groups": "UNASSIGNED for all nine; likely same-structure pairs must be confirmed and kept in the same split",
+  "approved_four_class_masks_added": 0,
+  "severity_labels_added": 0,
+  "predictions_generated": 0
+}

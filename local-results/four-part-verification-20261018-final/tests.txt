@@ -1,0 +1,52 @@
+test_all_ignored_finite_zero (test_four_class.FourClassTests.test_all_ignored_finite_zero) ... ok
+test_full_image_counts_once_and_ignores (test_four_class.FourClassTests.test_full_image_counts_once_and_ignores) ... ok
+test_ignore_has_no_gradient (test_four_class.FourClassTests.test_ignore_has_no_gradient) ... ok
+test_small_image_padding_ignored (test_four_class.FourClassTests.test_small_image_padding_ignored) ... ok
+test_tiles_cover_edges (test_four_class.FourClassTests.test_tiles_cover_edges) ... ok
+test_absent_class_not_perfect (test_metrics.MetricsTests.test_absent_class_not_perfect) ... ok
+test_bad_input (test_metrics.MetricsTests.test_bad_input) ... ok
+test_empty_observations (test_metrics.MetricsTests.test_empty_observations) ... ok
+test_known_confusion (test_metrics.MetricsTests.test_known_confusion) ... ok
+test_building_cannot_belong_to_both_cities (test_training_manifest.ManifestTests.test_building_cannot_belong_to_both_cities) ... ok
+test_ignored (test_training_manifest.ManifestTests.test_ignored) ... ok
+test_invalid_label (test_training_manifest.ManifestTests.test_invalid_label) ... ok
+test_leakage (test_training_manifest.ManifestTests.test_leakage) ... ok
+test_missing_field_has_clear_error (test_training_manifest.ManifestTests.test_missing_field_has_clear_error) ... ok
+test_missing_site_refused_for_two_city_study (test_training_manifest.ManifestTests.test_missing_site_refused_for_two_city_study) ... ok
+test_single_site_cannot_establish_two_city_study (test_training_manifest.ManifestTests.test_single_site_cannot_establish_two_city_study) ... ok
+test_unapproved (test_training_manifest.ManifestTests.test_unapproved) ... ok
+test_unknown_site_refused (test_training_manifest.ManifestTests.test_unknown_site_refused) ... ok
+test_valid (test_training_manifest.ManifestTests.test_valid) ... ok
+test_valid_two_city_study (test_training_manifest.ManifestTests.test_valid_two_city_study) ... ok
+test_invalid_roi_protocol_input_and_model_outputs (test_predict_four_class.FourClassInferenceTests.test_invalid_roi_protocol_input_and_model_outputs) ... ok
+test_prediction_parity_with_training_evaluate_edges_overlap_and_padding (test_predict_four_class.FourClassInferenceTests.test_prediction_parity_with_training_evaluate_edges_overlap_and_padding) ... ok
+test_probabilities_are_softmax_of_averaged_logits (test_predict_four_class.FourClassInferenceTests.test_probabilities_are_softmax_of_averaged_logits) ... ok
+test_random_checkpoint_cli_smoke_software_only_and_no_overwrite (test_predict_four_class.FourClassInferenceTests.test_random_checkpoint_cli_smoke_software_only_and_no_overwrite) ... ok
+test_roi_counts_exclusion_and_overlay_alignment (test_predict_four_class.FourClassInferenceTests.test_roi_counts_exclusion_and_overlay_alignment) ... ok
+test_sidecar_verifies_pairing_and_rejects_swapped_preprocessing_protocol (test_predict_four_class.FourClassInferenceTests.test_sidecar_verifies_pairing_and_rejects_swapped_preprocessing_protocol) ... ok
+test_weights_only_rejects_wrong_architecture_and_missing_checkpoint (test_predict_four_class.FourClassInferenceTests.test_weights_only_rejects_wrong_architecture_and_missing_checkpoint) ... ok
+test_actual_final_checkpoint_matches_evaluator_tile (test_predict_reviewed_cnn.PredictionTests.test_actual_final_checkpoint_matches_evaluator_tile) ... ok
+test_invalid_tile_sizes_rejected (test_predict_reviewed_cnn.PredictionTests.test_invalid_tile_sizes_rejected) ... ok
+test_nonmultiple_shape_and_every_edge_pixel (test_predict_reviewed_cnn.PredictionTests.test_nonmultiple_shape_and_every_edge_pixel) ... ok
+test_missing_evidence_never_claims_completed_research (test_project_entrypoint.ProjectEntryTests.test_missing_evidence_never_claims_completed_research) ... ok
+test_option_first_forwarding_preserves_arguments_and_child_exit_code (test_project_entrypoint.ProjectEntryTests.test_option_first_forwarding_preserves_arguments_and_child_exit_code) ... ok
+test_two_city_training_requires_site_checks (test_project_entrypoint.ProjectEntryTests.test_two_city_training_requires_site_checks) ... ok
+test_building_and_duplicate_leakage (test_severity_pipeline.SeverityWorkflowTests.test_building_and_duplicate_leakage) ... ok
+test_config_bounds_and_unavailable_model (test_severity_pipeline.SeverityWorkflowTests.test_config_bounds_and_unavailable_model) ... ok
+test_group_city_consistency_placeholders_and_site_coverage (test_severity_pipeline.SeverityWorkflowTests.test_group_city_consistency_placeholders_and_site_coverage) ... ok
+test_metrics_ordinal_error_absent_classes_and_empty_site (test_severity_pipeline.SeverityWorkflowTests.test_metrics_ordinal_error_absent_classes_and_empty_site) ... ok
+test_missing_split_rejected (test_severity_pipeline.SeverityWorkflowTests.test_missing_split_rejected) ... ok
+test_rubric_refusal_and_order (test_severity_pipeline.SeverityWorkflowTests.test_rubric_refusal_and_order) ... ok
+test_seed_checkpoint_inference_and_training_smoke (test_severity_pipeline.SeverityWorkflowTests.test_seed_checkpoint_inference_and_training_smoke) ... ok
+test_unreviewed_hash_and_site_refusal (test_severity_pipeline.SeverityWorkflowTests.test_unreviewed_hash_and_site_refusal) ... ok
+test_unverified_encoder_weights_rejected_before_output (test_severity_pipeline.SeverityWorkflowTests.test_unverified_encoder_weights_rejected_before_output) ... ok
+test_archive_hash_mismatch_rejected (test_two_site_review.TwoSiteReviewTests.test_archive_hash_mismatch_rejected) ... ok
+test_archive_path_escape_rejected (test_two_site_review.TwoSiteReviewTests.test_archive_path_escape_rejected) ... ok
+test_existing_pending_review_cannot_be_overwritten (test_two_site_review.TwoSiteReviewTests.test_existing_pending_review_cannot_be_overwritten) ... ok
+test_pending_334_pixel_must_not_be_in_accepted_mask (test_two_site_review.TwoSiteReviewTests.test_pending_334_pixel_must_not_be_in_accepted_mask) ... ok
+test_selection_balance_and_reviewed_exclusion (test_two_site_review.TwoSiteReviewTests.test_selection_balance_and_reviewed_exclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 7.232s
+
+OK

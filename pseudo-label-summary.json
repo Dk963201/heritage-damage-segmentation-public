@@ -1,0 +1,28 @@
+{
+  "model": "CIDAS/clipseg-rd64-refined",
+  "revision": "999e0328d9e10b484360c477313983f9afdd7050",
+  "prompts": [
+    "healthy intact stone masonry wall",
+    "a crack in a masonry wall",
+    "eroded crumbling stone surface",
+    "vegetation growing on a masonry wall"
+  ],
+  "threshold": 0.5,
+  "margin": 0.1,
+  "device": "mps",
+  "images": 800,
+  "seconds": 250.23,
+  "model_input": "processor default 352x352",
+  "pixel_counts": {
+    "0": 737043375,
+    "1": 547112,
+    "2": 370062867,
+    "3": 13163628,
+    "255": 7517562918
+  },
+  "human_verified_masks": 0,
+  "target_accuracy": null,
+  "target_iou": null,
+  "status": "DRAFT ONLY; NOT GROUND TRUTH",
+  "labelled_pixel_fraction": 0.129748517080153
+}

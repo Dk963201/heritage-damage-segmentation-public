@@ -1,0 +1,394 @@
+{
+  "scope": "UK BINARY CENTER-CROP DEVELOPMENT DIAGNOSTIC; NOT KURDISH FOUR-CLASS RESULTS",
+  "source": "https://zenodo.org/records/18458458",
+  "license": "CC-BY-4.0",
+  "device": "cpu",
+  "seed": 42,
+  "encoder": "efficientnet-b0",
+  "encoder_weights": "imagenet",
+  "initialization": "ImageNet encoder; random decoder",
+  "balanced_training_sampler": true,
+  "normalization": "ImageNet mean/std",
+  "patch_size": 256,
+  "batch_size": 2,
+  "epochs": 20,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "schedule": "cosine to 1e-5",
+  "augmentation": "paired rotations/flips on training only",
+  "batchnorm": "running statistics frozen",
+  "resume": "local-results/binary-balanced/unet-diagnostic.pt",
+  "loss": "binary cross entropy + dice",
+  "threshold": 0.5,
+  "train_images": 80,
+  "validation_images": 20,
+  "split_warning": "Image-level split only; building/scene groups unavailable. Validation previously inspected in external zero-shot benchmark. Development diagnostic, not independent research test.",
+  "models": [
+    {
+      "model": "unet",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.4142021145642502,
+          "crack_dice": 0.594701061058517,
+          "crack_iou": 0.4231847364137806,
+          "pixel_accuracy": 0.9805328369140625,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1266484,
+              7708
+            ],
+            [
+              17808,
+              18720
+            ]
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.4518587413316709,
+          "crack_dice": 0.5806583264005525,
+          "crack_iou": 0.40910397912012564,
+          "pixel_accuracy": 0.9796180725097656,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1265509,
+              8683
+            ],
+            [
+              18032,
+              18496
+            ]
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.3205292263402953,
+          "crack_dice": 0.599048457001336,
+          "crack_iou": 0.42760112581703147,
+          "pixel_accuracy": 0.9812255859375,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1267729,
+              6463
+            ],
+            [
+              18145,
+              18383
+            ]
+          ]
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.41278076956841686,
+          "crack_dice": 0.5948180050013893,
+          "crack_iou": 0.4233031786049731,
+          "pixel_accuracy": 0.9821990966796875,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1270262,
+              3930
+            ],
+            [
+              19402,
+              17126
+            ]
+          ]
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.2805663243900199,
+          "crack_dice": 0.6184175472870971,
+          "crack_iou": 0.44761537472682866,
+          "pixel_accuracy": 0.9836082458496094,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1271825,
+              2367
+            ],
+            [
+              19118,
+              17410
+            ]
+          ]
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.3022343391217873,
+          "crack_dice": 0.5803942005248562,
+          "crack_iou": 0.4088418071688911,
+          "pixel_accuracy": 0.9827995300292969,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1272583,
+              1609
+            ],
+            [
+              20936,
+              15592
+            ]
+          ]
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.4092834800627315,
+          "crack_dice": 0.609463701329059,
+          "crack_iou": 0.43829398909728395,
+          "pixel_accuracy": 0.9821548461914062,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269079,
+              5113
+            ],
+            [
+              18277,
+              18251
+            ]
+          ]
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.4105206510699645,
+          "crack_dice": 0.6103388137286443,
+          "crack_iou": 0.4391997270689151,
+          "pixel_accuracy": 0.9824424743652344,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269684,
+              4508
+            ],
+            [
+              18505,
+              18023
+            ]
+          ]
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.3046939963591285,
+          "crack_dice": 0.6210862619808307,
+          "crack_iou": 0.45041705282669137,
+          "pixel_accuracy": 0.9828079223632813,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269718,
+              4474
+            ],
+            [
+              18060,
+              18468
+            ]
+          ]
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.2997937714753789,
+          "crack_dice": 0.6220487079382785,
+          "crack_iou": 0.45143011332973554,
+          "pixel_accuracy": 0.9829383850097656,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269954,
+              4238
+            ],
+            [
+              18125,
+              18403
+            ]
+          ]
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.3429310529925715,
+          "crack_dice": 0.617273482677339,
+          "crack_iou": 0.4464176212318183,
+          "pixel_accuracy": 0.9827812194824219,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269951,
+              4241
+            ],
+            [
+              18328,
+              18200
+            ]
+          ]
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.4045744712529995,
+          "crack_dice": 0.6177402686875646,
+          "crack_iou": 0.44690607321753434,
+          "pixel_accuracy": 0.9830673217773438,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1270593,
+              3599
+            ],
+            [
+              18595,
+              17933
+            ]
+          ]
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.2644836883286189,
+          "crack_dice": 0.619218534710055,
+          "crack_iou": 0.44845513231163453,
+          "pixel_accuracy": 0.9829216003417969,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1270134,
+              4058
+            ],
+            [
+              18327,
+              18201
+            ]
+          ]
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.2675252507600817,
+          "crack_dice": 0.6094507976396863,
+          "crack_iou": 0.4382806423571396,
+          "pixel_accuracy": 0.9812660217285156,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1267006,
+              7186
+            ],
+            [
+              17369,
+              19159
+            ]
+          ]
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.25043502212356544,
+          "crack_dice": 0.6194321265470911,
+          "crack_iou": 0.44867922719209935,
+          "pixel_accuracy": 0.982452392578125,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269002,
+              5190
+            ],
+            [
+              17810,
+              18718
+            ]
+          ]
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.30727343095895776,
+          "crack_dice": 0.6204945091962542,
+          "crack_iou": 0.4497948818128541,
+          "pixel_accuracy": 0.9828094482421875,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269768,
+              4424
+            ],
+            [
+              18108,
+              18420
+            ]
+          ]
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.29082852189931147,
+          "crack_dice": 0.6216350781690843,
+          "crack_iou": 0.4509945576265472,
+          "pixel_accuracy": 0.9826065063476562,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269194,
+              4998
+            ],
+            [
+              17800,
+              18728
+            ]
+          ]
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.2820011436324421,
+          "crack_dice": 0.6143647831123696,
+          "crack_iou": 0.443381328379006,
+          "pixel_accuracy": 0.9817138671875,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1267660,
+              6532
+            ],
+            [
+              17436,
+              19092
+            ]
+          ]
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.2673484186838323,
+          "crack_dice": 0.6242484463681224,
+          "crack_iou": 0.4537508569190089,
+          "pixel_accuracy": 0.9829780578613281,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269876,
+              4316
+            ],
+            [
+              17995,
+              18533
+            ]
+          ]
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.3092397806172812,
+          "crack_dice": 0.6217476113333553,
+          "crack_iou": 0.4511130301285742,
+          "pixel_accuracy": 0.9825424194335938,
+          "all_background_accuracy": 0.97213134765625,
+          "confusion_matrix": [
+            [
+              1269032,
+              5160
+            ],
+            [
+              17722,
+              18806
+            ]
+          ]
+        }
+      ],
+      "seconds": 704.5159305839916
+    }
+  ]
+}

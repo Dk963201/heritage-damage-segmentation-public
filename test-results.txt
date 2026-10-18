@@ -1,0 +1,12 @@
+test_absent_class_not_perfect (test_metrics.MetricsTests.test_absent_class_not_perfect) ... ok
+test_bad_input (test_metrics.MetricsTests.test_bad_input) ... ok
+test_empty_observations (test_metrics.MetricsTests.test_empty_observations) ... ok
+test_known_confusion (test_metrics.MetricsTests.test_known_confusion) ... ok
+test_clahe_preserves_shape_and_type (test_preprocessing.PreprocessingTests.test_clahe_preserves_shape_and_type) ... ok
+test_edges_covered (test_preprocessing.PreprocessingTests.test_edges_covered) ... ok
+test_small_rejected (test_preprocessing.PreprocessingTests.test_small_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 11.205s
+
+OK

@@ -1,0 +1,769 @@
+{
+  "threshold": 0.5,
+  "split_unchanged": true,
+  "scope": "development validation only; no Kurdish ground truth",
+  "models": {
+    "prior": {
+      "checkpoint_sha256": "cd6d8f8a8622d4c8a4cbfcb7c738c08b93becffeb1c94c9d944fce294bf1de45",
+      "pooled": {
+        "crack_dice": 0.5282050521381847,
+        "crack_iou": 0.3588849471901959,
+        "pixel_accuracy": 0.9757331848144531,
+        "all_background_accuracy": 0.97213134765625,
+        "confusion_matrix": [
+          [
+            1261108,
+            13084
+          ],
+          [
+            18723,
+            17805
+          ]
+        ]
+      },
+      "per_image": [
+        {
+          "image": "masonry_crack_050.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.9997100830078125,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65517,
+              19
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_007.jpg",
+          "positive_pixels": 5630,
+          "crack_dice": 0.8021608398736112,
+          "crack_iou": 0.6696732471068755,
+          "pixel_accuracy": 0.9703826904296875,
+          "all_background_accuracy": 0.914093017578125,
+          "confusion_matrix": [
+            [
+              59660,
+              246
+            ],
+            [
+              1695,
+              3935
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_091.jpg",
+          "positive_pixels": 9011,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.8625030517578125,
+          "all_background_accuracy": 0.8625030517578125,
+          "confusion_matrix": [
+            [
+              56525,
+              0
+            ],
+            [
+              9011,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_012.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_086.jpg",
+          "positive_pixels": 4352,
+          "crack_dice": 0.8727124847498984,
+          "crack_iou": 0.7741702741702742,
+          "pixel_accuracy": 0.98089599609375,
+          "all_background_accuracy": 0.93359375,
+          "confusion_matrix": [
+            [
+              59992,
+              1192
+            ],
+            [
+              60,
+              4292
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_042.jpg",
+          "positive_pixels": 5520,
+          "crack_dice": 0.8665766981556455,
+          "crack_iou": 0.7645658040958883,
+          "pixel_accuracy": 0.9773712158203125,
+          "all_background_accuracy": 0.915771484375,
+          "confusion_matrix": [
+            [
+              59237,
+              779
+            ],
+            [
+              704,
+              4816
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_023.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.9995269775390625,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65505,
+              31
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_020.jpg",
+          "positive_pixels": 1581,
+          "crack_dice": 0.0006786562606040041,
+          "crack_iou": 0.00033944331296673454,
+          "pixel_accuracy": 0.9550628662109375,
+          "all_background_accuracy": 0.9758758544921875,
+          "confusion_matrix": [
+            [
+              62590,
+              1365
+            ],
+            [
+              1580,
+              1
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_036.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.9947662353515625,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65193,
+              343
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_065.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.940032958984375,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              61606,
+              3930
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_048.jpg",
+          "positive_pixels": 3787,
+          "crack_dice": 0.017759206059023244,
+          "crack_iou": 0.008959156785243741,
+          "pixel_accuracy": 0.9426116943359375,
+          "all_background_accuracy": 0.9422149658203125,
+          "confusion_matrix": [
+            [
+              61741,
+              8
+            ],
+            [
+              3753,
+              34
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_013.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_054.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_015.jpg",
+          "positive_pixels": 1181,
+          "crack_dice": 0.7978233570531603,
+          "crack_iou": 0.6636490250696379,
+          "pixel_accuracy": 0.9926300048828125,
+          "all_background_accuracy": 0.9819793701171875,
+          "confusion_matrix": [
+            [
+              64100,
+              255
+            ],
+            [
+              228,
+              953
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_014.jpg",
+          "positive_pixels": 1852,
+          "crack_dice": 0.6520172910662824,
+          "crack_iou": 0.4836985569214324,
+          "pixel_accuracy": 0.985260009765625,
+          "all_background_accuracy": 0.97174072265625,
+          "confusion_matrix": [
+            [
+              63665,
+              19
+            ],
+            [
+              947,
+              905
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_067.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_037.jpg",
+          "positive_pixels": 3614,
+          "crack_dice": 0.7850595156656177,
+          "crack_iou": 0.6461711711711712,
+          "pixel_accuracy": 0.9760284423828125,
+          "all_background_accuracy": 0.944854736328125,
+          "confusion_matrix": [
+            [
+              61096,
+              826
+            ],
+            [
+              745,
+              2869
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_066.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.9378814697265625,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              61465,
+              4071
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_078.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_009.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "improved": {
+      "checkpoint_sha256": "41cf0d82790d6ec0682d527357e67b13d58615e7ce5d51cce8452db36efd2431",
+      "pooled": {
+        "crack_dice": 0.6217476113333553,
+        "crack_iou": 0.4511130301285742,
+        "pixel_accuracy": 0.9825424194335938,
+        "all_background_accuracy": 0.97213134765625,
+        "confusion_matrix": [
+          [
+            1269032,
+            5160
+          ],
+          [
+            17722,
+            18806
+          ]
+        ]
+      },
+      "per_image": [
+        {
+          "image": "masonry_crack_050.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_007.jpg",
+          "positive_pixels": 5630,
+          "crack_dice": 0.854919108001749,
+          "crack_iou": 0.7466014968687948,
+          "pixel_accuracy": 0.9746856689453125,
+          "all_background_accuracy": 0.914093017578125,
+          "confusion_matrix": [
+            [
+              58989,
+              917
+            ],
+            [
+              742,
+              4888
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_091.jpg",
+          "positive_pixels": 9011,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.8625030517578125,
+          "all_background_accuracy": 0.8625030517578125,
+          "confusion_matrix": [
+            [
+              56525,
+              0
+            ],
+            [
+              9011,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_012.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_086.jpg",
+          "positive_pixels": 4352,
+          "crack_dice": 0.8789822093504345,
+          "crack_iou": 0.7840930060896845,
+          "pixel_accuracy": 0.982147216796875,
+          "all_background_accuracy": 0.93359375,
+          "confusion_matrix": [
+            [
+              60117,
+              1067
+            ],
+            [
+              103,
+              4249
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_042.jpg",
+          "positive_pixels": 5520,
+          "crack_dice": 0.8514621820893049,
+          "crack_iou": 0.7413444893248702,
+          "pixel_accuracy": 0.9726409912109375,
+          "all_background_accuracy": 0.915771484375,
+          "confusion_matrix": [
+            [
+              58604,
+              1412
+            ],
+            [
+              381,
+              5139
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_023.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_020.jpg",
+          "positive_pixels": 1581,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.965179443359375,
+          "all_background_accuracy": 0.9758758544921875,
+          "confusion_matrix": [
+            [
+              63254,
+              701
+            ],
+            [
+              1581,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_036.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_065.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_048.jpg",
+          "positive_pixels": 3787,
+          "crack_dice": 0.04197218710493047,
+          "crack_iou": 0.021435950413223142,
+          "pixel_accuracy": 0.9421844482421875,
+          "all_background_accuracy": 0.9422149658203125,
+          "confusion_matrix": [
+            [
+              61664,
+              85
+            ],
+            [
+              3704,
+              83
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_013.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_054.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_015.jpg",
+          "positive_pixels": 1181,
+          "crack_dice": 0.8420188756668034,
+          "crack_iou": 0.7271438695960312,
+          "pixel_accuracy": 0.9941253662109375,
+          "all_background_accuracy": 0.9819793701171875,
+          "confusion_matrix": [
+            [
+              64125,
+              230
+            ],
+            [
+              155,
+              1026
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_014.jpg",
+          "positive_pixels": 1852,
+          "crack_dice": 0.650776453593355,
+          "crack_iou": 0.4823340471092077,
+          "pixel_accuracy": 0.9852447509765625,
+          "all_background_accuracy": 0.97174072265625,
+          "confusion_matrix": [
+            [
+              63668,
+              16
+            ],
+            [
+              951,
+              901
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_067.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_037.jpg",
+          "positive_pixels": 3614,
+          "crack_dice": 0.7905882352941176,
+          "crack_iou": 0.6536964980544747,
+          "pixel_accuracy": 0.9796295166015625,
+          "all_background_accuracy": 0.944854736328125,
+          "confusion_matrix": [
+            [
+              61681,
+              241
+            ],
+            [
+              1094,
+              2520
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_066.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 0.9925079345703125,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65045,
+              491
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_078.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "image": "masonry_crack_009.jpg",
+          "positive_pixels": 0,
+          "crack_dice": 0.0,
+          "crack_iou": 0.0,
+          "pixel_accuracy": 1.0,
+          "all_background_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              65536,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

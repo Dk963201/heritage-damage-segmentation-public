@@ -1,0 +1,67 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv-ml/bin/python",
+    "files.exclude": {
+      ".venv-ml": true,
+      "__pycache__": true
+    }
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Audit and preprocess all 800 images",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv-ml/bin/python",
+        "args": [
+          "run_local.py"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Check three model architectures (synthetic)",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv-ml/bin/python",
+        "args": [
+          "model_check.py"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Generate UNREVIEWED CLIPSeg draft masks",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv-ml/bin/python",
+        "args": [
+          "auto_label.py"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Train real UK binary pilot (not Kurdish results)",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv-ml/bin/python",
+        "args": [
+          "train_binary_pilot.py"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+}

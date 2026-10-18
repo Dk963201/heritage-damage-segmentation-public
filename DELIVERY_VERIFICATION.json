@@ -1,0 +1,8 @@
+{
+  "scope": "Sanitized public snapshot software verification",
+  "tests": 44,
+  "passed": true,
+  "platform": "macOS ARM64/Python3.12; Windows and Linux not executed",
+  "package_sha256": "dc1f7848ed075838e6bd1463bbd448ad145b73b134a859c94e30fe5d11dfbfe6",
+  "privacy_scope": "Fresh-history public snapshot; generic report/commit identity; public source credits preserved."
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-18",
+  "target": "crack foreground Dice on reused UK binary development validation set",
+  "best_original_checkpoint": "local-results/public-masonry/unet-diagnostic.pt",
+  "best_original_dice": 0.7324657765759676,
+  "best_original_threshold": 0.5,
+  "same_validation_threshold_sweep_best": {"threshold": 0.35, "dice": 0.7332881560123484, "iou": 0.5788910552094726, "interpretation": "optimistically biased exploratory calibration on reused development validation"},
+  "continued_training_epochs": [0.6659363771799142, 0.688988651951615, 0.6915960406288413, 0.6570474890001518, 0.6706982744718594],
+  "continued_training_final_threshold_sweep_best": {"threshold": 0.9, "dice": 0.43826969490686307, "iou": 0.2806308448248534, "interpretation": "unstable calibration; not recommended"},
+  "target_reached": false,
+  "kurdish_four_class_result": null,
+  "next_need": "additional diverse legally reusable masonry/facade masks plus a fresh building-level test set; 800 reviewed Kurdish four-class annotations remain required"
+}
