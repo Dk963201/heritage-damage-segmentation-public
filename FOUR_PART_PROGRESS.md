@@ -22,6 +22,6 @@ The current binary target-development score remains **69.23% crack Dice** on rev
 
 ## Use the delivery
 
-Read `ALL_FOUR_PARTS.md`, run `.venv-ml/bin/python project.py status`, and open `local-results/two-site-review-20261018/contact-sheet.jpg` for the next nine source photographs. The severity draft is deliberately pending. Relevance approval does not approve masks or severity labels.
+Read `ALL_FOUR_PARTS.md`, run `python project.py status` with the environment Python from [Installation](docs/INSTALL.md), and open `local-results/two-site-review-20261018/contact-sheet.jpg` for the next nine source photographs. The severity draft is deliberately pending. Relevance approval does not approve masks or severity labels.
 
 This record describes the local implementation and verification before publication. Distribution files and current usage are indexed in docs/ASSETS.md and docs/README.md. Publication does not create new research results or approve pending labels. No teacher submission is part of this delivery.

@@ -9,3 +9,5 @@ The full recorded local verification ran 47 tests, including three binary-checkp
 The review pack includes source-list CSV, contact sheet, local review HTML and relative thumbnail paths. Preserve the individual photo credits/license links. Those nine source candidates are pending review.
 
 The handbook clearly distinguishes the existing three-photo binary development score from absent four-class, severity and independent test results. No UNESCO affiliation, structural-safety assessment or 80% guarantee is implied.
+
+A subsequent [fresh-download check](docs/FRESH_INSTALL_CHECK.md) passed all 44 self-contained tests, the corrected three-architecture synthetic smoke test and a real-photo binary prediction. This package includes the environment-path fix and current handbook.

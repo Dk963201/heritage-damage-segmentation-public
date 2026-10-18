@@ -3,6 +3,7 @@
   "tests": 44,
   "passed": true,
   "platform": "macOS ARM64/Python3.12; Windows and Linux not executed",
-  "package_sha256": "dc1f7848ed075838e6bd1463bbd448ad145b73b134a859c94e30fe5d11dfbfe6",
-  "privacy_scope": "Fresh-history public snapshot; generic report/commit identity; public source credits preserved."
+  "package_sha256": "fa53c9a853162c88531781e2d448e60e8a6dc4165c945edafdc51143e9ac5cc7",
+  "privacy_scope": "Fresh-history public snapshot; generic report/commit identity; public source credits preserved.",
+  "fresh_download_check": "docs/fresh-install-check.json"
 }

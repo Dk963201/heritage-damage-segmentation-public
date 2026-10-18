@@ -17,12 +17,12 @@ The existing binary model is the crack-detection foundation. Its 69.23% pooled c
 
 ## One entry point
 
-Run commands from this project directory using the existing environment:
+First follow [Installation](docs/INSTALL.md), then run from the repository root. Here `python` means the environment Python: `.venv/bin/python` on macOS/Linux or `.\.venv\Scripts\python.exe` on Windows. Replace `python` in the commands accordingly.
 
 ```sh
-.venv-ml/bin/python project.py status
-.venv-ml/bin/python project.py check-segmentation-data training-manifest.csv
-.venv-ml/bin/python project.py train-segmentation training-manifest.csv --output local-results/four-class-target-v1 --epochs 30 --warmup 5
+python project.py status
+python project.py check-segmentation-data training-manifest.csv
+python project.py train-segmentation training-manifest.csv --output local-results/four-class-target-v1 --epochs 30 --warmup 5
 ```
 
 The last two commands require a real manifest: copying the empty template is not sufficient. The entry point requires Erbil and Amedi in **each** train/validation/test split, reviewed masks, all four classes in training, verified source hashes, no duplicate sources, and no building-group overlap. These are minimum checks, not proof of adequate sample size or correct human labels. Confirm all class supports and review near-duplicates before training.
@@ -32,7 +32,7 @@ After training, inspect `comparison.json`, each architecture's validation histor
 Four-class prediction after a trained checkpoint exists:
 
 ```sh
-.venv-ml/bin/python project.py predict-segmentation --checkpoint local-results/four-class-target-v1/unet-best.pt --protocol local-results/four-class-target-v1/protocol.json --model unet --image wall.jpg --roi wall-roi.png --output local-results/wall-four-class-v1
+python project.py predict-segmentation --checkpoint local-results/four-class-target-v1/unet-best.pt --protocol local-results/four-class-target-v1/protocol.json --model unet --image wall.jpg --roi wall-roi.png --output local-results/wall-four-class-v1
 ```
 
 The ROI must match the photograph dimensions and select the masonry to analyze. Without a supplied ROI, whole-image class fractions include background and are explicitly unsuitable for estimating wall damage. Read `FOUR_CLASS_INFERENCE.md` for the exact ROI format and output contract. Pixel fractions are not calibrated physical areas or severity grades.
@@ -40,8 +40,8 @@ The ROI must match the photograph dimensions and select the masonry to analyze. 
 Severity commands, once an approved rubric and reviewed labels exist:
 
 ```sh
-.venv-ml/bin/python project.py check-severity-data severity-manifest.csv --rubric severity-rubric-approved.json
-.venv-ml/bin/python project.py train-severity severity-manifest.csv --rubric severity-rubric-approved.json --output local-results/severity-target-v1 --epochs 30
+python project.py check-severity-data severity-manifest.csv --rubric severity-rubric-approved.json
+python project.py train-severity severity-manifest.csv --rubric severity-rubric-approved.json --output local-results/severity-target-v1 --epochs 30
 ```
 
 Read `SEVERITY_WORKFLOW.md` for prediction commands and model artifacts. `severity-rubric-draft.json` is a proposal for discussion, not approval. The user confirmed on 18 October 2026 that the lecturer has not supplied a rubric. Do not change its status to approved without a documented review decision. This version predicts visual damage categories only; it cannot determine structural safety from a photograph.
@@ -49,7 +49,7 @@ Read `SEVERITY_WORKFLOW.md` for prediction commands and model artifacts. `severi
 The existing crack predictor remains available independently:
 
 ```sh
-.venv-ml/bin/python project.py predict-cracks --checkpoint local-results/reviewed-replay-long-v1/unet-reviewed-replay-long-final.pt --image wall.jpg --output local-results/wall-binary-v1
+python project.py predict-cracks --checkpoint local-results/reviewed-replay-long-v1/unet-reviewed-replay-long-final.pt --image wall.jpg --output local-results/wall-binary-v1
 ```
 
 All output directories must be new so existing experiments and annotations are preserved. The selected binary weights are distributed separately from source code; see docs/ASSETS.md. No trained four-class or severity weights exist yet.

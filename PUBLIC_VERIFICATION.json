@@ -2,5 +2,6 @@
   "scope": "Sanitized public snapshot software verification",
   "tests": 44,
   "passed": true,
-  "platform": "macOS ARM64/Python3.12; Windows and Linux not executed"
+  "platform": "macOS ARM64/Python3.12; Windows and Linux not executed",
+  "fresh_download_check": "docs/fresh-install-check.json"
 }

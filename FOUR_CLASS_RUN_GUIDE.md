@@ -11,12 +11,12 @@ Status: implemented and software-tested. No reviewed Kurdish four-class manifest
 
 ## Run
 
-Use the existing .venv-ml environment; requirements-ml-lock.txt records its packages. It includes torch, segmentation-models-pytorch, OpenCV, Pillow and numpy. Work from the repository directory.
+First follow [Installation](docs/INSTALL.md), then run from the repository root. Here `python` means the environment Python: `.venv/bin/python` on macOS/Linux or `.\.venv\Scripts\python.exe` on Windows. Replace `python` in the commands accordingly.
 
 ```sh
-.venv-ml/bin/python project.py check-segmentation-data training-manifest.csv
-.venv-ml/bin/python eda_four_class.py training-manifest.csv --output target-eda.json
-.venv-ml/bin/python project.py train-segmentation training-manifest.csv --output local-results/four-class-v1 --epochs 30 --warmup 5
+python project.py check-segmentation-data training-manifest.csv
+python eda_four_class.py training-manifest.csv --output target-eda.json
+python project.py train-segmentation training-manifest.csv --output local-results/four-class-v1 --epochs 30 --warmup 5
 ```
 
 Defaults are proposed engineering settings, not confirmed teacher-prescribed values: 256-pixel patches, EfficientNet-B0 encoders, ImageNet initialization, batch 2, CPU, seed 42, learning rate 0.0001, five-epoch linear warmup then constant rate, 30 epochs. All three required architectures run in sequence. ImageNet initialization may download weights. Random initialization is available with --random-init. Training uses paired flips and image-only brightness/color jitter; CLAHE is on by default and can be disabled for a controlled comparison with --no-clahe.
@@ -26,8 +26,8 @@ Each run saves the protocol, source/mask hashes, validation history, best-valida
 The batch loader drops an incomplete final training batch to avoid single-example batch normalization. Full-source validation accumulates four float32 maps plus a count map in RAM; large photos and 141122 candidate patches make a complete CPU run expensive. Inspect data size before choosing epochs; do not confuse a tiny software test with training on all 800.
 
 ```sh
-.venv-ml/bin/python -m unittest test_four_class test_metrics test_training_manifest
-.venv-ml/bin/python smoke_four_class.py
+python -m unittest test_four_class test_metrics test_training_manifest
+python smoke_four_class.py
 ```
 
 The second command creates temporary synthetic fixtures, runs all architectures through training and checkpoint evaluation, and writes four-class-software-check.json. Its temporary data and checkpoints are deleted. It produces no scientific accuracy claim.

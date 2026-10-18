@@ -18,6 +18,7 @@ This is the [public research snapshot](PUBLIC_RELEASE.md), with fresh history an
 | Run a prediction or prepare training | [Step-by-step usage](docs/USAGE.md) |
 | Explain our algorithms, parameters and equations | [Method and prediction](docs/METHOD_AND_PREDICTION.md) |
 | Know what we must do for higher results | [Improvement roadmap](docs/IMPROVING_RESULTS.md) |
+| See the fresh-download test results | [Installation verification](docs/FRESH_INSTALL_CHECK.md) |
 | Browse the organized handbook | [Documentation index](docs/README.md) |
 
 ## What the four parts mean

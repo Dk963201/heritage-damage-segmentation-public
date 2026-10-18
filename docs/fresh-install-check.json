@@ -1,0 +1,62 @@
+{
+  "scope": "Fresh public download software check; not an accuracy evaluation",
+  "checked_at_utc": "2026-10-18T20:44:15Z",
+  "downloaded_source_commit": "53d81fe956581998972abc0ee716766cd7961110",
+  "tested_change": "smoke_four_class.py uses sys.executable instead of a fixed development environment path",
+  "smoke_script_sha256": "4c76a00556afe701666d713adde02b1f5318c196d549ac54297e9e960c9dd5d2",
+  "anonymous_downloads": true,
+  "fresh_environment": {
+    "python": "3.12.14",
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "architecture": "arm64",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "smp": "0.5.0",
+    "opencv": "4.14.0",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0",
+    "cuda": false,
+    "mps": true,
+    "fresh_virtual_environment": true,
+    "user_site_enabled": false
+  },
+  "dependency_check": "No broken requirements found",
+  "self_contained_tests": {
+    "count": 44,
+    "passed": true
+  },
+  "synthetic_smoke": {
+    "architectures": [
+      "unet",
+      "deeplabv3plus",
+      "fpn"
+    ],
+    "passed": true,
+    "elapsed_seconds": 10.79,
+    "research_metrics": null
+  },
+  "binary_prediction": {
+    "source_image_id": "0650",
+    "source_archive": "heritage-versions-09.zip",
+    "source_image_sha256": "fcf5bd8d9191556fab0f386b7255b1f042fefe9ec9c23fc920daa7a1967df0de",
+    "checkpoint_sha256": "757e6d8eac1f1d661dbbc7e698bdfc2890eca9388b7c6e66cd89e71797b02d21",
+    "script_sha256": "9ea786c6664bb496f90d53a849dd73490225e44e4247716890c1319c0191bc19",
+    "height": 2563,
+    "width": 3840,
+    "tile_count": 48,
+    "device": "cpu",
+    "elapsed_seconds": 23.38,
+    "mask_sha256": "eb205b0011f108ceaa6da1e6e84832207aa9f28d8ca225205695ef8b3d2bf6d3",
+    "probability_sha256": "04b118a971f801f904f4433469a351f64180e721f26a2d0872e103ee75367fb3",
+    "shape_validated": true,
+    "mask_values_validated": [
+      0,
+      255
+    ],
+    "probabilities_finite_and_in_range": true,
+    "threshold_consistent": true,
+    "evaluation": "Functional test on a reviewed training photo; no held-out accuracy measured"
+  },
+  "platform_limit": "Windows and Linux instructions reviewed, not executed",
+  "research_limit": "Four-class target training and severity research require reviewed data and an approved severity rubric"
+}

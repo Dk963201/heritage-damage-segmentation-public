@@ -2,16 +2,12 @@
 
 `predict_four_class.py` runs a saved four-class U-Net, DeepLabV3+ or FPN checkpoint produced by `train_four_class.py`. It is a software inference path. No reviewed four-class target checkpoint is supplied by this work, and the existing binary checkpoint cannot be substituted. Missing or incompatible weights produce an error.
 
+First follow [Installation](docs/INSTALL.md), then run from the repository root. Here `python` means the environment Python: `.venv/bin/python` on macOS/Linux or `.\.venv\Scripts\python.exe` on Windows. Replace `python` in the commands accordingly.
+
 Once a real four-class run has produced matching weights and a protocol:
 
 ```sh
-.venv-ml/bin/python predict_four_class.py \
-  --checkpoint local-results/four-class-v1/unet-best.pt \
-  --protocol local-results/four-class-v1/protocol.json \
-  --model unet \
-  --image path/to/photo.jpg \
-  --roi path/to/masonry-roi.png \
-  --output local-results/four-class-prediction-001
+python predict_four_class.py --checkpoint local-results/four-class-v1/unet-best.pt --protocol local-results/four-class-v1/protocol.json --model unet --image path/to/photo.jpg --roi path/to/masonry-roi.png --output local-results/four-class-prediction-001
 ```
 
 The paths above describe future real training outputs; they are not evidence that those outputs already exist. Use `--model deeplabv3plus` or `--model fpn` with the corresponding checkpoint from the same training run. The checkpoint must be a local tensor `state_dict`; loading uses `torch.load(..., weights_only=True)` and strict architecture matching. EfficientNet-B0 is constructed with `encoder_weights=None`, so inference does not download pretrained weights.
@@ -40,7 +36,7 @@ Use a fresh output directory each time; existing results are never overwritten. 
 ## Software verification
 
 ```sh
-.venv-ml/bin/python -m unittest discover -s tests -p 'test_predict_four_class.py' -v
+python -m unittest discover -s tests -p 'test_predict_four_class.py' -v
 ```
 
 Tests compare predictions with the existing training evaluator on overlapping edge tiles and small padded inputs, with and without CLAHE. They check probability normalization, ROI-only denominators and exclusions, overlay alignment, invalid protocols/ROIs, missing or mismatched weights, swapped preprocessing protocols, checkpoint-sidecar checks and overwrite protection. A temporary random U-Net checkpoint exercises the CLI without downloading weights. All smoke artifacts are deleted afterwards. These tests demonstrate software behavior only and produce no research performance claim.

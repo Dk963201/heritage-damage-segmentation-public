@@ -69,7 +69,9 @@ python -m unittest discover -s tests -p test_two_site_review.py
 
 These select the 44 self-contained tests and require no photo/model download. The recorded 47-test local run additionally included three real binary-checkpoint integration tests. Optional `python smoke_four_class.py` runs synthetic training/inference through all three architectures; its scores are not heritage results. It writes `four-class-software-check.json`, so run it in a fresh copy if preserving that evidence file matters.
 
-`requirements-core.txt` is a small portable dependency specification. The two `requirements-*-lock.txt` files record the actual local environments, including transitive packages; they are provenance, not proof that every pinned wheel is available on every OS. Freeze your successful installation with `python -m pip freeze > installed-environment.txt` and record OS/hardware before an experiment. Different packages/devices may change numerical results.
+`requirements-core.txt` is a small portable dependency specification. The environment lock files (`requirements-*-lock.txt`) record the actual local environments, including transitive packages; they are provenance, not proof that every pinned wheel is available on every OS. Freeze your successful installation with `python -m pip freeze > installed-environment.txt` and record OS/hardware before an experiment. Different packages/devices may change numerical results.
+
+The [fresh-download verification](FRESH_INSTALL_CHECK.md) records a clean-environment run of these steps, the corrected optional smoke test and a real-photo prediction.
 
 ## Common problems
 

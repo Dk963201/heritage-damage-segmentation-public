@@ -52,13 +52,10 @@ This remains a binary crack pilot. Erosion, vegetation, four-class segmentation 
 - `train_reviewed_replay.py`, `train_reviewed_replay_long.py`, `train_reviewed_texture.py`, `evaluate_reviewed_context.py`, `evaluate_reviewed_ensemble.py`, `train_reviewed_hybrid.py`: experiment code. Use unused output directories and the recorded environment/input hashes.
 - Eleven metric/inference tests passed: eight metric/texture checks and three CNN checks. Independent audits recomputed stored metrics and checked held-out image exclusion, source hashes and ignored labels.
 
-Apply the saved CNN to a local photograph from the repository directory:
+For a new installation, follow [Installation](docs/INSTALL.md) and download the [binary model](docs/ASSETS.md). In the command below, replace `python` with `.venv/bin/python` on macOS/Linux or `.\.venv\Scripts\python.exe` on Windows. Apply the saved CNN from the repository directory:
 
 ```sh
-.venv-ml/bin/python predict_reviewed_cnn.py \
-  --checkpoint local-results/reviewed-replay-long-v1/unet-reviewed-replay-long-final.pt \
-  --image path/to/photo.jpg \
-  --output local-results/new-photo-prediction
+python predict_reviewed_cnn.py --checkpoint local-results/reviewed-replay-long-v1/unet-reviewed-replay-long-final.pt --image path/to/photo.jpg --output local-results/new-photo-prediction
 ```
 
 The output contains probabilities, a predicted crack mask and provenance. A predicted mask is not a new human-approved label. Exact package versions are recorded in `requirements-reviewed-lock.txt`.

@@ -69,13 +69,20 @@ Full-resolution source photos were **not copied again**. The pack references exi
 
 The source manifest records 774 CC BY-SA 4.0 images, 21 CC BY-SA 3.0, one CC BY-SA 2.0 and four public-domain entries. Four public-domain records have no license URL; this is recorded, not silently filled in. Selected photos retain individual authors, source-page links and license links in the review page and source list. The displayed derivatives only resize images and add layout; their attribution does not imply damage-label approval.
 
-## Reproduce and verify
+## Open the supplied pack and verify the software
 
-From the repository root, using the existing environment:
+First follow [Installation](docs/INSTALL.md), then run from the repository root. Here `python` means the environment Python: `.venv/bin/python` on macOS/Linux or `.\.venv\Scripts\python.exe` on Windows. Replace `python` in the commands accordingly.
+
+The supplied `local-results/two-site-review-20261018/review.html` opens without rebuilding. The self-contained software tests use temporary fixtures and require no photo archive or historical annotation workspace:
 
 ```sh
-PYTHONDONTWRITEBYTECODE=1 .venv-ml/bin/python prepare_two_site_review.py --output local-results/two-site-review-new
-PYTHONDONTWRITEBYTECODE=1 .venv-ml/bin/python -m unittest discover -s tests -p 'test_two_site_review.py' -v
+python -B -m unittest discover -s tests -p 'test_two_site_review.py' -v
+```
+
+The following is a **historical workspace rebuild**, not a fresh-download command. It requires all ten photo archives, the three reviewed source photos, the original mask paths recorded in `local-results/reviewed-through-333/protocol.json`, and the batch-27 pending-region selection PNGs. The public label package supplies frozen masks and manifests, but omits those original mask paths and pending-selection files. See [reproduction boundaries](docs/ASSETS.md#reproduction-boundaries); preserve the original reviewed state rather than inventing or bypassing it.
+
+```sh
+python -B prepare_two_site_review.py --output local-results/two-site-review-new
 ```
 
 Use a fresh output directory. The script rejects an existing review pack to protect human edits. It does not download files, generate masks, call a model, assign severity, approve records or change old labels. Five meaningful checks cover corrupt source hashes, unsafe archive paths, site balance and reviewed-photo exclusion, preservation of existing worksheets, and refusal to include pending region pixels in accepted data.

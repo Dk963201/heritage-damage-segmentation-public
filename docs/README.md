@@ -8,6 +8,7 @@ Read these pages in order. Commands run from the repository root.
 4. [Run predictions and training](USAGE.md): runnable commands, inputs and outputs.
 5. [Method, equations and prediction process](METHOD_AND_PREDICTION.md): how the model learns and how we measure it.
 6. [What must happen for higher results](IMPROVING_RESULTS.md): data priorities, fair evaluation and a measurable improvement plan.
+7. [Fresh-download verification](FRESH_INSTALL_CHECK.md): installation, tests, prediction evidence and platform limits.
 
 ## Repository organization
 

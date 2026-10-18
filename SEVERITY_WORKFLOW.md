@@ -15,16 +15,12 @@ The validation checks confirm the recorded schema and hashes; they cannot certif
 
 ## Commands
 
-Run from this repository using the existing environment:
+First follow [Installation](docs/INSTALL.md), then run from the repository root. Here `python` means the environment Python: `.venv/bin/python` on macOS/Linux or `.\.venv\Scripts\python.exe` on Windows. Replace `python` in the commands accordingly.
 
 ```bash
-.venv-ml/bin/python severity_pipeline.py validate data/severity/manifest.csv \
-  --rubric data/severity/rubric-approved-v1.json
+python severity_pipeline.py validate data/severity/manifest.csv --rubric data/severity/rubric-approved-v1.json
 
-.venv-ml/bin/python severity_pipeline.py train data/severity/manifest.csv \
-  --rubric data/severity/rubric-approved-v1.json \
-  --output local-results/severity-run-01 --epochs 20 --image-size 224 \
-  --batch-size 4 --lr 0.0001 --seed 333 --random-init
+python severity_pipeline.py train data/severity/manifest.csv --rubric data/severity/rubric-approved-v1.json --output local-results/severity-run-01 --epochs 20 --image-size 224 --batch-size 4 --lr 0.0001 --seed 333 --random-init
 ```
 
 Random initialization is the offline default; `--random-init` states it explicitly. Custom encoder initialization is deliberately unavailable until its training-source provenance can be verified against the severity validation/test groups. An existing binary model might already have seen those photographs, so loading it without that check would contaminate evaluation. The Python training API rejects any supplied initializer before creating output. No model or data downloads occur.
@@ -35,20 +31,12 @@ The earliest epoch with the highest **validation macro F1** is saved. Test evalu
 
 ```bash
 # Re-evaluate validation using the frozen checkpoint.
-.venv-ml/bin/python severity_pipeline.py evaluate data/severity/manifest.csv \
-  --rubric data/severity/rubric-approved-v1.json \
-  --checkpoint local-results/severity-run-01/severity-best.pt \
-  --output local-results/severity-validation-01
+python severity_pipeline.py evaluate data/severity/manifest.csv --rubric data/severity/rubric-approved-v1.json --checkpoint local-results/severity-run-01/severity-best.pt --output local-results/severity-validation-01
 
 # Only after freezing model/rubric/experimental choices:
-.venv-ml/bin/python severity_pipeline.py evaluate data/severity/manifest.csv \
-  --rubric data/severity/rubric-approved-v1.json \
-  --checkpoint local-results/severity-run-01/severity-best.pt \
-  --split test --allow-test --output local-results/severity-test-01
+python severity_pipeline.py evaluate data/severity/manifest.csv --rubric data/severity/rubric-approved-v1.json --checkpoint local-results/severity-run-01/severity-best.pt --split test --allow-test --output local-results/severity-test-01
 
-.venv-ml/bin/python severity_pipeline.py predict \
-  --checkpoint local-results/severity-run-01/severity-best.pt \
-  --image path/to/photo.jpg --output local-results/severity-prediction-01
+python severity_pipeline.py predict --checkpoint local-results/severity-run-01/severity-best.pt --image path/to/photo.jpg --output local-results/severity-prediction-01
 ```
 
 `train --evaluate-test` is also an explicit opt-in, but the separate test command makes the freeze easier to audit. Do not repeatedly use test results to tune. Evaluation checks the model's training image/building/duplicate identifiers against the chosen evaluation rows, including when a different manifest is supplied. Test evaluation also excludes the original validation images/groups used to select the epoch. A checkpoint without that validation provenance is refused for test evaluation. Re-evaluating the original validation set remains allowed. A missing severity checkpoint produces an unavailable error; the binary segmentation model is not silently substituted.
@@ -62,7 +50,7 @@ Prediction JSON preserves class order and provides **raw, uncalibrated softmax p
 ## Software verification
 
 ```bash
-.venv-ml/bin/python -m unittest discover -s tests -p 'test_severity_pipeline.py' -v
+python -m unittest discover -s tests -p 'test_severity_pipeline.py' -v
 ```
 
 Fixtures are explicitly synthetic and temporary. Tests cover pending/unnamed rubric refusal, label review/hash/site validation, duplicate/building leakage, missing splits, absent-class/empty-site metrics, ordinal order, missing models, deterministic inference, overwrite refusal, safe checkpoint consistency and a small training/evaluation smoke run. Synthetic metrics are **software test outputs only**, never findings about heritage photographs.
