@@ -3,7 +3,12 @@
   "tests": 44,
   "passed": true,
   "platform": "macOS ARM64/Python3.12; Windows and Linux not executed",
-  "package_sha256": "fa53c9a853162c88531781e2d448e60e8a6dc4165c945edafdc51143e9ac5cc7",
+  "package_sha256": "25a584348d247083bccabf16ecd8729214c905814ccfacea36dea58a9d2f1f17",
   "privacy_scope": "Fresh-history public snapshot; generic report/commit identity; public source credits preserved.",
-  "fresh_download_check": "docs/fresh-install-check.json"
+  "fresh_download_check": "docs/fresh-install-check.json",
+  "platform_guides": {
+    "windows": "docs/INSTALL_WINDOWS.md",
+    "linux": "docs/INSTALL_LINUX.md",
+    "validation": "Documentation paths, hashes and commands checked; Windows/Linux not executed"
+  }
 }

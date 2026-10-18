@@ -10,6 +10,8 @@ Read these pages in order. Commands run from the repository root.
 6. [What must happen for higher results](IMPROVING_RESULTS.md): data priorities, fair evaluation and a measurable improvement plan.
 7. [Fresh-download verification](FRESH_INSTALL_CHECK.md): installation, tests, prediction evidence and platform limits.
 
+New to installation? Follow the complete [Windows PowerShell guide](INSTALL_WINDOWS.md) or [Linux guide](INSTALL_LINUX.md), including model extraction, a first prediction and troubleshooting. macOS commands remain in [Install](INSTALL.md).
+
 ## Repository organization
 
 - `docs/` is the current user handbook.

@@ -15,6 +15,8 @@ This is the [public research snapshot](PUBLIC_RELEASE.md), with fresh history an
 | Understand the goal, four project parts and four pixel classes | [Project scope](docs/PROJECT_SCOPE.md) |
 | Find the images, labels, model and evidence | [Assets and downloads](docs/ASSETS.md) |
 | Download and install on Windows, macOS or Linux | [Installation](docs/INSTALL.md) |
+| Set up Windows step by step | [Windows PowerShell guide](docs/INSTALL_WINDOWS.md) |
+| Set up Linux step by step | [Linux guide](docs/INSTALL_LINUX.md) |
 | Run a prediction or prepare training | [Step-by-step usage](docs/USAGE.md) |
 | Explain our algorithms, parameters and equations | [Method and prediction](docs/METHOD_AND_PREDICTION.md) |
 | Know what we must do for higher results | [Improvement roadmap](docs/IMPROVING_RESULTS.md) |

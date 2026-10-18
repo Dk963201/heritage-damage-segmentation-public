@@ -2,6 +2,8 @@
 
 The core program is Python. Use Python 3.12 for a close match to development (macOS ARM64, Python 3.12.14). Windows and Linux instructions below are provided, but those operating systems were not executed in this delivery. CPU is the common supported route; the current segmentation and severity trainers run on CPU. The binary predictor additionally supports Apple MPS. Installing CUDA does not automatically make these scripts use an NVIDIA GPU.
 
+For complete instructions from installing Python to opening your first prediction, choose the [Windows PowerShell guide](INSTALL_WINDOWS.md) or the [Linux guide (Ubuntu 24.04 example)](INSTALL_LINUX.md). The quick setup commands below also cover macOS.
+
 ## 1. Download the project
 
 Open the public [repository](https://github.com/Dk963201/heritage-damage-segmentation-public), choose **Code → Download ZIP**, and extract it. Open a terminal in the extracted `heritage-damage-segmentation-public-main` directory. Alternatively, if Git is installed:
